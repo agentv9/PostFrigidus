@@ -1,0 +1,15 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			every_country = {
+				news_event = {id = welcome.1}
+			}	
+		}	
+	}
+}
+	
+
+	
+
+	
+	

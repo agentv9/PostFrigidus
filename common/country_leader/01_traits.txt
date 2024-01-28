@@ -1,0 +1,10 @@
+leader_traits = {
+	archon_shill = {
+		random = no
+		political_power_factor = 0.25
+		cic_construction_boost = 0.25
+		war_support_factor = -0.01
+		production_factory_efficiency_gain_factor = 0.05
+		production_factory_start_efficiency_factor = 0.05
+	}
+}

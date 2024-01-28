@@ -1,0 +1,67 @@
+# For the Duel Leader Title, Leader Names, and custom portrait!
+
+defined_text = {
+	name = GetFirstTitle
+	text = {
+		trigger = {
+			original_tag = SYL
+			has_government = corporatism
+		}
+		localization_key = SYL_PRESIDENT_TITLE
+	}
+	text = {
+		localization_key = DEFAULT_FIRST_TITLE
+	}
+}
+
+defined_text = {
+	name = GetSecondTitle
+	text = {
+		trigger = {
+			original_tag = SYL
+			has_government = corporatism
+		}
+		localization_key = SYL_ARCHON_TITLE
+	}
+}
+
+defined_text = {
+	name = GetDualLeaderName
+	text = {
+		trigger = {
+			original_tag = SYL
+			has_government = corporatism
+		}
+		localization_key = SYL_MILUTIN_SOYKA
+	}
+	text = {
+		localization_key = DEFAULT_TITLE
+	}
+}
+
+defined_text = {
+    name = GetDualLeaderPortrait
+	text = {
+		trigger = {
+			tag = SYL
+			has_government = corporatism
+		}
+		localization_key = GFX_SYL_Milutin
+	}
+   
+	text = {
+		localization_key = "GFX_portrait_bg_blank"
+	}
+}
+
+defined_text = {
+    name = GetDualLeaderDesc
+    
+
+}
+
+defined_text = {
+    name = GetFirstLeaderDesc
+    
+    
+}

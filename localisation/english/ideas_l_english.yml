@@ -1,0 +1,48 @@
+﻿l_english:
+post_frigidus:0 "Post Frigidus"
+
+no_aclimation: "No Aclimation"
+no_aclimation_desc: "No aclimation against the cold"
+
+insulation: "Insulation"
+insulation_desc: "Moderate Insulation to protect against the cold"
+
+power_grid: "Power Grid"
+power_grid_desc: "Power grid upgrades"
+
+building_heating: "Heating Systems"
+building_heating_desc: "Heating systems added to buildings"
+
+city_domes: "City Domes"
+city_domes_desc: "Construct domes over your major cities to protect your citizens against the cilmate"
+
+
+government:1 "Laws & Government"
+ research_production:0 "Research & Production"
+ military_staff:0 "Military Staff"
+ political_advisor:0 "Political Advisor"
+ mobilization_laws:0 "Conscription Law"
+ trade_laws:0 "Trade Law"
+ economy:0 "Economy Law"
+ aircraft_manufacturer:0 "Aircraft Designer"
+ materiel_manufacturer:0 "Materiel Designer"
+ industry_concern:0 "Industry Concern"
+ army_chief:0 "Chief of Army"
+ navy_chief:0 "Chief of Navy"
+ air_chief:0 "Chief of Airforce"
+ high_command:0 "Military High Command"
+ theorist:0 "Theorist"
+
+ SPIRIT_ADD_IDEA:0 "§GClick to add $GROUP|H$§!"
+
+ generic_tank_manufacturer:0 "Armor Company"
+ generic_motorized_equipment_manufacturer:0 "Motorization Company"
+ generic_infantry_equipment_manufacturer:0 "Small Arms Company"
+ generic_artillery_manufacturer:0 "Artillery Company"
+ generic_light_aircraft_manufacturer:0 "Light Air Company"
+ generic_medium_aircraft_manufacturer:0 "Medium Air Company"
+ generic_heavy_aircraft_manufacturer:0 "Heavy Air Company"
+ generic_naval_aircraft_manufacturer:0 "Naval Air Company"
+ generic_naval_manufacturer:0 "Naval Company"
+ generic_industrial_concern:0 "Industrial Company"
+ generic_electronics_concern:0 "Electronics Company"

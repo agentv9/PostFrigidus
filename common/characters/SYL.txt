@@ -1,0 +1,17 @@
+characters = {
+	SYL_nicolai_belenski={
+		name=SYL_nicolai_belenski
+		portraits={
+			civilian={
+				large=GFX_portrait_SYL_nicolai_belenski
+			}
+		}
+		country_leader={
+			ideology=archonism
+			traits={ archon_shill }
+		
+			id=-1
+		}
+	}
+	
+}

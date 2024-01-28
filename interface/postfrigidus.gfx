@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+    name = "GFX_welcome_sprite"
+    texturefile = "gfx/event_pictures/Welcome_Event.dds"
+}
+}

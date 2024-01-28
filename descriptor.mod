@@ -1,0 +1,16 @@
+version="0.1"
+picture="thumbnail.png"
+tags={
+	"Alternative History"
+	"Graphics"
+	"Ideologies"
+	"Military"
+	"Utilities"
+	"Technologies"
+	"National Focuses"
+	"Map"
+	"Gameplay"
+}
+name="PostFrigidus"
+replace_path="common/ideologies"
+supported_version="1.13.6"

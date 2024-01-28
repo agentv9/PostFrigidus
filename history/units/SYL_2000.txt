@@ -1,0 +1,197 @@
+division_template = {
+    name = "Infantry Division"
+    division_names_group = SYL_INF_01 
+
+    regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+   		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+    }
+
+    support = {
+        engineer = { x = 0 y = 0 }
+    }
+}
+
+units = {
+    division = {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 1
+        }
+
+        location = 11868
+        division_template = "Infantry Division"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.95
+        start_manpower_factor = 1.0
+    }
+	division = {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 1
+        }
+
+        location = 9756
+        division_template = "Infantry Division"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.95
+        start_manpower_factor = 1.0
+    }
+	division = {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 1
+        }
+
+        location = 907
+        division_template = "Infantry Division"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.95
+        start_manpower_factor = 1.0
+    }
+	division = {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 1
+        }
+
+        location = 3526
+        division_template = "Infantry Division"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.95
+        start_manpower_factor = 1.0
+    }
+    division = {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 1
+        }
+
+        location = 6634
+        division_template = "Infantry Division"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.95
+        start_manpower_factor = 1.0
+    }
+    division = {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 1
+        }
+
+        location = 11787
+        division_template = "Infantry Division"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.95
+        start_manpower_factor = 1.0
+    }
+    division = {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 1
+        }
+
+        location = 9621
+        division_template = "Infantry Division"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.95
+        start_manpower_factor = 1.0
+    }
+    division = {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 1
+        }
+
+        location = 9608
+        division_template = "Infantry Division"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.95
+        start_manpower_factor = 1.0
+    }
+    division = {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 1
+        }
+
+        location = 11594
+        division_template = "Infantry Division"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.95
+        start_manpower_factor = 1.0
+    }
+    division = {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 1
+        }
+
+        location = 6672
+        division_template = "Infantry Division"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.95
+        start_manpower_factor = 1.0
+    }
+    division = {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 1
+        }
+
+        location = 596
+        division_template = "Infantry Division"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.95
+        start_manpower_factor = 1.0
+    }
+    division = {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 1
+        }
+
+        location = 3631
+        division_template = "Infantry Division"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.95
+        start_manpower_factor = 1.0
+    }
+    division = {
+        division_name = {
+            is_name_ordered = yes
+            name_order = 1
+        }
+
+        location = 6626
+        division_template = "Infantry Division"
+        start_experience_factor = 0.1
+        start_equipment_factor = 0.95
+        start_manpower_factor = 1.0
+    }
+}
+
+instant_effect = {
+    add_equipment_production = {
+        equipment = {
+            type = infantry_equipment_1
+            creator = "SYL"
+        }
+        requested_factories = 3
+        progress = 0.54
+        efficiency = 43
+    }
+    add_equipment_production = {
+        equipment = {
+            type = support_equipment_1
+            creator = "SYL"
+        }
+        requested_factories = 2
+        progress = 0.74
+        efficiency = 38
+    }
+}

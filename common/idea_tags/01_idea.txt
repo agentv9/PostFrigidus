@@ -1,0 +1,13 @@
+
+
+idea_categories = {
+	
+    post_frigidus = {
+       
+        slot = climate
+        cost = 30
+        removal_cost = -1
+        ledger = hidden
+    }
+}
+

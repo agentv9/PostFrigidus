@@ -1,0 +1,14 @@
+add_namespace = welcome
+
+
+news_event = {
+	id = welcome.1
+
+	is_triggered_only = yes
+	picture = GFX_welcome_sprite
+	title = welcome.1.t
+	desc = welcome.1.d
+	option = {
+		name = welcome.1.a
+	}
+}
