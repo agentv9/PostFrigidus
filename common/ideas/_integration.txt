@@ -1,0 +1,11 @@
+ideas = {
+	hidden_ideas =  {
+		integrating_territory = {
+			removal_cost = -1
+		
+			modifier = {
+				civilian_factory_use = 2
+			}
+		}
+	}
+}
