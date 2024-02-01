@@ -1,0 +1,32 @@
+add_namespace = states
+
+country_event = {
+	id = states.1
+
+	is_triggered_only = yes
+	
+	title = states.1.t
+	desc = states.1.d
+	option = {
+		name = states.1.a
+		
+		SYL = {
+			country_event = { id = states.2 days = 45  }
+		}
+	}
+}
+
+country_event = {
+	id = states.2
+
+	is_triggered_only = yes
+	
+	title = states.2.t
+	desc = states.2.d
+	option = {
+		name = states.2.a
+		set_state_controller = event_target:target_state
+		set_state_owner = event_target:target_state
+		clr_country_flag = integrating_state
+	}
+}

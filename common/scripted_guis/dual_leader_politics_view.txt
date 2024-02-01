@@ -12,7 +12,6 @@ scripted_gui = {
 		}
 		
 		visible = {
-			
 		}
 		
 		

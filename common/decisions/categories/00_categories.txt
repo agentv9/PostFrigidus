@@ -1,0 +1,6 @@
+syldavian_states = {
+	allowed = {
+        tag = SYL
+    }
+}
+

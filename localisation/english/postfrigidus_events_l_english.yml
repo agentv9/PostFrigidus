@@ -4,3 +4,11 @@
  welcome.1.t:0 "Welcome to Post Frigidus"
  welcome.1.d:0 "Thank you for using our mod! \nThis is a early version (version 0.1) so there isnt alot of content here yet, currently we only have the world map finished but we are actively working on adding more content for all to enjoy! \nWe hope you enjoy this early version of our mod, please join our discord if you have any questions or suggestions!"
  welcome.1.a:0 "Thanks!"
+
+ states.1.t:0 "Beginning integration for [target_state.GetName]"
+ states.1.d:0 "The integration process for this state will take us 45 days, after that we can begin repairing the infrastructure"
+ states.1.a:0 "Ok!"
+
+ states.2.t:0 "Integration for [target_state.GetName] is finished!"
+ states.2.d:0 "The integration process for this state has finished, and we can now begin repairing the states infrastructure!"
+ states.2.a:0 "Ok!"

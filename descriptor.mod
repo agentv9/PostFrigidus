@@ -12,6 +12,6 @@ tags={
 	"Gameplay"
 }
 name="PostFrigidus"
-replace_path="common/ideologies"
 replace_path="gfx/loadingscreens"
+replace_path="common/ideologies"
 supported_version="1.13.6"

@@ -1,0 +1,80 @@
+syldavian_states = {
+	get_state_1 = {
+		available = {
+			NOT = {
+				has_country_flag = integrating_state
+			}
+		}
+		on_map_mode = map_only
+		highlight_states = { highlight_state_targets = {
+			state = 106
+		} 
+	}
+
+		fire_only_once = yes
+
+		complete_effect = {
+	
+			add_state_core = 106
+			set_country_flag = integrating_state
+			106 = {
+				save_event_target_as = target_state
+			}
+			SYL = { country_event  = { id = states.1 } }
+			
+		}
+	}
+
+	get_state_2 = {
+		available = {
+			NOT = {
+				has_country_flag = integrating_state
+			}
+		}
+		on_map_mode = map_only
+		highlight_states = { highlight_state_targets = {
+			state = 44
+		} 
+	}
+
+		fire_only_once = yes
+
+		complete_effect = {
+	
+			add_state_core = 44
+			set_country_flag = integrating_state
+			44 = {
+				save_event_target_as = target_state
+			}
+			SYL = { country_event  = { id = states.1 } }
+			
+		}
+	}
+
+	get_state_3 = {
+		available = {
+			NOT = {
+				has_country_flag = integrating_state
+			}
+		}
+		on_map_mode = map_only
+		highlight_states = { highlight_state_targets = {
+			state = 805
+		} 
+	}
+
+		fire_only_once = yes
+
+		complete_effect = {
+	
+			add_state_core = 805
+			set_country_flag = integrating_state
+			805 = {
+				save_event_target_as = target_state
+			}
+			SYL = { country_event  = { id = states.1 } }
+			
+		}
+	}
+
+}

@@ -1288,7 +1288,7 @@
  DEN_fascist_populist: "Fascist Populist"
  DEN_the_king: "Sovereign of Elefantordenen"
  DEN_freedom_council_traits: "Political Unity"
- DEN_plenipotentiary: "[?DEN.DEN_overlord_nation.GetAdjective] Plenipotentiary"
+
 
  udenrigsminister: "Udenrigsminister"
  landbrugsminister: "Landbrugsminister"

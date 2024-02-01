@@ -1,2 +1,2 @@
-KOS	= "countries/Kosovo.txt"
+UNC = "countries/unclaimed.txt"
 SYL = "countries/Syldavia.txt"
