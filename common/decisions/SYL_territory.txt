@@ -12,7 +12,7 @@ syldavian_states = {
 	}
 
 		fire_only_once = yes
-
+ 
 		complete_effect = {
 	
 			add_state_core = 106

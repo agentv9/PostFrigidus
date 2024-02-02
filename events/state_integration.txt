@@ -6,13 +6,22 @@ country_event = {
 	is_triggered_only = yes
 	
 	title = states.1.t
-	desc = states.1.d
+	desc = states.1.d  
 	option = {
 		name = states.1.a
-		
-		
-		THIS = {
-			country_event = { id = states.2 days = 45  }
+		random_list = {
+			10 = {
+				THIS = {
+					country_event = { id = states.2 days = 0  }
+				}
+			}
+			90 = {
+				
+				
+				THIS = {
+					country_event = { id = states.4 days = 0  }
+				}
+			}
 		}
 	}
 }
@@ -52,3 +61,51 @@ country_event = {
 		clr_country_flag = integrating_state
 	}
 }
+
+country_event = {
+	id = states.4
+
+	is_triggered_only = yes
+	
+	title = states.4.t
+	desc = states.4.d
+	option = {
+		name = states.4.a
+		REB = {
+			set_state_controller = event_target:target_state
+			set_state_owner = event_target:target_state	
+			}
+		event_target:target_state	 = {
+			create_unit = {
+				division = "division_template = \"Infantry Division\" start_experience_factor = 0.5"
+				owner = REB
+				count = 3
+				allow_spawning_on_enemy_provs = yes
+			}
+		
+		}
+		THIS =  {
+			declare_war_on = {
+				target = REB
+				type = take_core_state
+				generator = {
+					event_target:target_state
+				}
+			}
+		}
+		
+		event_target:target_state = {
+			if = {
+				limit = {is_fully_controlled_by = ROOT}
+				transfer_state = event_target:target_state
+				start_peace_conference = {
+					tag = ROOT
+					score_factor = 5
+				}
+			}
+		}
+
+		clr_country_flag = integrating_state
+	}
+}
+

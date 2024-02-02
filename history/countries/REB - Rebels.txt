@@ -1,0 +1,8 @@
+capital = 101
+
+OOB = "REB_2000"
+
+set_research_slots = 0
+
+set_stability = 0
+set_war_support = 0

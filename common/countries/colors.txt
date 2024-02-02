@@ -1,6 +1,5 @@
 #reload countrycolors
 
-
 SYL = {
 	color = rgb { 255 188 0}
 	color_ui = rgb { 255 188 0}
@@ -10,6 +9,13 @@ UNC = {
 	color = rgb { 0 0 0}
 	color_ui = rgb { 0 0 0}
 }
+
+REB = {
+	color = rgb { 0 0 0}
+	color_ui = rgb { 0 0 0}
+}
+
+
 
 GER = {
 	color = HSV { 0.1 0.15 0.4 }

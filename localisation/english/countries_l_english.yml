@@ -22,6 +22,13 @@
  SYL_DEF:0 "Syldavia"
  SYL_ADJ:0 "Syldavia"
 
+ UNC_DEF:0 "Unclaimed"
+ UNC_ADJ:0 "Unclaimed"
+
+ REB_DEF:0 "Rebels"
+ REB_ADJ:0 "Rebels"
+
+
 
  GER_fascism:0 "German Reich"
  GER_fascism_DEF:0 "the German Reich"

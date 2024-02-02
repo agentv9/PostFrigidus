@@ -9,10 +9,14 @@
  states.1.d:0 "To begin integrating this terriroty back into our glorious nation we must first negotiate with the people living there to re-integrate them into civilization, this will take aprox 45 days"
  states.1.a:0 "Begin negotiations."
 
- states.2.t:0 "Negotiations for [target_state.GetName] is finished!"
+ states.2.t:0 "Negotiations for [target_state.GetName] is finished"
  states.2.d:0 "The negotiation process has finished and we can now begin re-integrating the territory, this will consume 2 of our civilian factories and take aprox 75 days"
  states.2.a:0 "Begin construction."
 
  states.3.t:0 "Integration for [target_state.GetName] is finished!"
  states.3.d:0 "[target_state.GetName] has been re-integrated into our nation!"
  states.3.a:0 "Ok!"
+
+ states.4.t:0 "Negotions for [target_state.GetName] have failed"
+ states.4.d:0 "the people of [target_state.GetName] have refused our generious offer to join our glorious nation and has vowed to fight with their lives to keep us out, we must attack!"
+ states.4.a:0 "Attack!"
