@@ -18,17 +18,7 @@ bookmarks = {
 				insulation
 			}
 		}
-		REB = {
-			history = SYL_POSTFRIGIDUS_DESC
-			ideology = democratic
-			
-			focuses = {
-			
-			}
-			ideas = {
-				insulation
-			}
-		}
+		
 		
 		
 	
