@@ -6,13 +6,13 @@ SYL = {
 }
 
 UNC = {
-	color = rgb { 0 0 0}
-	color_ui = rgb { 0 0 0}
+	color = rgb { 45 45 45}
+	color_ui = rgb { 45 45 45}
 }
 
 REB = {
-	color = rgb { 0 0 0}
-	color_ui = rgb { 0 0 0}
+	color = rgb { 90 45 45}
+	color_ui = rgb { 80 45 45}
 }
 
 

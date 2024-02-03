@@ -1,5 +1,6 @@
 syldavian_states = {
 	get_state_1 = {
+		cost = 50
 		available = {
 			NOT = {
 				has_country_flag = integrating_state
@@ -26,6 +27,7 @@ syldavian_states = {
 	}
 
 	get_state_2 = {
+		cost = 50
 		available = {
 			NOT = {
 				has_country_flag = integrating_state
@@ -52,9 +54,15 @@ syldavian_states = {
 	}
 
 	get_state_3 = {
+		cost = 50
 		available = {
 			NOT = {
 				has_country_flag = integrating_state
+			}
+			OR = {
+				owns_state = 44
+				owns_state = 106
+				owns_state =185
 			}
 		}
 		on_map_mode = map_only
@@ -77,4 +85,440 @@ syldavian_states = {
 		}
 	}
 
+	get_state_4 = {
+		cost = 50
+		available = {
+			NOT = {
+				has_country_flag = integrating_state
+			}
+			OR = {
+				owns_state = 106
+				owns_state = 185
+				owns_state = 47
+			}
+		}
+		on_map_mode = map_only
+		highlight_states = { highlight_state_targets = {
+			state = 731
+		} 
+	}
+
+		fire_only_once = yes
+
+		complete_effect = {
+	
+			add_state_core = 731
+			set_country_flag = integrating_state
+			731 = {
+				save_event_target_as = target_state
+			}
+			SYL = { country_event  = { id = states.1 } }
+			
+		}
+	}
+	get_state_5 = { cost = 50
+		available = {
+			NOT = {
+				has_country_flag = integrating_state
+			}
+			OR = {
+				owns_state = 805
+				owns_state = 106
+				owns_state = 731
+				owns_state = 47
+			}
+		}
+		on_map_mode = map_only
+		highlight_states = { highlight_state_targets = {
+			state = 185
+		} 
+	}
+
+		fire_only_once = yes
+
+		complete_effect = {
+	
+			add_state_core = 185
+			set_country_flag = integrating_state
+			185 = {
+				save_event_target_as = target_state
+			}
+			SYL = { country_event  = { id = states.1 } }
+			
+		}
+	}
+	get_state_6 = { cost = 50
+		available = {
+			NOT = {
+				has_country_flag = integrating_state
+			}
+			OR ={
+				owns_state = 731
+				owns_state = 185
+			}
+		}
+		on_map_mode = map_only
+		highlight_states = { highlight_state_targets = {
+			state = 47
+		} 
+	}
+
+		fire_only_once = yes
+
+		complete_effect = {
+	
+			add_state_core = 47
+			set_country_flag = integrating_state
+			47 = {
+				save_event_target_as = target_state
+			}
+			SYL = { country_event  = { id = states.1 } }
+			
+		}
+	}
+	get_state_7 = { cost = 50
+		available = {
+			NOT = {
+				has_country_flag = integrating_state
+			}
+		}
+		on_map_mode = map_only
+		highlight_states = { highlight_state_targets = {
+			state = 104
+		} 
+	}
+
+		fire_only_once = yes
+
+		complete_effect = {
+	
+			add_state_core = 104
+			set_country_flag = integrating_state
+			104 = {
+				save_event_target_as = target_state
+			}
+			SYL = { country_event  = { id = states.1 } }
+			
+		}
+	}
+	get_state_8 = { cost = 50
+		available = {
+			NOT = {
+				has_country_flag = integrating_state
+			}
+		}
+		on_map_mode = map_only
+		highlight_states = { highlight_state_targets = {
+			state = 107
+		} 
+	}
+
+		fire_only_once = yes
+
+		complete_effect = {
+	
+			add_state_core = 107
+			set_country_flag = integrating_state
+			107 = {
+				save_event_target_as = target_state
+			}
+			SYL = { country_event  = { id = states.1 } }
+			
+		}
+	}
+	get_state_9 = { cost = 50
+		available = {
+			NOT = {
+				has_country_flag = integrating_state
+			}
+			OR = {
+				owns_state = 107
+				owns_state = 45
+				owns_state = 109
+			}
+		}
+		on_map_mode = map_only
+		highlight_states = { highlight_state_targets = {
+			state = 764
+		} 
+	}
+
+		fire_only_once = yes
+
+		complete_effect = {
+	
+			add_state_core = 764
+			set_country_flag = integrating_state
+			764 = {
+				save_event_target_as = target_state
+			}
+			SYL = { country_event  = { id = states.1 } }
+			
+		}
+	}
+	get_state_10 = { cost = 50
+		available = {
+			NOT = {
+				has_country_flag = integrating_state
+			}
+			OR = {
+				owns_state = 109
+				owns_state = 764
+			}
+		}
+		on_map_mode = map_only
+		highlight_states = { highlight_state_targets = {
+			state = 45
+		} 
+	}
+
+		fire_only_once = yes
+
+		complete_effect = {
+	
+			add_state_core = 45
+			set_country_flag = integrating_state
+			45 = {
+				save_event_target_as = target_state
+			}
+			SYL = { country_event  = { id = states.1 } }
+			
+		}
+	}
+	get_state_11 = { cost = 50
+		available = {
+			NOT = {
+				has_country_flag = integrating_state
+			}
+			OR = {
+				owns_state = 104
+				owns_state = 45
+				owns_state = 764
+				owns_state = 107
+				owns_state = 853
+				owns_state = 103
+			}
+		}
+		on_map_mode = map_only
+		highlight_states = { highlight_state_targets = {
+			state = 109
+		} 
+	}
+
+		fire_only_once = yes
+
+		complete_effect = {
+	
+			add_state_core = 109
+			set_country_flag = integrating_state
+			109 = {
+				save_event_target_as = target_state
+			}
+			SYL = { country_event  = { id = states.1 } }
+			
+		}
+	}
+	get_state_12= { cost = 50
+		available = {
+			NOT = {
+				has_country_flag = integrating_state
+			}
+		}
+		on_map_mode = map_only
+		highlight_states = { highlight_state_targets = {
+			state = 804
+		} 
+	}
+
+		fire_only_once = yes
+
+		complete_effect = {
+	
+			add_state_core = 804
+			set_country_flag = integrating_state
+			804 = {
+				save_event_target_as = target_state
+			}
+			SYL = { country_event  = { id = states.1 } }
+			
+		}
+	}
+	get_state_13 = { cost = 50
+		available = {
+			NOT = {
+				has_country_flag = integrating_state
+			}
+		}
+		on_map_mode = map_only
+		highlight_states = { highlight_state_targets = {
+			state = 103
+		} 
+	}
+
+		fire_only_once = yes
+
+		complete_effect = {
+	
+			add_state_core = 103
+			set_country_flag = integrating_state
+			103 = {
+				save_event_target_as = target_state
+			}
+			SYL = { country_event  = { id = states.1 } }
+			
+		}
+	}
+	get_state_14= { cost = 50
+		available = {
+			NOT = {
+				has_country_flag = integrating_state
+			}
+			OR = {
+				owns_state = 736
+				owns_state = 853
+				owns_state = 109
+			}
+		}
+		on_map_mode = map_only
+		highlight_states = { highlight_state_targets = {
+			state = 102
+		} 
+	}
+
+		fire_only_once = yes
+
+		complete_effect = {
+	
+			add_state_core = 102
+			set_country_flag = integrating_state
+			102 = {
+				save_event_target_as = target_state
+			}
+			SYL = { country_event  = { id = states.1 } }
+			
+		}
+	}
+	get_state_15= { cost = 50
+		available = {
+			NOT = {
+				has_country_flag = integrating_state
+			}
+			owns_state = 103
+		}
+		on_map_mode = map_only
+		highlight_states = { highlight_state_targets = {
+			state = 163
+		} 
+	}
+
+		fire_only_once = yes
+
+		complete_effect = {
+	
+			add_state_core = 163
+			set_country_flag = integrating_state
+			163 = {
+				save_event_target_as = target_state
+			}
+			SYL = { country_event  = { id = states.1 } }
+			
+		}
+	}
+	get_state_16= { cost = 50
+		available = {
+			NOT = {
+				has_country_flag = integrating_state
+			}
+			OR = {
+				owns_state = 109
+				owns_state = 103
+				owns_state = 736
+				owns_state = 102
+			}
+		}
+		on_map_mode = map_only
+		highlight_states = { highlight_state_targets = {
+			state = 853
+		} 
+	}
+
+		fire_only_once = yes
+
+		complete_effect = {
+	
+			add_state_core = 853
+			set_country_flag = integrating_state
+			853 = {
+				save_event_target_as = target_state
+			}
+			SYL = { country_event  = { id = states.1 } }
+			
+		}
+	}
+	get_state_17= { cost = 50
+		available = {
+			NOT = {
+				has_country_flag = integrating_state
+			}
+			AND = {
+				OR = {
+					owns_state = 103
+					owns_state = 736
+				}
+			
+			}
+		}
+		on_map_mode = map_only
+		highlight_states = { highlight_state_targets = {
+			state = 852
+		} 
+	}
+
+		fire_only_once = yes
+
+		complete_effect = {
+	
+			add_state_core = 852
+			set_country_flag = integrating_state
+			852 = {
+				save_event_target_as = target_state
+			}
+			SYL = { country_event  = { id = states.1 } }
+			
+		}
+	}
+	get_state_18= { cost = 50
+		available = {
+			NOT = {
+				has_country_flag = integrating_state
+			}
+			OR = {
+				owns_state = 852
+				owns_state = 103
+				owns_state = 853
+				owns_state = 102
+			}
+		}
+		on_map_mode = map_only
+		highlight_states = { 
+			
+			highlight_state_targets = {
+				
+			state = 736
+		} 
+	}
+
+		fire_only_once = yes
+
+		complete_effect = {
+	
+			add_state_core = 736
+			set_country_flag = integrating_state
+			736 = {
+				save_event_target_as = target_state
+			}
+			SYL = { country_event  = { id = states.1 } }
+			
+		}
+	}
 }

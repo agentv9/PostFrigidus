@@ -11,7 +11,7 @@ tags={
 	"Technologies"
 	"Utilities"
 }
-name="PostFrigidus2"
+name="Post Frigidus"
 replace_path="gfx/loadingscreens"
 replace_path="common/ideologies"
 replace_path="music"
