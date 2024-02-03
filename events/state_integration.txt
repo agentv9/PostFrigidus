@@ -10,14 +10,12 @@ country_event = {
 	option = {
 		name = states.1.a
 		random_list = {
-			85 = {
+			80 = {
 				THIS = {
 					country_event = { id = states.2 days = 45  }
 				}
 			}
-			15 = {
-				
-				
+			20 = {
 				THIS = {
 					country_event = { id = states.4 days = 45  }
 				}
