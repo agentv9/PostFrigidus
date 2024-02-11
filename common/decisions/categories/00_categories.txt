@@ -1,6 +1,10 @@
 syldavian_states = {
+    priority = 10
 	allowed = {
         tag = SYL
     }
+   
+    visible_when_empty = yes
+    scripted_gui = SYL_states_map
 }
 

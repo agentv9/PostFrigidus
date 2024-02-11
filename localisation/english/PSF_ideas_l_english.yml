@@ -1,0 +1,17 @@
+﻿l_english:
+post_frigidus:0 "Post Frigidus"
+
+no_aclimation:0 "No Aclimation"
+no_aclimation_desc:0 "No aclimation against the cold"
+
+insulation:0 "Insulation"
+insulation_desc:0 "Moderate Insulation to protect against the cold"
+
+power_grid:0 "Power Grid"
+power_grid_desc:0 "Power grid upgrades"
+
+building_heating:0 "Heating Systems"
+building_heating_desc:0 "Heating systems added to buildings"
+
+city_domes:0 "City Domes"
+city_domes_desc:0 "Construct domes over your major cities to protect your citizens against the cilmate"

@@ -1,0 +1,15 @@
+scripted_gui = {
+    SYL_states_map = {
+        context_type = decision_category
+        window_name = "SYL_states_map_window"
+
+        properties = {
+           SYL_47 = {
+                frame = 1
+           }
+           SYL_185 = {
+            frame = 1
+       }
+        }
+    }
+}

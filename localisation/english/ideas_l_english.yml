@@ -1,22 +1,4 @@
 ﻿l_english:
-post_frigidus:0 "Post Frigidus"
-
-no_aclimation: "No Aclimation"
-no_aclimation_desc: "No aclimation against the cold"
-
-insulation: "Insulation"
-insulation_desc: "Moderate Insulation to protect against the cold"
-
-power_grid: "Power Grid"
-power_grid_desc: "Power grid upgrades"
-
-building_heating: "Heating Systems"
-building_heating_desc: "Heating systems added to buildings"
-
-city_domes: "City Domes"
-city_domes_desc: "Construct domes over your major cities to protect your citizens against the cilmate"
-
-integrating_territory:0 "Integrating State"
 
 government:1 "Laws & Government"
  research_production:0 "Research & Production"

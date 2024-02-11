@@ -12,8 +12,11 @@ tags={
 	"Utilities"
 }
 name="Post Frigidus"
+replace_path="history/states"
 replace_path="gfx/loadingscreens"
 replace_path="common/ideologies"
+
 replace_path="music"
-supported_version="1.13.6"
+
+supported_version="1.13.*"
 remote_file_id="3152650407"

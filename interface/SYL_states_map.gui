@@ -1,0 +1,149 @@
+guiTypes = {
+    containerWindowType = {
+        name = "SYL_states_map_window"
+        position = {
+            x = 0
+            y = 0
+        }
+        size = {
+            width = 500
+            height = 420
+        }
+        containerWindowType = {
+
+            name = "SYL_states_map"
+            size = { width = 0 height = 0}
+            position = { x = 45 y = 50}
+
+            #iconType = {
+            #    name = "ENG_Base_map"
+            #    position = {
+            #        x = 0
+            #        y = 0
+            #    }
+            #    spriteType = "GFX_ENG_political_map_base"
+            #}
+
+            iconType = {
+                name = "SYL_47"
+                position = {
+                    x = 360
+                    y = 300
+                }
+                centerposition = yes
+                spriteType = "GFX_SYL_47"
+                pdx_tooltip_delayed = STATE_47_detail_tt
+                pdx_tooltip = "STATE_47"
+            }
+
+            iconType = {
+                name = "SYL_185"
+                position = {
+                    x = 287
+                    y = 272
+                }
+                centerposition = yes
+                spriteType = "GFX_SYL_185"
+                pdx_tooltip_delayed = STATE_185_detail_tt
+                pdx_tooltip = "STATE_185"
+            }
+
+            iconType = {
+                name = "SYL_731"
+                position = {
+                    x = 357
+                    y = 233
+                }
+                centerposition = yes
+                spriteType = "GFX_SYL_731"
+                pdx_tooltip_delayed = STATE_731_detail_tt
+                pdx_tooltip = "STATE_731"
+            }
+
+            iconType = {
+                name = "SYL_106"
+                position = {
+                    x = 321
+                    y = 198
+                }
+                centerposition = yes
+                spriteType = "GFX_SYL_106"
+                pdx_tooltip_delayed = STATE_106_detail_tt
+                pdx_tooltip = "STATE_106"
+            }
+
+            iconType = {
+                name = "SYL_44"
+                position = {
+                    x = 267
+                    y = 206
+                }
+                centerposition = yes
+                spriteType = "GFX_SYL_44"
+                pdx_tooltip_delayed = STATE_44_detail_tt
+                pdx_tooltip = "STATE_44"
+            }
+
+            iconType = {
+                name = "SYL_805"
+                position = {
+                    x = 275
+                    y = 248
+                }
+                centerposition = yes
+                spriteType = "GFX_SYL_805"
+                pdx_tooltip_delayed = STATE_805_detail_tt
+                pdx_tooltip = "STATE_805"
+            }
+           
+            iconType = {
+                name = "SYL_105"
+                position = {
+                    x = 247
+                    y = 157
+                }
+                centerposition = yes
+                spriteType = "GFX_SYL_105"
+                pdx_tooltip_delayed = STATE_105_detail_tt
+                pdx_tooltip = "STATE_105"
+            }
+
+            iconType = {
+                name = "SYL_103"
+                position = {
+                    x = 154
+                    y = 105
+                }
+                centerposition = yes
+                spriteType = "GFX_SYL_103"
+                pdx_tooltip_delayed = STATE_103_detail_tt
+                pdx_tooltip = "STATE_103"
+            }
+
+            iconType = {
+                name = "SYL_804"
+                position = {
+                    x = 201
+                    y = 132
+                }
+                centerposition = yes
+                spriteType = "GFX_SYL_804"
+                pdx_tooltip_delayed = STATE_804_detail_tt
+                pdx_tooltip = "STATE_804"
+            }
+
+            iconType = {
+                name = "SYL_104"
+                position = {
+                    x = 193
+                    y = 96
+                }
+                centerposition = yes
+                spriteType = "GFX_SYL_104"
+                pdx_tooltip_delayed = STATE_104_detail_tt
+                pdx_tooltip = "STATE_104"
+            }
+
+        }
+    }
+}
