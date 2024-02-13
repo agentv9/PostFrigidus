@@ -54,6 +54,7 @@ country_event = {
 		remove_ideas = {
 			integrating_territory
 		}
+		
 		set_state_controller = event_target:target_state
 		set_state_owner = event_target:target_state
 		clr_country_flag = integrating_state
@@ -91,7 +92,7 @@ country_event = {
 				}
 			}
 		}
-		
+		ROOT = {State_Taken = yes}
 		event_target:target_state = {
 			if = {
 				limit = {is_fully_controlled_by = ROOT}

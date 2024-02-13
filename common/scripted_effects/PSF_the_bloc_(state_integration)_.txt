@@ -1,0 +1,17 @@
+State_Taken = {
+	if = {
+		limit = {
+			FROM = {
+				tag = SYL
+			}
+		}
+		event_target:target_state = {
+			set_variable = {
+				var = SYL_integration_level
+				value = 6
+			}
+		}
+	}
+
+
+}

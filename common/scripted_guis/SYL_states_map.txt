@@ -4,12 +4,74 @@ scripted_gui = {
         window_name = "SYL_states_map_window"
 
         properties = {
-           SYL_47 = {
-                frame = 1
+           SYL_802 = {
+                frame = 3
            }
-           SYL_185 = {
-            frame = 1
-       }
+           SYL_803 = {
+            frame = 3
+                }
+           SYL_105 = {
+            frame = 3
+                }
+       SYL_108 = {
+        frame = 3
+                }
+
+                SYL_44 = {
+                    frame = 44.SYL_integration_level
+                }
+                SYL_45 = {
+                    frame = 45.SYL_integration_level
+                }
+                SYL_47 = {
+                    frame = 47.SYL_integration_level
+                }
+                SYL_102 = {
+                    frame = 102.SYL_integration_level
+                }
+                SYL_103 = {
+                    frame = 103.SYL_integration_level
+                }
+                SYL_104 = {
+                    frame = 104.SYL_integration_level
+                }
+                SYL_106 = {
+                    frame = 106.SYL_integration_level
+                }
+                SYL_107 = {
+                    frame = 107.SYL_integration_level
+                }
+                SYL_109 = {
+                    frame = 109.SYL_integration_level
+                }
+                SYL_163 = {
+                    frame = 163.SYL_integration_level
+                }
+                SYL_185 = {
+                    frame = 185.SYL_integration_level
+                }
+                SYL_731 = {
+                    frame = 731.SYL_integration_level
+                }
+                SYL_736 = {
+                    frame = 736.SYL_integration_level
+                }
+                SYL_764 = {
+                    frame = 764.SYL_integration_level
+                }
+                SYL_804 = {
+                    frame = 804.SYL_integration_level
+                }
+                SYL_805 = {
+                    frame = 805.SYL_integration_level
+                }
+                SYL_852 = {
+                    frame = 852.SYL_integration_level
+                }
+                SYL_853 = {
+                    frame = 853.SYL_integration_level
+                }
+
         }
     }
 }

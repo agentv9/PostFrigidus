@@ -1,0 +1,21 @@
+on_actions = {
+	on_state_control_changed = {
+		effect = {
+			if = {
+				limit = {
+					FROM.FROM = {
+						owner = SYL
+					}
+				}
+				FROM.FROM = {
+					set_variable = {
+						var = SYL_integration_level
+						value = 3
+					}
+				}
+			}
+		
+			
+		}
+	}
+}
