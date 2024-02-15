@@ -1,0 +1,14 @@
+buildings = {
+	climate_acclimation = {
+		base_cost = 15000
+		icon_frame = 17
+		infrastructure = yes
+		max_level = 4
+		value = 1
+
+		show_modifier = yes
+		state_production_speed_buildings_factor = 0.1
+		recruitable_population = 0.05
+		infrastructure_construction_effect = yes
+	}
+}

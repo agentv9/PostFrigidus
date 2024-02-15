@@ -8,15 +8,17 @@ country_event = {
 	title = states.1.t
 	desc = states.1.d  
 	option = {
-		name = states.1.a
+		
 		random_list = {
 			80 = {
 				THIS = {
+					activate_mission = state_negotiation
 					country_event = { id = states.2 days = 45  }
 				}
 			}
 			20 = {
 				THIS = {
+					activate_mission = state_negotiation
 					country_event = { id = states.4 days = 45  }
 				}
 			}
@@ -37,6 +39,7 @@ country_event = {
 			integrating_territory
 		}
 		THIS = {
+			activate_mission = state_integration
 			country_event = { id = states.3 days = 75  }
 		}
 	}

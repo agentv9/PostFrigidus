@@ -6,5 +6,7 @@ syldavian_states = {
    
     visible_when_empty = yes
     scripted_gui = SYL_states_map
+
+    
 }
 

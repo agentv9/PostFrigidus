@@ -1,0 +1,9 @@
+﻿l_english:
+
+climate_acclimation: "Climate Acclimation"
+climate_acclimation_desc: "Countermeasures to the cold, increases construction speed, recruitable population"
+climate_acclimation_plural: "Climate Acclimation"
+ modifier_production_speed_climate_acclimation_factor: "§Y$Climate Acclimation$§! construction speed"
+ modifier_production_speed_climate_acclimation_factor_desc: "Modifies the speed of §Y$Climate Acclimation$§! construction."
+ modifier_state_production_climate_acclimation_factor:0 "§Y$Climate Acclimation$§! construction speed"
+ modifier_state_production_climate_acclimation_factor_desc:0 "Modifies the speed of §Y$Climate Acclimation$§! construction in this state."

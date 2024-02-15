@@ -21,6 +21,11 @@
  SYL:0 "Syldavia"
  SYL_DEF:0 "Syldavia"
  SYL_ADJ:0 "Syldavia"
+FED:0 "Federation of Syldavia"
+ FED_DEF:0 "Federation of Syldavia"
+ FED_ADJ:0 "Federation of Syldavia"
+
+
 
  UNC_DEF:0 "Unclaimed"
  UNC_ADJ:0 "Unclaimed"

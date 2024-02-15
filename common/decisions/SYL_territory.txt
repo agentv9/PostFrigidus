@@ -1,4 +1,69 @@
 syldavian_states = {
+
+	
+	state_negotiation = {
+			
+		activation = {
+			hidden_trigger = { always = no }
+		}
+		available = {
+			hidden_trigger = { always = no }
+		}
+		complete_effect = {
+			
+		}
+		days_mission_timeout = 45
+		is_good = yes
+	}
+	state_integration = {
+		activation = {
+			hidden_trigger = { always = no }
+		}
+		available = {
+			hidden_trigger = { always = no }
+		}
+		complete_effect = {
+			
+		}
+		days_mission_timeout = 75
+		is_good = yes
+	}
+	
+	reform_the_federation = {
+		cost = 500
+		
+		available = {
+			
+			AND = {
+				owns_state = 44
+				owns_state = 45
+				owns_state = 47
+				owns_state = 102
+				owns_state = 103
+				owns_state = 104
+				owns_state = 105
+				owns_state = 106
+				owns_state = 107
+				owns_state = 108
+				owns_state = 109
+				owns_state = 163
+				owns_state = 185
+				owns_state = 731
+				owns_state = 736
+				owns_state = 764
+				owns_state = 802
+				owns_state = 803
+				owns_state = 804
+				owns_state = 805
+				owns_state = 852
+				owns_state = 853
+			}
+		}
+
+		complete_effect = {
+			SYL = { country_event  = { id = syl.1 } }
+		}
+	}
 	get_state_1 = {
 		cost = 50
 		available = {
@@ -20,7 +85,8 @@ syldavian_states = {
 		fire_only_once = yes
  
 		complete_effect = {
-	
+			
+		
 			add_state_core = 106
 			set_country_flag = integrating_state
 			106 = {
@@ -56,6 +122,7 @@ syldavian_states = {
 		fire_only_once = yes
 
 		complete_effect = {
+		
 	
 			add_state_core = 44
 			set_country_flag = integrating_state
@@ -92,6 +159,7 @@ syldavian_states = {
 		fire_only_once = yes
 
 		complete_effect = {
+		
 	
 			add_state_core = 805
 			set_country_flag = integrating_state
@@ -128,6 +196,7 @@ syldavian_states = {
 		fire_only_once = yes
 
 		complete_effect = {
+		
 	
 			add_state_core = 731
 			set_country_flag = integrating_state
@@ -162,6 +231,7 @@ syldavian_states = {
 		fire_only_once = yes
 
 		complete_effect = {
+		
 	
 			add_state_core = 185
 			set_country_flag = integrating_state
@@ -196,6 +266,7 @@ syldavian_states = {
 		fire_only_once = yes
 
 		complete_effect = {
+		
 	
 			add_state_core = 47
 			set_country_flag = integrating_state
@@ -230,6 +301,7 @@ syldavian_states = {
 		fire_only_once = yes
 
 		complete_effect = {
+		
 	
 			add_state_core = 104
 			set_country_flag = integrating_state
@@ -264,6 +336,7 @@ syldavian_states = {
 		fire_only_once = yes
 
 		complete_effect = {
+		
 	
 			add_state_core = 107
 			set_country_flag = integrating_state
@@ -298,6 +371,7 @@ syldavian_states = {
 		fire_only_once = yes
 
 		complete_effect = {
+		
 	
 			add_state_core = 764
 			set_country_flag = integrating_state
@@ -332,6 +406,7 @@ syldavian_states = {
 		fire_only_once = yes
 
 		complete_effect = {
+		
 	
 			add_state_core = 45
 			set_country_flag = integrating_state
@@ -366,6 +441,7 @@ syldavian_states = {
 		fire_only_once = yes
 
 		complete_effect = {
+		
 	
 			add_state_core = 109
 			set_country_flag = integrating_state
@@ -400,6 +476,7 @@ syldavian_states = {
 		fire_only_once = yes
 
 		complete_effect = {
+		
 	
 			add_state_core = 804
 			set_country_flag = integrating_state
@@ -434,6 +511,7 @@ syldavian_states = {
 		fire_only_once = yes
 
 		complete_effect = {
+		
 	
 			add_state_core = 103
 			set_country_flag = integrating_state
@@ -468,6 +546,7 @@ syldavian_states = {
 		fire_only_once = yes
 
 		complete_effect = {
+		
 	
 			add_state_core = 102
 			set_country_flag = integrating_state
@@ -502,6 +581,7 @@ syldavian_states = {
 		fire_only_once = yes
 
 		complete_effect = {
+		
 	
 			add_state_core = 163
 			set_country_flag = integrating_state
@@ -538,6 +618,7 @@ syldavian_states = {
 		fire_only_once = yes
 
 		complete_effect = {
+		
 	
 			add_state_core = 853
 			set_country_flag = integrating_state
@@ -577,6 +658,7 @@ syldavian_states = {
 		fire_only_once = yes
 
 		complete_effect = {
+		
 	
 			add_state_core = 852
 			set_country_flag = integrating_state
@@ -616,6 +698,7 @@ syldavian_states = {
 		fire_only_once = yes
 
 		complete_effect = {
+		
 	
 			add_state_core = 736
 			set_country_flag = integrating_state

@@ -1,0 +1,19 @@
+add_namespace = syl
+
+country_event = {
+	id = syl.1
+	is_triggered_only = yes
+	
+	title = syl.1.t
+	desc = syl.1.d  
+	option = {
+		name = syl.1.a
+		SYL = {
+			add_timed_idea = {
+				idea = rejoice
+				days = 365
+			}
+		set_cosmetic_tag = FED
+		}
+	}
+}

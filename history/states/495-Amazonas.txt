@@ -11,12 +11,12 @@ state={
 	}
 
 	history={
-		owner = BRA
+		 owner = UNC
 		buildings = {
 			infrastructure = 0
 
 		}
-		add_core_of = BRA
+	
 	}
 
 	provinces={

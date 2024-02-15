@@ -20,3 +20,7 @@
  states.4.t:0 "Negotions for [target_state.GetName] have failed"
  states.4.d:0 "the people of [target_state.GetName] have refused our generious offer to join our glorious nation and has vowed to fight with their lives to keep us out, we must attack!"
  states.4.a:0 "Attack!"
+
+syl.1.t:0 "The federation has been restored!"
+syl.1.d:0 "After many years being apart our nation is now whole again and the people are rejoicing! SLAVA SYLDAVIA"
+syl.1.a:0 "Hurrah!"
