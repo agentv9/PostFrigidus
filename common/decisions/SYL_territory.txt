@@ -87,7 +87,7 @@ syldavian_states = {
 		complete_effect = {
 			
 		
-			add_state_core = 106
+			
 			set_country_flag = integrating_state
 			106 = {
 				save_event_target_as = target_state
@@ -124,7 +124,7 @@ syldavian_states = {
 		complete_effect = {
 		
 	
-			add_state_core = 44
+			
 			set_country_flag = integrating_state
 			44 = {
 				save_event_target_as = target_state
@@ -161,7 +161,7 @@ syldavian_states = {
 		complete_effect = {
 		
 	
-			add_state_core = 805
+		
 			set_country_flag = integrating_state
 			805 = {
 				save_event_target_as = target_state
@@ -198,7 +198,7 @@ syldavian_states = {
 		complete_effect = {
 		
 	
-			add_state_core = 731
+			
 			set_country_flag = integrating_state
 			731 = {
 				save_event_target_as = target_state
@@ -233,7 +233,7 @@ syldavian_states = {
 		complete_effect = {
 		
 	
-			add_state_core = 185
+		
 			set_country_flag = integrating_state
 			185 = {
 				save_event_target_as = target_state
@@ -268,7 +268,7 @@ syldavian_states = {
 		complete_effect = {
 		
 	
-			add_state_core = 47
+		
 			set_country_flag = integrating_state
 			47 = {
 				save_event_target_as = target_state
@@ -303,7 +303,7 @@ syldavian_states = {
 		complete_effect = {
 		
 	
-			add_state_core = 104
+			
 			set_country_flag = integrating_state
 			104 = {
 				save_event_target_as = target_state
@@ -338,7 +338,7 @@ syldavian_states = {
 		complete_effect = {
 		
 	
-			add_state_core = 107
+			
 			set_country_flag = integrating_state
 			107 = {
 				save_event_target_as = target_state
@@ -373,7 +373,7 @@ syldavian_states = {
 		complete_effect = {
 		
 	
-			add_state_core = 764
+		
 			set_country_flag = integrating_state
 			764 = {
 				save_event_target_as = target_state
@@ -408,7 +408,7 @@ syldavian_states = {
 		complete_effect = {
 		
 	
-			add_state_core = 45
+			
 			set_country_flag = integrating_state
 			45 = {
 				save_event_target_as = target_state
@@ -443,7 +443,7 @@ syldavian_states = {
 		complete_effect = {
 		
 	
-			add_state_core = 109
+			
 			set_country_flag = integrating_state
 			109 = {
 				save_event_target_as = target_state
@@ -478,7 +478,7 @@ syldavian_states = {
 		complete_effect = {
 		
 	
-			add_state_core = 804
+		
 			set_country_flag = integrating_state
 			804 = {
 				save_event_target_as = target_state
@@ -513,7 +513,7 @@ syldavian_states = {
 		complete_effect = {
 		
 	
-			add_state_core = 103
+			
 			set_country_flag = integrating_state
 			103 = {
 				save_event_target_as = target_state
@@ -548,7 +548,7 @@ syldavian_states = {
 		complete_effect = {
 		
 	
-			add_state_core = 102
+		
 			set_country_flag = integrating_state
 			102 = {
 				save_event_target_as = target_state
@@ -583,7 +583,7 @@ syldavian_states = {
 		complete_effect = {
 		
 	
-			add_state_core = 163
+		
 			set_country_flag = integrating_state
 			163 = {
 				save_event_target_as = target_state
@@ -620,7 +620,7 @@ syldavian_states = {
 		complete_effect = {
 		
 	
-			add_state_core = 853
+			
 			set_country_flag = integrating_state
 			853 = {
 				save_event_target_as = target_state
@@ -660,7 +660,7 @@ syldavian_states = {
 		complete_effect = {
 		
 	
-			add_state_core = 852
+			
 			set_country_flag = integrating_state
 			852 = {
 				save_event_target_as = target_state
@@ -700,7 +700,7 @@ syldavian_states = {
 		complete_effect = {
 		
 	
-			add_state_core = 736
+			
 			set_country_flag = integrating_state
 			736 = {
 				save_event_target_as = target_state

@@ -14,9 +14,12 @@ bookmarks = {
 			focuses = {
 			
 			}
-			ideas = {
-				insulation
-			}
+			
+		}
+		BRK = {
+			history = BRK_POSTFRIGIDUS_DESC
+			ideology = fascism
+
 		}
 		
 		

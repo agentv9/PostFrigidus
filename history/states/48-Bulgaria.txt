@@ -11,7 +11,8 @@ state={
 	state_category = city
 
 	history={
-		owner = UNC
+		owner = BRK
+		add_core_of = BRK
 		victory_points = { #Sofia
 			949 15 
 		}
@@ -19,8 +20,8 @@ state={
 			9771 1
 		}
 		buildings = {
-			infrastructure = 3
-			industrial_complex = 6
+			infrastructure = 1
+			industrial_complex = 2
 			air_base = 3
 		}
 		 

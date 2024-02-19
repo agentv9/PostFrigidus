@@ -11,6 +11,7 @@ state={
 			6652 1
 		}
 		owner = UNC
+		add_core_of = BRK
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 2

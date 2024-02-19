@@ -5,6 +5,12 @@ SYL = {
 	color_ui = rgb { 255 188 0}
 }
 
+BRK = {
+	color = rgb { 50 56 168 }
+	color_ui = rgb { 50 56 168 }
+}
+
+
 UNC = {
 	color = rgb { 45 45 45}
 	color_ui = rgb { 45 45 45}

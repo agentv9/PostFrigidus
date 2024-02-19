@@ -1,0 +1,4 @@
+FED = {
+	color = rgb {115 147 179}
+	color_ui = rgb {115 147 179}
+}

@@ -1,8 +1,8 @@
 State_Taken = {
 	if = {
 		limit = {
-			FROM = {
-				tag = SYL
+			event_target:target_state = {
+				is_core_of = SYL
 			}
 		}
 		event_target:target_state = {
@@ -12,6 +12,18 @@ State_Taken = {
 			}
 		}
 	}
-
+	if = {
+		limit = {
+			event_target:target_state = {
+				is_core_of = BRK
+			}
+		}
+		event_target:target_state = {
+			set_variable = {
+				var = BRK_integration_level
+				value = 6
+			}
+		}
+	}
 
 }

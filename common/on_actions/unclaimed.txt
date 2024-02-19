@@ -11,5 +11,19 @@ on_actions = {
 			
 		}
 	}
-
+	on_daily = {
+		effect = {
+			for_each_scope_loop = {
+				array = global.countries
+				if = {
+					limit = {
+						OR = {
+							has_wargoal_against = UNC
+						}
+					}
+					remove_wargoal = {type = all target = UNC}
+				}
+			}
+		}
+	}
 }

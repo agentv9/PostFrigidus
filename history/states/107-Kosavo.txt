@@ -5,6 +5,7 @@ state={
 
 	history={
 		owner =  UNC
+		add_core_of = SYL
 		buildings = {
 			infrastructure = 3
 			arms_factory = 3

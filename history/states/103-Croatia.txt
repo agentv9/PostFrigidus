@@ -9,6 +9,7 @@ state={
 
 	history={
 		owner =  UNC
+		add_core_of = SYL
 		victory_points = { #Dubrovnik
 			6889 3 
 		}

@@ -10,9 +10,6 @@ set_technology = {
 
 recruit_character = SYL_nicolai_belenski
 
-add_ideas = {
-	insulation
-}
 
 set_politics = {
 	ruling_party = corporatism
@@ -41,4 +38,29 @@ set_technology = {
     interwar_antiair = 1
     fuel_silos = 1
     basic_train = 1
+}
+
+108 = {
+	set_variable = {
+		var = SYL_integration_level
+		value = 3
+	}
+}
+105 = {
+	set_variable = {
+		var = SYL_integration_level
+		value = 3
+	}
+}
+803 = {
+	set_variable = {
+		var = SYL_integration_level
+		value = 3
+	}
+}
+802 = {
+	set_variable = {
+		var = SYL_integration_level
+		value = 3
+	}
 }

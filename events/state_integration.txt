@@ -95,18 +95,8 @@ country_event = {
 				}
 			}
 		}
+		
 		ROOT = {State_Taken = yes}
-		event_target:target_state = {
-			if = {
-				limit = {is_fully_controlled_by = ROOT}
-				transfer_state = event_target:target_state
-				start_peace_conference = {
-					tag = ROOT
-					score_factor = 5
-				}
-			}
-		}
-
 		clr_country_flag = integrating_state
 	}
 }

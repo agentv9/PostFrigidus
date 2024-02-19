@@ -1,0 +1,130 @@
+guiTypes = {
+    containerWindowType = {
+        name = "BRK_states_map_window"
+        position = {
+            x = 0
+            y = 0
+        }
+        size = {
+            width = 500
+            height = 420
+        }
+        containerWindowType = {
+
+            name = "BRK_states_map"
+            size = { width = 0 height = 0}
+            position = { x = 45 y = 50}
+
+			iconType = {
+                name = "BRK_184"
+                position = {
+                    x = 239
+                    y = 289
+                }
+                centerposition = yes
+                spriteType = "GFX_BRK_184"
+                pdx_tooltip_delayed = STATE_184_detail_tt
+                pdx_tooltip = "STATE_184"
+            }
+            iconType = {
+                name = "BRK_212"
+                position = {
+                    x = 230
+                    y = 259
+                }
+                centerposition = yes
+                spriteType = "GFX_BRK_212"
+                pdx_tooltip_delayed = STATE_212_detail_tt
+                pdx_tooltip = "STATE_212"
+            }
+            iconType = {
+                name = "BRK_211"
+                position = {
+                    x = 309
+                    y = 238
+                }
+                centerposition = yes
+                spriteType = "GFX_BRK_211"
+                pdx_tooltip_delayed = STATE_211_detail_tt
+                pdx_tooltip = "STATE_211"
+            }
+            iconType = {
+                name = "BRK_801"
+                position = {
+                    x = 250
+                    y = 210
+                }
+                centerposition = yes
+                spriteType = "GFX_BRK_801"
+                pdx_tooltip_delayed = STATE_211_detail_tt
+                pdx_tooltip = "STATE_801"
+            }
+            iconType = {
+                name = "BRK_48"
+                position = {
+                    x = 189
+                    y = 219
+                }
+                centerposition = yes
+                spriteType = "GFX_BRK_48"
+                pdx_tooltip_delayed = STATE_48_detail_tt
+                pdx_tooltip = "STATE_48"
+            }
+            iconType = {
+                name = "BRK_81"
+                position = {
+                    x = 199
+                    y = 162
+                }
+                centerposition = yes
+                spriteType = "GFX_BRK_81"
+                pdx_tooltip_delayed = STATE_81_detail_tt
+                pdx_tooltip = "STATE_81"
+            }
+            iconType = {
+                name = "BRK_46"
+                position = {
+                    x = 306
+                    y = 159
+                }
+                centerposition = yes
+                spriteType = "GFX_BRK_46"
+                pdx_tooltip_delayed = STATE_46_detail_tt
+                pdx_tooltip = "STATE_46"
+            }
+            iconType = {
+                name = "BRK_77"
+                position = {
+                    x = 321
+                    y = 195
+                }
+                centerposition = yes
+                spriteType = "GFX_BRK_77"
+                pdx_tooltip_delayed = STATE_77_detail_tt
+                pdx_tooltip = "STATE_77"
+            }
+            iconType = {
+                name = "BRK_84"
+                position = {
+                    x = 226
+                    y = 104
+                }
+                centerposition = yes
+                spriteType = "GFX_BRK_84"
+                pdx_tooltip_delayed = STATE_84_detail_tt
+                pdx_tooltip = "STATE_84"
+            }
+            iconType = {
+                name = "BRK_82"
+                position = {
+                    x = 132
+                    y = 133
+                }
+                centerposition = yes
+                spriteType = "GFX_BRK_82"
+                pdx_tooltip_delayed = STATE_82_detail_tt
+                pdx_tooltip = "STATE_82"
+            }
+		}
+	}
+}

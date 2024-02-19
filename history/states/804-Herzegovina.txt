@@ -13,6 +13,7 @@ state={
 
 	history={
 		owner =  UNC
+		add_core_of = SYL
 		victory_points = {
 			9894 3
 		}

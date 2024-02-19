@@ -1,0 +1,52 @@
+spriteTypes = {
+	spriteType = {
+        name= "GFX_BRK_46"
+        noOfFrames = 6
+        texturefile = "gfx/interface/states_maps/BRK/46.dds"
+    }
+	spriteType = {
+        name= "GFX_BRK_48"
+        noOfFrames = 6
+        texturefile = "gfx/interface/states_maps/BRK/48.dds"
+    }
+	spriteType = {
+        name= "GFX_BRK_77"
+        noOfFrames = 6
+        texturefile = "gfx/interface/states_maps/BRK/77.dds"
+    }
+	spriteType = {
+        name= "GFX_BRK_81"
+        noOfFrames = 6
+        texturefile = "gfx/interface/states_maps/BRK/81.dds"
+    }
+	spriteType = {
+        name= "GFX_BRK_82"
+        noOfFrames = 6
+        texturefile = "gfx/interface/states_maps/BRK/82.dds"
+    }
+	spriteType = {
+        name= "GFX_BRK_84"
+        noOfFrames = 6
+        texturefile = "gfx/interface/states_maps/BRK/84.dds"
+    }
+	spriteType = {
+        name= "GFX_BRK_184"
+        noOfFrames = 6
+        texturefile = "gfx/interface/states_maps/BRK/184.dds"
+    }
+	spriteType = {
+        name= "GFX_BRK_211"
+        noOfFrames = 6
+        texturefile = "gfx/interface/states_maps/BRK/211.dds"
+    }
+	spriteType = {
+        name= "GFX_BRK_212"
+        noOfFrames = 6
+        texturefile = "gfx/interface/states_maps/BRK/212.dds"
+    }
+	spriteType = {
+        name= "GFX_BRK_801"
+        noOfFrames = 6
+        texturefile = "gfx/interface/states_maps/BRK/801.dds"
+    }
+}

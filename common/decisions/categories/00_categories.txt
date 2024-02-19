@@ -3,10 +3,15 @@ syldavian_states = {
 	allowed = {
         tag = SYL
     }
-   
     visible_when_empty = yes
     scripted_gui = SYL_states_map
-
-    
 }
 
+braskovian_states = {
+    priority = 10
+	allowed = {
+        tag = BRK
+    }
+    visible_when_empty = yes
+    scripted_gui = BRK_states_map
+}

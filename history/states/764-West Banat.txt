@@ -7,7 +7,8 @@ state={
 
 	history={
 		owner =  UNC
-		controller =  UNC
+		
+		add_core_of = SYL
 		victory_points = {
 			3614 1
 		}
@@ -16,8 +17,7 @@ state={
 			infrastructure = 3 #was: 6
 		}
 		 
-		add_core_of = SER
-		add_core_of = TRA
+	
 	}
 
 	provinces={

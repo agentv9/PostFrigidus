@@ -1,0 +1,38 @@
+scripted_gui = {
+    BRK_states_map = {
+        context_type = decision_category
+        window_name = "BRK_states_map_window"
+		properties = {
+			BRK_184 = {
+				frame = 184.BRK_integration_level
+			}
+			BRK_212 = {
+				frame = 212.BRK_integration_level
+			}
+			BRK_211 = {
+				frame = 211.BRK_integration_level
+			}
+			BRK_801 = {
+				frame = 801.BRK_integration_level
+			}
+			BRK_48 = {
+				frame = 48.BRK_integration_level
+			}
+			BRK_81 = {
+				frame = 81.BRK_integration_level
+			}
+			BRK_46 = {
+				frame = 46.BRK_integration_level
+			}
+			BRK_77 = {
+				frame = 77.BRK_integration_level
+			}
+			BRK_84 = {
+				frame = 84.BRK_integration_level
+			}
+			BRK_82 = {
+				frame = 82.BRK_integration_level
+			}
+		}
+	}
+}

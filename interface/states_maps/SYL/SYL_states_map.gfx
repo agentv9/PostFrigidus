@@ -3,125 +3,125 @@ spriteTypes = {
     spriteType = {
         name= "GFX_SYL_44"
         noOfFrames = 6
-        texturefile = "gfx/interface/SYL/states_map/44.dds"
+        texturefile = "gfx/interface/states_maps/SYL/44.dds"
     }
     spriteType = {
         name= "GFX_SYL_45"
         noOfFrames = 6
-        texturefile = "gfx/interface/SYL/states_map/45.dds"
+        texturefile = "gfx/interface/states_maps/SYL/45.dds"
     }
 
     spriteType = {
         name= "GFX_SYL_47"
         noOfFrames = 6
-        texturefile = "gfx/interface/SYL/states_map/47.dds"
+        texturefile = "gfx/interface/states_maps/SYL/47.dds"
     }
     
     spriteType = {
         name= "GFX_SYL_102"
         noOfFrames = 6
-        texturefile = "gfx/interface/SYL/states_map/102.dds"
+        texturefile = "gfx/interface/states_maps/SYL/102.dds"
     }
     spriteType = {
         name= "GFX_SYL_103"
         noOfFrames = 6
-        texturefile = "gfx/interface/SYL/states_map/103.dds"
+        texturefile = "gfx/interface/states_maps/SYL/103.dds"
     }
     spriteType = {
         name= "GFX_SYL_104"
         noOfFrames = 6
-        texturefile = "gfx/interface/SYL/states_map/104.dds"
+        texturefile = "gfx/interface/states_maps/SYL/104.dds"
     }
 
     spriteType = {
         name= "GFX_SYL_105"
         noOfFrames = 6
-        texturefile = "gfx/interface/SYL/states_map/105.dds"
+        texturefile = "gfx/interface/states_maps/SYL/105.dds"
     }
     spriteType = {
         name= "GFX_SYL_106"
         noOfFrames = 6
-        texturefile = "gfx/interface/SYL/states_map/106.dds"
+        texturefile = "gfx/interface/states_maps/SYL/106.dds"
     }
     spriteType = {
         name= "GFX_SYL_107"
         noOfFrames = 6
-        texturefile = "gfx/interface/SYL/states_map/107.dds"
+        texturefile = "gfx/interface/states_maps/SYL/107.dds"
     }
     spriteType = {
         name= "GFX_SYL_108"
         noOfFrames = 6
-        texturefile = "gfx/interface/SYL/states_map/108.dds"
+        texturefile = "gfx/interface/states_maps/SYL/108.dds"
     }
     spriteType = {
         name= "GFX_SYL_109"
         noOfFrames = 6
-        texturefile = "gfx/interface/SYL/states_map/109.dds"
+        texturefile = "gfx/interface/states_maps/SYL/109.dds"
     }
 
     spriteType = {
         name= "GFX_SYL_163"
         noOfFrames = 6
-        texturefile = "gfx/interface/SYL/states_map/163.dds"
+        texturefile = "gfx/interface/states_maps/SYL/163.dds"
     }
 
     spriteType = {
         name= "GFX_SYL_185"
         noOfFrames = 6
-        texturefile = "gfx/interface/SYL/states_map/185.dds"
+        texturefile = "gfx/interface/states_maps/SYL/185.dds"
     }
 
     spriteType = {
         name= "GFX_SYL_731"
         noOfFrames = 6
-        texturefile = "gfx/interface/SYL/states_map/731.dds"
+        texturefile = "gfx/interface/states_maps/SYL/731.dds"
     }
 
     spriteType = {
         name= "GFX_SYL_736"
         noOfFrames = 6
-        texturefile = "gfx/interface/SYL/states_map/736.dds"
+        texturefile = "gfx/interface/states_maps/SYL/736.dds"
     }
 
     spriteType = {
         name= "GFX_SYL_764"
         noOfFrames = 6
-        texturefile = "gfx/interface/SYL/states_map/764.dds"
+        texturefile = "gfx/interface/states_maps/SYL/764.dds"
     }
 
     spriteType = {
         name= "GFX_SYL_802"
         noOfFrames = 6
-        texturefile = "gfx/interface/SYL/states_map/802.dds"
+        texturefile = "gfx/interface/states_maps/SYL/802.dds"
     }
 
     spriteType = {
         name= "GFX_SYL_803"
         noOfFrames = 6
-        texturefile = "gfx/interface/SYL/states_map/803.dds"
+        texturefile = "gfx/interface/states_maps/SYL/803.dds"
     }
 
     spriteType = {
         name= "GFX_SYL_804"
         noOfFrames = 6
-        texturefile = "gfx/interface/SYL/states_map/804.dds"
+        texturefile = "gfx/interface/states_maps/SYL/804.dds"
     }
 
     spriteType = {
         name= "GFX_SYL_805"
         noOfFrames = 6
-        texturefile = "gfx/interface/SYL/states_map/805.dds"
+        texturefile = "gfx/interface/states_maps/SYL/805.dds"
     }
 
     spriteType = {
         name= "GFX_SYL_852"
         noOfFrames = 6
-        texturefile = "gfx/interface/SYL/states_map/852.dds"
+        texturefile = "gfx/interface/states_maps/SYL/852.dds"
     }
 
     spriteType = {
         name= "GFX_SYL_853"
         noOfFrames = 6
-        texturefile = "gfx/interface/SYL/states_map/853.dds"
+        texturefile = "gfx/interface/states_maps/SYL/853.dds"
     }
 } 

@@ -1,0 +1,14 @@
+on_actions = {
+	on_startup = {
+			effect = {
+			every_state = {
+				add_state_modifier = {
+					modifier = { 
+						state_production_speed_buildings_factor = -0.3
+						recruitable_population = -0.15
+					}
+				}
+			}
+		}
+	}
+}

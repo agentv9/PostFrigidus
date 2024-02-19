@@ -9,6 +9,7 @@ state={
 
 	history={
 		owner = UNC
+		add_core_of = BRK
 		victory_points = { #Varna
 			9783 5
 		}

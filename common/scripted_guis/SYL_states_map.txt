@@ -4,19 +4,19 @@ scripted_gui = {
         window_name = "SYL_states_map_window"
 
         properties = {
-           SYL_802 = {
-                frame = 3
-           }
-           SYL_803 = {
-            frame = 3
+                SYL_802 = {
+                    frame = 802.SYL_integration_level
                 }
-           SYL_105 = {
-            frame = 3
+                SYL_803 = {
+                    frame = 803.SYL_integration_level
                 }
-       SYL_108 = {
-        frame = 3
+                SYL_105 = {
+                    frame = 105.SYL_integration_level
                 }
+                SYL_108 = {
+                    frame = 108.SYL_integration_level 
 
+                }
                 SYL_44 = {
                     frame = 44.SYL_integration_level
                 }
