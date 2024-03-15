@@ -1,4 +1,6 @@
 UNC = "countries/unclaimed.txt"
 SYL = "countries/Syldavia.txt"
+PAP ="countries/Papalstates.txt"
+
 BRK = "countries/Braskovia.txt"
 REB = "countries/rebels.txt"

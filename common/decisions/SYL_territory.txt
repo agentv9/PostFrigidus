@@ -35,6 +35,9 @@ syldavian_states = {
 		available = {
 			
 			AND = {
+				NOT = {
+					has_cosmetic_tag = FED
+				}
 				owns_state = 44
 				owns_state = 45
 				owns_state = 47
