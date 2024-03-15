@@ -1,6 +1,7 @@
 UNC = "countries/unclaimed.txt"
 SYL = "countries/Syldavia.txt"
 PAP ="countries/Papalstates.txt"
-
+CRE = "countries/Crete.txt"
 BRK = "countries/Braskovia.txt"
 REB = "countries/rebels.txt"
+PRF = "countries/France.txt"

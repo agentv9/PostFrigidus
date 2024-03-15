@@ -22,8 +22,15 @@ bookmarks = {
 
 		}
 		
+		PAP = {
+			history = x
+			ideology = theocracy
+		}
 		
-		
+		PRF = {
+			history = x
+			ideology = communism
+		}
 	
 
 		effect = {

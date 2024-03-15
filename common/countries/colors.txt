@@ -14,8 +14,14 @@ PAP = {
 	color = rgb {237 222 107}
 	color_ui = rgb {237 222 107}
 }
-
-
+CRE = {
+	color = rgb {107 218 237}
+	color_ui = rgb {107 218 237}
+}
+PRF = {
+	color = rgb {237 107 107}
+	color_ui = rgb {237 107 107}
+}
 # State integration countries
 
 UNC = {
