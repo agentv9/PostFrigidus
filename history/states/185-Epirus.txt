@@ -22,7 +22,6 @@ state={
 			1205 1
 		}
 		owner = UNC
-		add_core_of = SYL
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
@@ -31,7 +30,7 @@ state={
 				naval_base = 1
 			}
 		}
-	 
+		 
 	}
 
 	provinces = {

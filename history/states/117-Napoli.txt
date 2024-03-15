@@ -11,7 +11,7 @@ state = {
 	}
 
 	history = {
-		 owner = UNC
+		owner = UNC
 		victory_points = {
 			819 20 
 		}
@@ -25,7 +25,8 @@ state = {
 				naval_base = 6
 			}
 		}
-	
+		 
+		 
 		1939.1.1 = {
 			buildings = {
 				arms_factory = 2

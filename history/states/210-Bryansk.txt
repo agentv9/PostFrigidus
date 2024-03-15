@@ -7,11 +7,11 @@ state={
 	state_category = rural
 
 	history={
-		 owner = UNC
+		owner = UNC
 		buildings = {
 			infrastructure = 3 #was: 5
 		}
-		
+		 
 		victory_points = {
 			11234 1
 		}

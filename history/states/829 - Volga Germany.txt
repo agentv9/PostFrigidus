@@ -12,12 +12,12 @@ state = {
 	}
 
 	history = {
-		 owner = UNC
+		owner = UNC
 		buildings = {
 			infrastructure = 3
 		}
 		 
-		
+		 
 		victory_points = {
 			11523 2
 		}

@@ -6,7 +6,8 @@ state={
 	state_category = city
 
 	history={
-		 owner = UNC
+		owner = UNC
+		 
 		
 		victory_points = {
 			6332 10 
@@ -26,7 +27,7 @@ state={
 			}
 			air_base = 6
 		}
-		
+		 
 		1939.1.1 = {
 			buildings = {
 				anti_air_building = 5

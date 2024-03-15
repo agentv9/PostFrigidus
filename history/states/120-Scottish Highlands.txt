@@ -12,8 +12,8 @@ state = {
 	}
 
 	history= {
-	
-		 owner = UNC
+		 
+		owner = UNC
 		victory_points = {
 			6062 1 #Skye/Stornoway
 		}
@@ -33,7 +33,7 @@ state = {
 				naval_base = 8	
 			}
 		}
-		
+		 
 	}
 
 	provinces = { 

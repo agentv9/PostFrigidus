@@ -6,7 +6,7 @@ state={
 	state_category = pastoral
 
 	history={
-		 owner = UNC
+		owner = UNC
 		buildings = {
 			infrastructure = 2
 
@@ -14,7 +14,8 @@ state={
 		victory_points = {
 			4879 1 
 		}
-		
+		 
+		 
 
 	}
 

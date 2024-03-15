@@ -3,12 +3,14 @@ state= {
 	id=341
 	name="STATE_341"
 	manpower = 363947
-	
+	resources={
+
+	}
 	
 	state_category = town
 
 	history= {
-		owner = TUR
+		owner = UNC
 		victory_points = {
 			11842 5
 		}
@@ -20,9 +22,9 @@ state= {
 				coastal_bunker = 2
 			}
 		}
-		add_core_of = TUR
+		 
 
-		
+	
 	}
 	provinces=
 	{

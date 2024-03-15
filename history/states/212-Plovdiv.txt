@@ -12,7 +12,6 @@ state={
 
 	history={
 		owner = UNC
-		add_core_of = BRK
 		victory_points = { #Plovdiv
 			6923 10
 		}

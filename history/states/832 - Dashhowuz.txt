@@ -4,7 +4,7 @@ state = {
 
 	history = {
 	
-		 owner = UNC
+		owner = UNC
 		
 		victory_points = {
 			1493 1
@@ -17,7 +17,8 @@ state = {
 		}
 		
 		 
-	
+		 
+		 
 
 	}
 

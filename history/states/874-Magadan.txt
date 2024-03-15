@@ -10,12 +10,12 @@ state = {
 			12683 1 
 		}
 
-		 owner = UNC
+		owner = UNC
 		buildings = {
 			infrastructure = 1
 		}
 		 
-	
+		 
 	}
 
 	provinces = {

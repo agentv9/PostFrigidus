@@ -1,0 +1,33 @@
+
+state = {
+	id = 934
+	name = "STATE_934"
+	resources = {
+		aluminium = 1.000
+        chromium = 1.000
+	}
+
+	history = {
+		owner = UNC
+        
+        buildings = {
+            infrastructure = 2
+            industrial_complex = 1
+
+			12159 ={
+				naval_base = 2
+				dockyard = 1
+				
+			}
+		}
+		
+
+	}
+
+	provinces = {
+		12159
+	}
+	manpower = 0
+	state_category = rural
+	local_supplies = 5.000
+}

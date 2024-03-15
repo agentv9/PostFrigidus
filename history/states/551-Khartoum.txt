@@ -5,8 +5,8 @@ state={
 	manpower = 821003
 
 	history={
-		 owner = UNC
-		
+		owner = UNC
+		 
 		buildings = {
 			infrastructure = 1
 			industrial_complex = 1

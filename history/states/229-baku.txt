@@ -6,7 +6,7 @@ state={
 	}
 
 	history={
-		 owner = UNC
+		owner = UNC
 		victory_points = {
 			7661 10 
 		}
@@ -20,7 +20,7 @@ state={
 			air_base = 1
 		}
 		 
-		
+		 
 
 	}
 

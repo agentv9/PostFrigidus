@@ -17,7 +17,12 @@ state=
 			infrastructure = 4
 			arms_factory = 1
 		}
-		
+		 
+
+		1938.9.30 = {
+			owner = UNC
+			 
+		}
 	}
 	provinces= {
 		421 3414 3583 6485

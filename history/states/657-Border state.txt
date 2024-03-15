@@ -11,13 +11,13 @@ state={
 	state_category = pastoral
 
 	history = {
-		 owner = UNC
+		owner = UNC
 		buildings = {
 			infrastructure = 2
 			air_base = 2
 		}
 		 
-		
+		 
 	}
 
 	provinces = {

@@ -7,8 +7,7 @@ state={
 	state_category = large_town
 
 	history={
-		owner =  UNC
-		add_core_of = SYL
+		owner = UNC
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 3
@@ -17,7 +16,7 @@ state={
 			11581 3 
 		}
 		 
-	
+		 
 	}
 
 	provinces={

@@ -5,13 +5,14 @@ state={
 	state_category = wasteland
 
 	history={
-		 owner = UNC
+		owner = UNC
 		buildings = {
 			infrastructure = 2
 
 		}
 		
-	
+		 
+		 
 
 	}
 	provinces={

@@ -23,7 +23,13 @@ state={
 			industrial_complex = 5
 			air_base = 6
 		}
-	
+		 
+
+		1938.3.12 = {
+			owner = UNC
+			 
+			 
+		}
 		1939.1.1 = {
 			buildings = {
 				anti_air_building = 5

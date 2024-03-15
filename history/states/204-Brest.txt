@@ -16,13 +16,14 @@ state = {
 		#	11313 1 # Salihorsk was not founded until 1958 earliest
 		#}
 
-		 owner = UNC
+		owner = UNC
 
 		buildings = {
 			infrastructure = 3 #was: 5
 		}
 
-	
+		 
+		 
 	}
 
 	provinces = {

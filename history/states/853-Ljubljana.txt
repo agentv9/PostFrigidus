@@ -8,16 +8,15 @@ state=
 	
 	history =
 	{
-		owner =  UNC
-		add_core_of = SYL
+		owner = UNC
 		buildings = {
 			infrastructure = 3
 		}
 		victory_points = {
 			9627 3 
 		}
-		
-	
+		 
+		 
 	}
 	provinces={
 		6650 9627

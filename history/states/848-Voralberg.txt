@@ -10,7 +10,13 @@ state={
 			infrastructure = 2
 			industrial_complex = 1
 		}
-	
+		 
+		 
+		1938.3.12 = {
+			owner = UNC
+			 
+			 
+		}
 	}
 	provinces={
 		6678 6680 

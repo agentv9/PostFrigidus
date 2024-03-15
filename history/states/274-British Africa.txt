@@ -7,8 +7,8 @@ state={
 		chromium=4
 	} #Maganese
 	history={
-		 owner = UNC
-		
+		owner = UNC
+		 
 		victory_points = {
 			10862 1 
 		}

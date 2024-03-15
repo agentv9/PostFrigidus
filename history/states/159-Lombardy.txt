@@ -6,7 +6,7 @@ state = {
 	state_category = metropolis
 
 	history = {
-		 owner = UNC
+		owner = UNC
 		victory_points = { #Milano
 			3780 15 
 		}
@@ -20,7 +20,8 @@ state = {
 			air_base = 10
 
 		}
-	
+		 
+		 
 		1939.1.1 = {
 			buildings = {
 				arms_factory = 7

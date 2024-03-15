@@ -7,7 +7,6 @@ state = {
 	
 	history = {
 		owner = UNC
-		add_core_of = SYL
 		victory_points = { #Zara/Zadar
 			3943 5 
 		}
@@ -18,8 +17,14 @@ state = {
 			}
 		}
 		 
-	
-		
+		 
+		 
+		start_resistance = CRO #Yugoslavia shouldn't resist occupation
+		set_compliance = 70 #TODO_Manu: Check if this is okay when it comes to collab government
+
+		#CONTROLLED BY ITALY AT GAME START -> ITALIAN NAMES
+		set_state_name = STATE_163_ITA
+		set_province_name = { id = 3943 name = VICTORY_POINTS_3943_ITA }
 	}
 	provinces = {	
 		3943 

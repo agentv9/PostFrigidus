@@ -7,8 +7,8 @@ state={
 	state_category = city
 
 	history={
-		 owner = UNC
-		
+		owner = UNC
+		 
 		victory_points = {
 			758 5
 		}
@@ -24,7 +24,7 @@ state={
 				naval_base = 6
 			}
 		}
-		
+		 
 	}
 
 	provinces={

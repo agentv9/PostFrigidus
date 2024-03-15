@@ -32,7 +32,13 @@ state={
 		#victory_points = {
 		#	11612 3
 		#}
-		
+		 
+
+		1938.3.12 = {
+			owner = UNC
+			 
+			 
+		}
 	}
 
 	provinces={

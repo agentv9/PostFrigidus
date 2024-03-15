@@ -8,8 +8,7 @@ state={
 
 
 	history={
-		owner =  UNC
-		add_core_of = SYL
+		owner = UNC
 		victory_points = { #Dubrovnik
 			6889 3 
 		}
@@ -28,7 +27,8 @@ state={
 			}
 		}
 		 
-		
+		#  #added by focus
+		 
 	}
 
 	provinces={

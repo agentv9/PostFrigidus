@@ -13,6 +13,7 @@ tags={
 }
 name="Post Frigidus"
 replace_path="history/states"
+replace_path="map"
 replace_path="gfx/loadingscreens"
 replace_path="common/ideologies"
 replace_path="music"

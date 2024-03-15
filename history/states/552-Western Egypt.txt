@@ -8,12 +8,12 @@ state={
 	impassable = yes
 
 	history={
-		 owner = UNC
+		owner = UNC
 		buildings = {
 			infrastructure = 0
 		}
 
-		
+		 
 
 	}
 

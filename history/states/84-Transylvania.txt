@@ -11,7 +11,6 @@ state={
 
 	history={
 		owner = UNC
-		add_core_of = BRK
 		buildings = {
 			infrastructure = 2
 			arms_factory = 1
@@ -21,7 +20,7 @@ state={
 			690 1 
 		}
 		 
-		
+		 
 	}
 
 	provinces={

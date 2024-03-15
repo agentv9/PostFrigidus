@@ -16,7 +16,7 @@ state={
 			arms_factory = 1
 		}
 		 
-	 
+		 
 	}
 	provinces={
 		577 9548

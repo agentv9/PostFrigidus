@@ -10,12 +10,12 @@ state={
 		victory_points = {
 			11504 3
 		}
-		 owner = UNC
+		owner = UNC
 		buildings = {
 			infrastructure = 3 #was: 5
 		}
 		 
-		
+		 
 	}
 
 	provinces={

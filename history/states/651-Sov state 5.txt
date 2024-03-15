@@ -7,7 +7,7 @@ state = {
 	state_category = city
 
 	history = {
-		 owner = UNC
+		owner = UNC
 		buildings = {
 			infrastructure = 3 #was: 5
 			industrial_complex = 1
@@ -20,7 +20,7 @@ state = {
 			4354 1 
 		}
 		 
-		
+		 
 	}
 
 	provinces = {

@@ -10,7 +10,7 @@ state={
 	}
 
 	history={
-		 owner = UNC
+		owner = UNC
 		victory_points = {
 			3134 5 
 		}
@@ -25,7 +25,13 @@ state={
 				coastal_bunker = 1
 			}
 		}
-	
+		 
+		if = {
+			limit = {
+				has_dlc = "Arms Against Tyranny"
+			}
+			 
+		}
 	}
 
 	provinces={

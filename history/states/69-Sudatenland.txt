@@ -55,7 +55,12 @@ state=
 			}
 
 		}
-		
+		 
+
+		1938.9.30 = {
+			owner = UNC
+			 
+		}
 	}
 	provinces=
 	{

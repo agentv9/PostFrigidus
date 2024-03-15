@@ -11,8 +11,8 @@ state={
 			12857 1
 		}
 
-		 owner = UNC
-		
+		owner = UNC
+		 
 		buildings = {
 			infrastructure = 1
 			12857 = {

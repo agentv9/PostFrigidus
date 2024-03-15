@@ -9,7 +9,7 @@ state={
 
 
 	history={
-		 owner = UNC
+		owner = UNC
 		victory_points = {
 			6521 50 
 		}
@@ -24,7 +24,8 @@ state={
 			air_base = 6
 
 		}
-	
+		 
+
 		1939.1.1 = {
 			buildings = {
 				air_base = 10

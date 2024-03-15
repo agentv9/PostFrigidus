@@ -15,17 +15,17 @@ state={
 			11905 1 
 		}
 		owner = UNC
-		add_core_of = BRK
 		buildings = {
 			infrastructure = 1
 			arms_factory = 1
 
 		}
-		
+		 
+		 
 	}
 
 	provinces={
-		9791 9930 11774 11905 6990
+		9791 9930 11774 11905 
 	}
 
 	local_supplies=9.0 

@@ -5,11 +5,13 @@ state = {
 	
 	state_category = tiny_island
 
-	
+	resources = {
+	}
 
 	history = {
-		 owner = UNC
-	
+		owner = UNC
+		 
+		 
 
 		buildings = {
 			infrastructure = 1	

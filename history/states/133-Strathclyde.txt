@@ -11,8 +11,8 @@ state={
 	}
 
 	history={
-		
-		 owner = UNC
+		 
+		owner = UNC
 		victory_points = {
 			3273 15
 		}
@@ -30,7 +30,7 @@ state={
 			}
 
 		}
-		
+		 
 		1939.1.1 = {
 			buildings = {
 				dockyard = 5

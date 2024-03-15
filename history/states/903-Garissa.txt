@@ -5,13 +5,14 @@ state={
 	state_category = pastoral
 
 	history={
-		 owner = UNC
+		owner = UNC
 		buildings = {
 			infrastructure = 1
 
 		}
 		
-		
+		 
+		 
 
 	}
 

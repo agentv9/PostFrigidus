@@ -11,7 +11,7 @@ state = {
 	}
 
 	history = {
-		 owner = UNC
+		owner = UNC
 		victory_points = { #Bologna
 			6606 5
 		}
@@ -29,7 +29,8 @@ state = {
 				naval_base = 2
 			}
 		}
-	
+		 
+		 
 	}
 
 	provinces = {
