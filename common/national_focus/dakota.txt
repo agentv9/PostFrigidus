@@ -34,7 +34,7 @@ focus_tree = {
 		x = 2
 		y = 0
 		
-		cost = 3.6
+		cost = 1
 
 		available = {
 			
@@ -60,7 +60,7 @@ focus_tree = {
 		relative_position_id = DAK_start
 		mutually_exclusive = {  }
 		
-		cost = 10
+		cost = 2
 
 		available = {
 			
@@ -75,6 +75,32 @@ focus_tree = {
 		}
 	}
 	
+	focus = {
+		id = DAK_organize_the_people
+		icon = GFX_focus_generic_full_employment
+
+		prerequisite = { focus = DAK_focus_inside }
+		mutually_exclusive = {  }
+		
+		relative_position_id = DAK_focus_inside
+		x = -1
+		y = 1
+
+		cost = 3
+
+		available = {
+
+		}
+
+		completion_reward = {
+			add_manpower = 75
+		}
+
+		ai_will_do = {
+			factor = 5
+		}
+	}
+
 	##### FOCUS OUTSIDE
 	focus = {
 		id = DAK_focus_outside
