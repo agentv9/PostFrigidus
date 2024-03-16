@@ -1,0 +1,103 @@
+### FOCUSES (See MODDING TUTORIAL video n. 2 "Focuses, Command & Scopes" on YouTube "Narzgel". If you need any advice, check the UMC Discord)
+# AFK = reserved space for the TAG of your nation
+
+##### FOCUS TREE
+# In this first part you only need to change "id" (to your unique ID of your FOCUS TREE) and "tag = " in the "modifier" part.
+focus_tree = {
+	# ID of the whole FOCUS TREE
+	id = DAK_focus
+	
+	# If Generic nations (those without focus tree) will try to use this FOCUS TREE
+	default = no
+	
+	# How likely is country to use this FOCUS TREE
+	country = {
+		factor = 0
+		
+		# Adding TAG of the country you want (for example GER for Germany) will make that country to use this FOCUS TREE
+		modifier = {
+			add = 50
+			tag = DAK
+		}
+	}
+	
+	# CONTINUOUS FOCUS position (X = left / right, Y = up / down)
+	continuous_focus_position = { x = 25 y = 1000 }	
+	
+	##### INDIVIDUAL FOCUSES
+	
+	### START
+	focus = {
+		id = DAK_start
+		icon = GFX_focus_generic_improve_the_administration
+		
+		x = 2
+		y = 0
+		
+		cost = 3.6
+
+		available = {
+			
+		}
+		
+		completion_reward = {
+			add_political_power = 50
+            DAK = { country_event = dak_focus_event.0 }
+		}
+		
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	##### FOCUS INSIDE
+	focus = {
+		id = DAK_focus_inside
+		icon = GFX_focus_NORDIC_dem_civilian
+		prerequisite = { focus = DAK_start }
+		
+		x = -1
+		y = 1
+		relative_position_id = DAK_start
+		mutually_exclusive = {  }
+		
+		cost = 10
+
+		available = {
+			
+		}
+		
+		completion_reward = {
+			DAK = { country_event = dak_focus_inside.0 }
+		}
+		
+		ai_will_do = {
+			factor = 5
+		}
+	}
+	
+	##### FOCUS OUTSIDE
+	focus = {
+		id = DAK_focus_outside
+		icon = GFX_focus_NORDIC_dem_army
+		prerequisite = { focus = DAK_start }
+		
+		x = 1
+		y = 1
+		relative_position_id = DAK_start
+		mutually_exclusive = {  }
+		
+		cost = 10
+
+		available = {
+            has_completed_focus = DAK_focus_inside
+		}
+		
+		completion_reward = {
+			DAK = { country_event = dak_focus_outside.0 }
+		}
+		
+		ai_will_do = {
+			factor = 5
+		}
+	}
+}
