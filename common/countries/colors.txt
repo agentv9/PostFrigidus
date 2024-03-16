@@ -26,6 +26,10 @@ SLO = {
 	color = rgb {237 107 107}
 	color_ui = rgb {237 107 107}
 }
+DAK = {
+	color = rgb { 0 116 168 }
+	color_ui = rgb { 0 116 168 }
+}
 # State integration countries
 
 UNC = {
