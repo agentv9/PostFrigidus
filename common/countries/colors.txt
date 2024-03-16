@@ -22,6 +22,10 @@ PRF = {
 	color = rgb {237 107 107}
 	color_ui = rgb {237 107 107}
 }
+SLO = {
+	color = rgb {237 107 107}
+	color_ui = rgb {237 107 107}
+}
 # State integration countries
 
 UNC = {

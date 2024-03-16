@@ -1,6 +1,6 @@
 ﻿capital = 48
 
-OOB = "BRK_2000"
+OOB = "PRF_2000"
 
 set_technology = {
 	infantry_weapons = 1
@@ -8,28 +8,18 @@ set_technology = {
 	tech_recon = 1
 }
 
-
-set_variable = {
-	var = integration_event_name
-	value = BRK_state_integration
-}
-set_variable = {
-	var = negotiation_event_name
-	value = BRK_state_negotiation
-}
-
 set_politics = {
-	ruling_party = fascism
+	ruling_party = communism
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	fascism = 58
-	neutrality = 6
+	communism = 64
+
 	monarchism = 7
-	communism = 11
+	fascism  = 11
 	corporatism  = 5
 	 democratic = 13
 }
@@ -45,22 +35,4 @@ set_technology = {
     interwar_antiair = 1
     fuel_silos = 1
     basic_train = 1
-}
-801 = {
-	set_variable = {
-		var = BRK_integration_level
-		value = 3
-	}
-}
-48 = {
-	set_variable = {
-		var = BRK_integration_level
-		value = 3
-	}
-}
-77 = {
-	set_variable = {
-		var = BRK_integration_level
-		value = 3
-	}
 }
