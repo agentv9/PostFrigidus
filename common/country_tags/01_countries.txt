@@ -6,4 +6,4 @@ BRK = "countries/Braskovia.txt"
 REB = "countries/rebels.txt"
 PRF = "countries/France.txt"
 SLO = "countries/Northernslovenia.txt"
-DAK = "countries/Dakota.txt
+DAK = "countries/Dakota.txt"
