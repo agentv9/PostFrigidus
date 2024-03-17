@@ -40,6 +40,10 @@
  WAL:0 "Wales"
  SCO:0 "Scotland"
  IRE:0 "Ireland"
+ LAR:0 "Lower Austrian Republic"
+ CPR:0 "Czech Peoples Republic"
+
+
  UNC_DEF:0 "Unclaimed"
  UNC_ADJ:0 "Unclaimed"
 

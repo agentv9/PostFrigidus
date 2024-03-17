@@ -64,6 +64,15 @@ IRE = {
 	color_ui = rgb {46 130 49}
 }
 
+LAR = {
+	color = rgb {225 225 225} 
+	color_ui = rgb {225 225 225}
+}
+ 
+CPR = {
+	color = rgb {200 200 200}
+	color_ui = rgb {200 200 200}
+}
 SCO = {
 	color = rgb {237 222 107}
 	color_ui = rgb {237 222 107}
