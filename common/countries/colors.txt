@@ -26,6 +26,20 @@ SLO = {
 	color = rgb {237 107 107}
 	color_ui = rgb {237 107 107}
 }
+SIC = {
+	color = rgb {46 85 130}
+	color_ui = rgb {46 85 130}
+}
+COR = {
+	color = rgb {100 81 140}
+	color_ui = rgb {100 81 140}
+}
+CAG = {
+	color = rgb {46 130 49}
+	color_ui = rgb {46 130 49}
+}
+
+
 # State integration countries
 
 UNC = {

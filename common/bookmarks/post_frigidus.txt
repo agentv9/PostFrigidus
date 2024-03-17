@@ -23,17 +23,17 @@ bookmarks = {
 		}
 		
 		PAP = {
-			history = x
+			history = PAP_POSTFRIGIDUS_DESC
 			ideology = theocracy
 		}
 		
 		PRF = {
-			history = x
+			history = PRF_POSTFRIGIDUS_DESC
 			ideology = communism
 		}
 
 		SLO = {
-			history = x
+			history = SLO_POSTFRIGIDUS_DESC
 			ideology = communism
 		}
 	
