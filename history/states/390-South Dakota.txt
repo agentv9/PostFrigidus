@@ -13,13 +13,13 @@ state={
 		}
 		 
 		victory_points = {
-			10595 1 
+			4880 1 
 		}
 
 	}
 
 	provinces={
-		3750 4880 7862 10569 10595 12667 
+		3750 4880 7862 12667 
 	}
 
 	local_supplies=0.0 

@@ -1,0 +1,30 @@
+
+state={
+	id=971
+	name="STATE_971"
+	manpower = 150950
+	state_category = rural
+
+	history={
+		owner = DAK
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+		 
+		victory_points = {
+			1875 5 
+		}
+
+		victory_points = {
+			12620 5
+		}
+
+	}
+
+	provinces={
+		1875 7771 12620 
+	}
+
+	local_supplies=0.0 
+}

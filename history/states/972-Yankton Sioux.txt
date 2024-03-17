@@ -1,25 +1,25 @@
 
 state={
-	id=970
-	name="STATE_970"
-	manpower = 270950
+	id=972
+	name="STATE_972"
+	manpower = 12000
 	state_category = rural
 
 	history={
-		owner = DAK
+		owner = YSX
 		buildings = {
-			infrastructure = 2
+			infrastructure = 1
 			industrial_complex = 1
 		}
 		 
 		victory_points = {
-			1747 1 
+			10595 10 
 		}
 
 	}
 
 	provinces={
-		1747 7745 4839 
+		10595 10569 
 	}
 
 	local_supplies=0.0 
