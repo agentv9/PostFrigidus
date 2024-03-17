@@ -136,7 +136,7 @@ country_event = {
 		THIS =  {
 			declare_war_on = {
 				target = REB
-				type = take_core_state
+				type = take_state
 				generator = {
 					event_target:target_state
 				}

@@ -68,6 +68,9 @@ syldavian_states = {
 		}
 
 		complete_effect = {
+			
+			
+
 			SYL = { country_event  = { id = syl.1 } }
 		}
 	}

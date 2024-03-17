@@ -6,7 +6,8 @@ state={
 	}
 
 	history={
-		owner = UNC
+		owner = LIS
+		add_core_of = LIS
 		victory_points = {
 			11805 20 
 		}

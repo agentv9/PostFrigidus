@@ -87,6 +87,41 @@ DAN = {
 	color = rgb {46 85 130}
 	color_ui = rgb {46 85 130}
 }
+
+LUX = {
+	color = rgb {139 191 80}
+	color_ui = rgb {139 191 80}
+}
+
+BIL = {
+	color = rgb {80 163 191}
+	color_ui = rgb {80 163 191}
+}
+
+BRE = {
+	color = rgb {80 163 191}
+	color_ui = rgb {80 163 191}
+}
+
+BAR = {
+	color = rgb {139 191 80}
+	color_ui = rgb {139 191 80}
+}
+
+MAD = {
+	color = rgb {80 191 128}
+	color_ui = rgb {80 191 128}
+}
+
+LIS = {
+	color = rgb {110 80 191}
+	color_ui = rgb {110 80 191}
+}
+
+MUN = {
+	color = rgb { 0 116 168 }
+	color_ui = rgb { 0 116 168 }
+}
 # State integration countries
 
 UNC = {

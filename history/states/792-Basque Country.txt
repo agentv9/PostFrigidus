@@ -6,7 +6,8 @@ state={
 	}
 
 	history={
-		owner = UNC
+		owner = BIL
+		add_core_of = BIL
 		victory_points = {
 			740 10
 		}
