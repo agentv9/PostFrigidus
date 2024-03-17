@@ -49,6 +49,31 @@ YSX = {
 	color_ui = rgb { 198 56 67 }
 }
 
+SWI = {
+	color = rgb {117 0 0}
+	color_ui = rgb {117 0 0}
+}
+
+LON = {
+	color = rgb {50 56 168}
+	color_ui = rgb {50 56 168}
+}
+
+IRE = {
+	color = rgb {46 130 49}
+	color_ui = rgb {46 130 49}
+}
+
+SCO = {
+	color = rgb {237 222 107}
+	color_ui = rgb {237 222 107}
+}
+
+WAL = {
+	color = rgb {46 85 130}
+	color_ui = rgb {46 85 130}
+}
+
 DAN = {
 	color = rgb {46 85 130}
 	color_ui = rgb {46 85 130}

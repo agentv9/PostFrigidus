@@ -6,7 +6,8 @@ state={
 	state_category = megalopolis
 
 	history={
-		owner = UNC
+		owner = LON
+		add_claim_by = LON
 		victory_points = {
 			6103 50 
 		}

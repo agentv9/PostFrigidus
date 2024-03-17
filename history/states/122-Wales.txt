@@ -12,7 +12,8 @@ state= {
 
 	history=
 	{
-		owner = UNC
+		owner = WAL
+		add_core_of = WAL
 		victory_points = {
 			407 3 #Swansea
 		}

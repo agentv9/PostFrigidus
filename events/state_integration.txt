@@ -147,4 +147,3 @@ country_event = {
 		clr_country_flag = integrating_state
 	}
 }
-
