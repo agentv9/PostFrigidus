@@ -39,14 +39,19 @@ CAG = {
 	color_ui = rgb {46 130 49}
 }
 
-
 DAK = {
 	color = rgb { 0 116 168 }
 	color_ui = rgb { 0 116 168 }
 }
+
 YSX = {
 	color = rgb { 198 56 67 }
 	color_ui = rgb { 198 56 67 }
+}
+
+DAN = {
+	color = rgb {46 85 130}
+	color_ui = rgb {46 85 130}
 }
 # State integration countries
 
