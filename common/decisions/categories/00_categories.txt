@@ -15,3 +15,11 @@ braskovian_states = {
     visible_when_empty = yes
     scripted_gui = BRK_states_map
 }
+
+dakota_reformation = {
+    priority = 5
+    allowed = {
+        tag = DAK
+    }
+    visible_when_empty = yes
+}

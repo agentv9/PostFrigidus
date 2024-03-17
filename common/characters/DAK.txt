@@ -1,0 +1,18 @@
+characters = {
+	DAK_krisi_noem={
+		name=DAK_krisi_noem
+		gender = female
+		portraits={
+			civilian={
+				large=GFX_portrait_DAK_krisi_noem
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			traits = {  }
+			id=-1
+			desc = DAK_krisi_noem_desc
+		}
+	}
+	
+}

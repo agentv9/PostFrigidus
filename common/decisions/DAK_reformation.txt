@@ -1,0 +1,74 @@
+dakota_reformation = {
+	restore_dakota_territory = {
+		cost = 200
+		visible = {
+			NOT = {
+				has_cosmetic_tag = DKT
+			}
+		}
+		on_map_mode = decision_view_only
+		available = {
+			
+			AND = {
+				NOT = {
+					has_cosmetic_tag = DKT
+				}
+				has_completed_focus = DAK_focus_outside
+				owns_state = 970
+				owns_state = 971
+				owns_state = 972
+				owns_state = 389
+				owns_state = 390
+			}
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 970
+				state = 971
+				state = 972
+				state = 389
+				state = 390
+			}
+		}
+		complete_effect = {
+			add_state_core = 970
+			add_state_core = 971
+			add_state_core = 972
+			add_state_core = 389
+			add_state_core = 390
+			set_cosmetic_tag = DKT
+		}
+	}
+	debug_dak_terr = {
+		cost = 1
+		visible = {
+			is_debug = yes
+		}
+		available = {
+			is_debug = yes
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 970
+				state = 971
+				state = 972
+				state = 389
+				state = 390
+			}
+		}
+		on_map_mode = decision_view_only
+		complete_effect = {
+			add_state_core = 970
+			add_state_core = 971
+			add_state_core = 972
+			add_state_core = 389
+			add_state_core = 390
+			transfer_state = 389
+			transfer_state = 390
+			annex_country = {
+				target = YSX
+			}
+			set_cosmetic_tag = DKT
+		}
+	}
+}
