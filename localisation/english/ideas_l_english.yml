@@ -1,6 +1,6 @@
 ﻿l_english:
 
-government:1 "Laws & Government"
+ government:1 "Laws & Government"
  research_production:0 "Research & Production"
  military_staff:0 "Military Staff"
  political_advisor:0 "Political Advisor"
@@ -29,3 +29,8 @@ government:1 "Laws & Government"
  generic_naval_manufacturer:0 "Naval Company"
  generic_industrial_concern:0 "Industrial Company"
  generic_electronics_concern:0 "Electronics Company"
+
+ DAK_political_corruption:0 "Political Corruption"
+ DAK_political_corruption_desc:0 "With the fall of humanity in the Great Freeze, various shifty individuals rose to power in the government, causing extreme corruption and lack of public trust."
+ DAK_disorganized_pop:0 "Disorganized Populace"
+ DAK_disorganized_pop_desc:0 "The Great Freeze created sheer chaos. The people are in shambles. Nobody knows what to do."

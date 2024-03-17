@@ -1,0 +1,27 @@
+ideas = {
+	country = {
+		DAK_political_corruption = {
+			picture = ARG_political_corruption_modifier
+
+			modifier = {
+				stability_factor = -0.35
+				political_power_cost = 1.25
+				command_power_gain = -0.15
+			}
+
+			rule = {
+				can_join_factions = no
+				can_create_factions = no
+				can_send_volunteers = no
+				can_decline_call_to_war = yes
+			}
+		}
+		DAK_disorganized_pop = {
+			picture = prc_low_popular_support
+
+			modifier = {
+				recruitable_population_factor = -0.2
+			}
+		}
+	}
+}

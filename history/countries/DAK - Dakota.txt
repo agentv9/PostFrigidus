@@ -1,6 +1,8 @@
 ﻿capital = 970
 
-OOB = "DAK_2000"
+oob = "DAK_2000"
+
+recruit_character = DAK_krisi_noem
 
 set_technology = {
 	infantry_weapons = 1
@@ -24,11 +26,17 @@ set_popularities = {
 	communism = 2
 }
 
+add_ideas = {
+	DAK_political_corruption DAK_disorganized_pop
+}
+
+
+
 set_convoys = 5
 
 set_research_slots = 3
 
-set_stability = 0.63
+set_stability = 0.53
 
 set_war_support = 0.2
 
