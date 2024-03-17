@@ -30,6 +30,10 @@ DAK = {
 	color = rgb { 0 116 168 }
 	color_ui = rgb { 0 116 168 }
 }
+YSX = {
+	color = rgb { 198 56 67 }
+	color_ui = rgb { 198 56 67 }
+}
 # State integration countries
 
 UNC = {
