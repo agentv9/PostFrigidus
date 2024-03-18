@@ -4,3 +4,7 @@
  restore_dakota_territory:0 "Restore the 1888 Dakota Territory Borders"
  restore_dakota_territory_desc:0 "Now that the world has fallen, it's only right that we reclaim what was once ours."
  debug_dak_terr:0 "!!DEBUG!! Restore the 1888 Dakota Territory Borders"
+
+ dakota_native_actions:0 "Tribal Interactions"
+ DAK_ysx_assim:0 "Assimilate the Yankton Sioux"
+ DAK_yankton_sioux_neg:0 "Negotiations with the Yankton Sioux"

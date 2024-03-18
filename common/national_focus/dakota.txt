@@ -112,7 +112,7 @@ focus_tree = {
 		relative_position_id = DAK_start
 		mutually_exclusive = {  }
 		
-		cost = 10
+		cost = 3
 
 		available = {
             has_completed_focus = DAK_focus_inside
@@ -120,6 +120,32 @@ focus_tree = {
 		
 		completion_reward = {
 			DAK = { country_event = dak_focus_outside.0 }
+		}
+		
+		ai_will_do = {
+			factor = 5
+		}
+	}
+
+	focus = {
+		id = DAK_native_1
+		icon = GFX_focus_NORDIC_dem_army
+		prerequisite = { focus = DAK_focus_outside }
+		
+		x = 0.5
+		y = 1
+		relative_position_id = DAK_focus_outside
+		mutually_exclusive = {  }
+		
+		cost = 2.5
+
+		available = {
+            has_completed_focus = DAK_focus_inside
+		}
+		
+		completion_reward = {
+			set_country_flag = DAK_native_options
+			add_political_power = 25
 		}
 		
 		ai_will_do = {
