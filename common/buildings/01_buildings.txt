@@ -1,6 +1,6 @@
 buildings = {
 	climate_acclimation = {
-		base_cost = 15000
+		base_cost = 5000
 		icon_frame = 17
 		infrastructure = yes
 		max_level = 4
