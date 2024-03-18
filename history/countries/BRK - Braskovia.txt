@@ -9,7 +9,14 @@ set_technology = {
 }
 
 
-
+set_variable = {
+	var = integration_event_name
+	value = BRK_state_integration
+}
+set_variable = {
+	var = negotiation_event_name
+	value = BRK_state_negotiation
+}
 
 set_politics = {
 	ruling_party = fascism

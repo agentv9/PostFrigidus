@@ -1,0 +1,26 @@
+
+state={
+	id=972
+	name="STATE_972"
+	manpower = 12000
+	state_category = rural
+
+	history={
+		owner = YSX
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+		 
+		victory_points = {
+			10595 10 
+		}
+
+	}
+
+	provinces={
+		10595 10569 
+	}
+
+	local_supplies=0.0 
+}

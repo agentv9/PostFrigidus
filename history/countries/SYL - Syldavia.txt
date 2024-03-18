@@ -29,6 +29,14 @@ set_popularities = {
 
 set_convoys = 5
 
+set_variable = {
+	var = integration_event_name
+	value = SYL_state_integration
+}
+set_variable = {
+	var = negotiation_event_name
+	value = SYL_state_negotiation
+}
 set_research_slots = 3
 
 set_technology = {
@@ -62,5 +70,11 @@ set_technology = {
 	set_variable = {
 		var = SYL_integration_level
 		value = 3
+	}
+}
+102 = {
+	set_variable = {
+		var = SYL_integration_level
+		value = 6
 	}
 }

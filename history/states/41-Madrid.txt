@@ -6,7 +6,8 @@ state={
 	}
 
 	history={
-		owner = UNC
+		owner = MAD
+		add_core_of = MAD
 		victory_points = {
 			3938 30 
 		}

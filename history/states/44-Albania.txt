@@ -39,12 +39,7 @@ state = {
 		}
 		 
 		 
-		1939.4.12 = {
-			owner = UNC
-			 
-			remove_claim_by = ITA
-
-		}
+	
 
 	}
 

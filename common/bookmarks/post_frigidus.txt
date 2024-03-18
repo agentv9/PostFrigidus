@@ -22,8 +22,28 @@ bookmarks = {
 
 		}
 		
+		PAP = {
+			history = PAP_POSTFRIGIDUS_DESC
+			ideology = theocracy
+		}
 		
-		
+		PRF = {
+			history = PRF_POSTFRIGIDUS_DESC
+			ideology = communism
+		}
+
+		SLO = {
+			history = SLO_POSTFRIGIDUS_DESC
+			ideology = communism
+		}
+
+		DAK = {
+			history = DAK_POSTFRIGIDUS_DESC
+			ideology = democratic
+			ideas = {
+				DAK_political_corruption DAK_disorganized_pop
+			}
+		}
 	
 
 		effect = {

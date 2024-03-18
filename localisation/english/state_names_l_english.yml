@@ -985,5 +985,7 @@
  STATE_967: "Amazon" # impassables
  STATE_968: "Amazon" # impassables
  STATE_969: "Rio Branco"
- 
-
+ STATE_970: "Pennington"
+ STATE_971: "Jackson"
+ STATE_972:0 "Yankton Sioux"
+ STATE_972_DAK: "Minnehaha"

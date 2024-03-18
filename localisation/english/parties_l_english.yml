@@ -30,6 +30,20 @@ SYL_fascism_party_long:0 "Syldavian Popular Front"
 SYL_theocracy_party:0 "SOC"
 SYL_theocracy_party_long:0 "Syldavian Orthodox Church"
 
+DAK_neutrality_party:0 "IND"
+DAK_neutrality_party_long:0 "Independent"
+DAK_corporatism_party:0 "BRK"
+DAK_corporatism_party_long:0 "BlackRock, Inc."
+DAK_democratic_party:0 "DRP"
+DAK_democratic_party_long:0 "Dakotan Republican Party"
+DAK_monarchism_party:0 "KPD"
+DAK_monarchism_party_long:0 "King's Party of Dakota"
+DAK_communism_party:0 "DPP"
+DAK_communism_party_long:0 "Dakotan People's Party"
+DAK_fascism_party:0 "DNF"
+DAK_fascism_party_long:0 "Dakotan National Front"
+DAK_theocracy_party:0 "DCF"
+DAK_theocracy_party_long:0 "Dakotan Catholic Front"
 
 
 

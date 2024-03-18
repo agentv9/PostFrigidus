@@ -8,17 +8,48 @@ country_event = {
 	title = states.1.t
 	desc = states.1.d  
 	option = {
-		
+		name = states.1.a
 		random_list = {
 			80 = {
 				THIS = {
-					activate_mission = state_negotiation
+					if = {
+						limit = { this = {
+							TAG = SYL
+						}
+						}
+					activate_mission = SYL_state_negotiation
+					}
+		
+					if = {
+						limit = { this = {
+							TAG = BRK
+						}
+						
+						}
+					activate_mission = BRK_state_negotiation
+					}
 					country_event = { id = states.2 days = 45  }
 				}
 			}
 			20 = {
 				THIS = {
-					activate_mission = state_negotiation
+					if = {
+						limit = { this = {
+							TAG = SYL
+						}
+						
+					}
+					activate_mission = SYL_state_negotiation
+					}
+		
+					if = {
+						limit = { this = {
+							TAG = BRK
+						}
+						
+					}
+					activate_mission = BRK_state_negotiation
+					}
 					country_event = { id = states.4 days = 45  }
 				}
 			}
@@ -39,7 +70,23 @@ country_event = {
 			integrating_territory
 		}
 		THIS = {
-			activate_mission = state_integration
+			if = {
+				limit = { this = {
+					TAG = SYL
+				}
+				
+			}
+			activate_mission = SYL_state_integration
+			}
+
+			if = {
+				limit = { this = {
+					TAG = BRK
+				}
+				
+			}
+			activate_mission = BRK_state_integration
+			}
 			country_event = { id = states.3 days = 75  }
 		}
 	}
@@ -89,7 +136,7 @@ country_event = {
 		THIS =  {
 			declare_war_on = {
 				target = REB
-				type = take_core_state
+				type = take_state
 				generator = {
 					event_target:target_state
 				}
@@ -100,4 +147,3 @@ country_event = {
 		clr_country_flag = integrating_state
 	}
 }
-

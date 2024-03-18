@@ -14,7 +14,192 @@ PAP = {
 	color = rgb {237 222 107}
 	color_ui = rgb {237 222 107}
 }
+CRE = {
+	color = rgb {107 218 237}
+	color_ui = rgb {107 218 237}
+}
+PRF = {
+	color = rgb {237 107 107}
+	color_ui = rgb {237 107 107}
+}
+SLO = {
+	color = rgb {237 107 107}
+	color_ui = rgb {237 107 107}
+}
+SIC = {
+	color = rgb {46 85 130}
+	color_ui = rgb {46 85 130}
+}
+COR = {
+	color = rgb {100 81 140}
+	color_ui = rgb {100 81 140}
+}
+CAG = {
+	color = rgb {46 130 49}
+	color_ui = rgb {46 130 49}
+}
 
+DAK = {
+	color = rgb { 0 116 168 }
+	color_ui = rgb { 0 116 168 }
+}
+
+YSX = {
+	color = rgb { 198 56 67 }
+	color_ui = rgb { 198 56 67 }
+}
+
+SWI = {
+	color = rgb {117 0 0}
+	color_ui = rgb {117 0 0}
+}
+
+LON = {
+	color = rgb {50 56 168}
+	color_ui = rgb {50 56 168}
+}
+
+IRE = {
+	color = rgb {46 130 49}
+	color_ui = rgb {46 130 49}
+}
+
+LAR = {
+	color = rgb {225 225 225} 
+	color_ui = rgb {225 225 225}
+}
+ 
+CPR = {
+	color = rgb {200 200 200}
+	color_ui = rgb {200 200 200}
+}
+SCO = {
+	color = rgb {237 222 107}
+	color_ui = rgb {237 222 107}
+}
+
+WAL = {
+	color = rgb {46 85 130}
+	color_ui = rgb {46 85 130}
+}
+
+DAN = {
+	color = rgb {46 85 130}
+	color_ui = rgb {46 85 130}
+}
+
+LUX = {
+	color = rgb {139 191 80}
+	color_ui = rgb {139 191 80}
+}
+
+BIL = {
+	color = rgb {80 163 191}
+	color_ui = rgb {80 163 191}
+}
+
+BRE = {
+	color = rgb {80 163 191}
+	color_ui = rgb {80 163 191}
+}
+
+BAR = {
+	color = rgb {139 191 80}
+	color_ui = rgb {139 191 80}
+}
+
+MAD = {
+	color = rgb {80 191 128}
+	color_ui = rgb {80 191 128}
+}
+
+LIS = {
+	color = rgb {110 80 191}
+	color_ui = rgb {110 80 191}
+}
+
+MUN = {
+	color = rgb { 0 116 168 }
+	color_ui = rgb { 0 116 168 }
+}
+
+AMS = {
+	color = rgb { 191 187 80 }
+	color_ui = rgb { 191 187 80 }
+}
+
+BRA = {
+	color = rgb { 35 56 168 }
+	color_ui = rgb { 35 56 168 }
+}
+
+BER = {
+	color = rgb {153 30 21}
+	color_ui = rgb {153 30 21}
+}
+
+SJA = {
+	color = rgb {122 83 47}
+	color_ui = rgb {122 83 47}
+}
+
+BUD = {
+	color = rgb {47 140 21}
+	color_ui = rgb {47 140 21}
+}
+
+WAR = {
+	color = rgb {45 204 204}
+	color_ui = rgb {45 204 204}
+}
+
+OSL = {
+	color = rgb {110 80 191}
+	color_ui = rgb {110 80 191}
+}
+
+STO = {
+	color = rgb { 0 116 168 }
+	color_ui = rgb { 0 116 168 }
+}
+
+CAR = {
+	color = rgb { 253 187 132 }
+	color_ui = rgb { 253 187 132 }
+}
+
+KAU = {
+	color = rgb {225 225 225} 
+	color_ui = rgb {225 225 225}
+}
+ 
+RIG = {
+	color = rgb {200 200 200}
+	color_ui = rgb {200 200 200}
+}
+TAL = {
+	color = rgb {237 222 107}
+	color_ui = rgb {237 222 107}
+}
+
+MIN = {
+	color = rgb {237 222 107}
+	color_ui = rgb {237 222 107}
+}
+
+KIE = {
+	color = rgb {46 85 130}
+	color_ui = rgb {46 85 130}
+}
+
+IST = {
+	color = rgb {237 222 107}
+	color_ui = rgb {237 222 107}
+}
+ANK = {
+	color = rgb {107 218 237}
+	color_ui = rgb {107 218 237}
+}
 
 # State integration countries
 
@@ -27,5 +212,4 @@ REB = {
 	color = rgb { 90 45 45}
 	color_ui = rgb { 80 45 45}
 }
-
 

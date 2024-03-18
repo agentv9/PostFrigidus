@@ -1,5 +1,5 @@
 braskovian_states = {
-	state_negotiation = {
+	BRK_state_negotiation = {
 			
 		activation = {
 			hidden_trigger = { always = no }
@@ -13,7 +13,7 @@ braskovian_states = {
 		days_mission_timeout = 45
 		is_good = yes
 	}
-	state_integration = {
+	BRK_state_integration = {
 		activation = {
 			hidden_trigger = { always = no }
 		}

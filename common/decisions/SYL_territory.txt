@@ -1,7 +1,7 @@
 syldavian_states = {
 
 	
-	state_negotiation = {
+	SYL_state_negotiation = {
 			
 		activation = {
 			hidden_trigger = { always = no }
@@ -15,7 +15,8 @@ syldavian_states = {
 		days_mission_timeout = 45
 		is_good = yes
 	}
-	state_integration = {
+	
+	SYL_state_integration = {
 		activation = {
 			hidden_trigger = { always = no }
 		}
@@ -31,7 +32,11 @@ syldavian_states = {
 	
 	reform_the_federation = {
 		cost = 500
-		
+		visible = {
+			NOT = {
+				has_cosmetic_tag = FED
+			}
+		}
 		available = {
 			
 			AND = {
@@ -64,6 +69,9 @@ syldavian_states = {
 		}
 
 		complete_effect = {
+			
+			
+
 			SYL = { country_event  = { id = syl.1 } }
 		}
 	}
@@ -73,11 +81,19 @@ syldavian_states = {
 			NOT = {
 				has_country_flag = integrating_state
 			}
+
 			106 = {
 				any_neighbor_state = {
 					is_owned_by = ROOT #(or TAG of a country you want)
 				}
 			}
+		}visible = {
+			106 = {
+				controller = {
+					tag = UNC
+				}
+			}
+			
 		}
 		on_map_mode = map_only
 		highlight_states = { highlight_state_targets = {
@@ -115,6 +131,13 @@ syldavian_states = {
 					is_owned_by = ROOT #(or TAG of a country you want)
 				}
 			}
+		}visible = {
+			44 = {
+				controller = {
+					tag = UNC
+				}
+			}
+			
 		}
 		on_map_mode = map_only
 		highlight_states = { highlight_state_targets = {
@@ -152,6 +175,13 @@ syldavian_states = {
 					is_owned_by = ROOT #(or TAG of a country you want)
 				}
 			}
+		}visible = {
+			805 = {
+				controller = {
+					tag = UNC
+				}
+			}
+			
 		}
 		on_map_mode = map_only
 		highlight_states = { highlight_state_targets = {
@@ -189,6 +219,13 @@ syldavian_states = {
 					is_owned_by = ROOT #(or TAG of a country you want)
 				}
 			}
+		}visible = {
+			731 = {
+				controller = {
+					tag = UNC
+				}
+			}
+			
 		}
 		on_map_mode = map_only
 		highlight_states = { highlight_state_targets = {
@@ -224,6 +261,13 @@ syldavian_states = {
 					is_owned_by = ROOT #(or TAG of a country you want)
 				}
 			}
+		}visible = {
+			185 = {
+				controller = {
+					tag = UNC
+				}
+			}
+			
 		}
 		on_map_mode = map_only
 		highlight_states = { highlight_state_targets = {
@@ -259,6 +303,13 @@ syldavian_states = {
 					is_owned_by = ROOT #(or TAG of a country you want)
 				}
 			}
+		}visible = {
+			47 = {
+				controller = {
+					tag = UNC
+				}
+			}
+			
 		}
 		on_map_mode = map_only
 		highlight_states = { highlight_state_targets = {
@@ -294,6 +345,13 @@ syldavian_states = {
 					is_owned_by = ROOT #(or TAG of a country you want)
 				}
 			}
+		}visible = {
+			104 = {
+				controller = {
+					tag = UNC
+				}
+			}
+			
 		}
 		on_map_mode = map_only
 		highlight_states = { highlight_state_targets = {
@@ -329,6 +387,13 @@ syldavian_states = {
 					is_owned_by = ROOT #(or TAG of a country you want)
 				}
 			}
+		}visible = {
+			107 = {
+				controller = {
+					tag = UNC
+				}
+			}
+			
 		}
 		on_map_mode = map_only
 		highlight_states = { highlight_state_targets = {
@@ -364,6 +429,13 @@ syldavian_states = {
 					is_owned_by = ROOT #(or TAG of a country you want)
 				}
 			}
+		}visible = {
+			764 = {
+				controller = {
+					tag = UNC
+				}
+			}
+			
 		}
 		on_map_mode = map_only
 		highlight_states = { highlight_state_targets = {
@@ -399,6 +471,13 @@ syldavian_states = {
 					is_owned_by = ROOT #(or TAG of a country you want)
 				}
 			}
+		}visible = {
+			45 = {
+				controller = {
+					tag = UNC
+				}
+			}
+			
 		}
 		on_map_mode = map_only
 		highlight_states = { highlight_state_targets = {
@@ -434,6 +513,13 @@ syldavian_states = {
 					is_owned_by = ROOT #(or TAG of a country you want)
 				}
 			}
+		}visible = {
+			109 = {
+				controller = {
+					tag = UNC
+				}
+			}
+			
 		}
 		on_map_mode = map_only
 		highlight_states = { highlight_state_targets = {
@@ -469,6 +555,13 @@ syldavian_states = {
 					is_owned_by = ROOT #(or TAG of a country you want)
 				}
 			}
+		}visible = {
+			804 = {
+				controller = {
+					tag = UNC
+				}
+			}
+			
 		}
 		on_map_mode = map_only
 		highlight_states = { highlight_state_targets = {
@@ -504,6 +597,13 @@ syldavian_states = {
 					is_owned_by = ROOT #(or TAG of a country you want)
 				}
 			}
+		}visible = {
+			103 = {
+				controller = {
+					tag = UNC
+				}
+			}
+			
 		}
 		on_map_mode = map_only
 		highlight_states = { highlight_state_targets = {
@@ -534,11 +634,24 @@ syldavian_states = {
 			NOT = {
 				has_country_flag = integrating_state
 			}
+
 			102 = {
-				any_neighbor_state = {
-					is_owned_by = ROOT #(or TAG of a country you want)
+				
+					
+					any_neighbor_state = {
+						is_owned_by = ROOT #(or TAG of a country you want)
+					}
+				
+				
+			}
+		}
+		visible = {
+			102 = {
+				controller = {
+					tag = UNC
 				}
 			}
+			
 		}
 		on_map_mode = map_only
 		highlight_states = { highlight_state_targets = {
@@ -574,6 +687,13 @@ syldavian_states = {
 					is_owned_by = ROOT #(or TAG of a country you want)
 				}
 			}
+		}visible = {
+			163 = {
+				controller = {
+					tag = UNC
+				}
+			}
+			
 		}
 		on_map_mode = map_only
 		highlight_states = { highlight_state_targets = {
@@ -610,6 +730,13 @@ syldavian_states = {
 						is_owned_by = ROOT #(or TAG of a country you want)
 					}
 				}
+			
+		}visible = {
+			853 = {
+				controller = {
+					tag = UNC
+				}
+			}
 			
 		}
 		on_map_mode = map_only
@@ -651,6 +778,13 @@ syldavian_states = {
 				
 			
 			
+		}visible = {
+			852 = {
+				controller = {
+					tag = UNC
+				}
+			}
+			
 		}
 		on_map_mode = map_only
 		highlight_states = { highlight_state_targets = {
@@ -685,6 +819,13 @@ syldavian_states = {
 			736 = {
 				any_neighbor_state = {
 					is_owned_by = ROOT #(or TAG of a country you want)
+				}
+			}
+			
+		}visible = {
+			736 = {
+				controller = {
+					tag = UNC
 				}
 			}
 			

@@ -1,0 +1,6 @@
+﻿l_english:
+ dakota_reformation:0 "Unification and Expansion"
+ dakota_reformation_desc:0 "We must expand outwards if we wish to survive."
+ restore_dakota_territory:0 "Restore the 1888 Dakota Territory Borders"
+ restore_dakota_territory_desc:0 "Now that the world has fallen, it's only right that we reclaim what was once ours."
+ debug_dak_terr:0 "!!DEBUG!! Restore the 1888 Dakota Territory Borders"

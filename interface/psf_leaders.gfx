@@ -6,4 +6,9 @@ spriteType = {
 	texturefile = "gfx/leaders/SYL/portrait_Nicolai_Belinski.dds"
 }
 
+spriteType = {
+	name = GFX_portrait_DAK_krisi_noem
+	texturefile = "gfx/leaders/DAK/portrait_Kristi_Noem.dds"
+}
+
 }
