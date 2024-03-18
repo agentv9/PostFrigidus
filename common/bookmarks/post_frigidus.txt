@@ -11,8 +11,8 @@ bookmarks = {
 			history = SYL_POSTFRIGIDUS_DESC
 			ideology = democratic
 			
-			focuses = {
-			
+			ideas = {
+				DAK_political_corruption
 			}
 			
 		}

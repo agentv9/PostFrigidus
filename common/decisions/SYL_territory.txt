@@ -99,8 +99,10 @@ syldavian_states = {
 		highlight_states = { highlight_state_targets = {
 			state = 106
 		} 
-	}
-
+		}
+		ai_will_do = {
+		base = 10
+		}
 		fire_only_once = yes
  
 		complete_effect = {
@@ -139,11 +141,15 @@ syldavian_states = {
 			}
 			
 		}
+		ai_will_do = {
+			base = 10
+		
+		}
 		on_map_mode = map_only
 		highlight_states = { highlight_state_targets = {
 			state = 44
 		} 
-	}
+		}
 
 		fire_only_once = yes
 
@@ -183,11 +189,15 @@ syldavian_states = {
 			}
 			
 		}
+		ai_will_do = {
+			base = 10
+		
+		}
 		on_map_mode = map_only
 		highlight_states = { highlight_state_targets = {
 			state = 805
 		} 
-	}
+		}
 
 		fire_only_once = yes
 
@@ -226,12 +236,15 @@ syldavian_states = {
 				}
 			}
 			
+		} ai_will_do = {
+			base = 10
+		
 		}
 		on_map_mode = map_only
 		highlight_states = { highlight_state_targets = {
 			state = 731
 		} 
-	}
+		}
 
 		fire_only_once = yes
 
@@ -268,12 +281,15 @@ syldavian_states = {
 				}
 			}
 			
+		}ai_will_do = {
+			base = 10
+		
 		}
 		on_map_mode = map_only
 		highlight_states = { highlight_state_targets = {
 			state = 185
 		} 
-	}
+		}
 
 		fire_only_once = yes
 
@@ -310,12 +326,15 @@ syldavian_states = {
 				}
 			}
 			
+		}ai_will_do = {
+			base = 10
+		
 		}
 		on_map_mode = map_only
 		highlight_states = { highlight_state_targets = {
 			state = 47
 		} 
-	}
+		}
 
 		fire_only_once = yes
 
@@ -352,12 +371,15 @@ syldavian_states = {
 				}
 			}
 			
+		} ai_will_do = {
+			base = 10
+		
 		}
 		on_map_mode = map_only
 		highlight_states = { highlight_state_targets = {
 			state = 104
 		} 
-	}
+		}
 
 		fire_only_once = yes
 
@@ -394,12 +416,15 @@ syldavian_states = {
 				}
 			}
 			
+		} ai_will_do = {
+			base = 10
+		
 		}
 		on_map_mode = map_only
 		highlight_states = { highlight_state_targets = {
 			state = 107
 		} 
-	}
+		}
 
 		fire_only_once = yes
 
@@ -437,11 +462,15 @@ syldavian_states = {
 			}
 			
 		}
+		ai_will_do = {
+			base = 10
+		
+		}
 		on_map_mode = map_only
 		highlight_states = { highlight_state_targets = {
 			state = 764
 		} 
-	}
+		}
 
 		fire_only_once = yes
 
@@ -478,12 +507,15 @@ syldavian_states = {
 				}
 			}
 			
+		} ai_will_do = {
+			base = 10
+		
 		}
 		on_map_mode = map_only
 		highlight_states = { highlight_state_targets = {
 			state = 45
 		} 
-	}
+		}
 
 		fire_only_once = yes
 
@@ -520,12 +552,15 @@ syldavian_states = {
 				}
 			}
 			
+		} ai_will_do = {
+			base = 10
+		
 		}
 		on_map_mode = map_only
 		highlight_states = { highlight_state_targets = {
 			state = 109
 		} 
-	}
+		}
 
 		fire_only_once = yes
 
@@ -562,12 +597,15 @@ syldavian_states = {
 				}
 			}
 			
+		} ai_will_do = {
+			base = 10
+		
 		}
 		on_map_mode = map_only
 		highlight_states = { highlight_state_targets = {
 			state = 804
 		} 
-	}
+		}
 
 		fire_only_once = yes
 
@@ -604,12 +642,15 @@ syldavian_states = {
 				}
 			}
 			
+		} ai_will_do = {
+			base = 10
+		
 		}
 		on_map_mode = map_only
 		highlight_states = { highlight_state_targets = {
 			state = 103
 		} 
-	}
+		}
 
 		fire_only_once = yes
 
@@ -652,12 +693,15 @@ syldavian_states = {
 				}
 			}
 			
+		} ai_will_do = {
+			base = 10
+		
 		}
 		on_map_mode = map_only
 		highlight_states = { highlight_state_targets = {
 			state = 102
 		} 
-	}
+		}
 
 		fire_only_once = yes
 
@@ -699,8 +743,11 @@ syldavian_states = {
 		highlight_states = { highlight_state_targets = {
 			state = 163
 		} 
-	}
-
+		}
+		ai_will_do = {
+		base = 10
+	
+		}
 		fire_only_once = yes
 
 		complete_effect = {
@@ -738,12 +785,15 @@ syldavian_states = {
 				}
 			}
 			
+		} ai_will_do = {
+			base = 10
+		
 		}
 		on_map_mode = map_only
 		highlight_states = { highlight_state_targets = {
 			state = 853
 		} 
-	}
+		}
 
 		fire_only_once = yes
 
@@ -785,12 +835,15 @@ syldavian_states = {
 				}
 			}
 			
+		} ai_will_do = {
+			base = 10
+		
 		}
 		on_map_mode = map_only
 		highlight_states = { highlight_state_targets = {
 			state = 852
 		} 
-	}
+		}
 
 		fire_only_once = yes
 
@@ -829,6 +882,9 @@ syldavian_states = {
 				}
 			}
 			
+		} ai_will_do = {
+			base = 10
+		
 		}
 		on_map_mode = map_only
 		highlight_states = { 
@@ -837,7 +893,7 @@ syldavian_states = {
 				
 			state = 736
 		} 
-	}
+		}
 
 		fire_only_once = yes
 
