@@ -122,6 +122,85 @@ MUN = {
 	color = rgb { 0 116 168 }
 	color_ui = rgb { 0 116 168 }
 }
+
+AMS = {
+	color = rgb { 191 187 80 }
+	color_ui = rgb { 191 187 80 }
+}
+
+BRA = {
+	color = rgb { 35 56 168 }
+	color_ui = rgb { 35 56 168 }
+}
+
+BER = {
+	color = rgb {153 30 21}
+	color_ui = rgb {153 30 21}
+}
+
+SJA = {
+	color = rgb {122 83 47}
+	color_ui = rgb {122 83 47}
+}
+
+BUD = {
+	color = rgb {47 140 21}
+	color_ui = rgb {47 140 21}
+}
+
+WAR = {
+	color = rgb {45 204 204}
+	color_ui = rgb {45 204 204}
+}
+
+OSL = {
+	color = rgb {110 80 191}
+	color_ui = rgb {110 80 191}
+}
+
+STO = {
+	color = rgb { 0 116 168 }
+	color_ui = rgb { 0 116 168 }
+}
+
+CAR = {
+	color = rgb { 253 187 132 }
+	color_ui = rgb { 253 187 132 }
+}
+
+KAU = {
+	color = rgb {225 225 225} 
+	color_ui = rgb {225 225 225}
+}
+ 
+RIG = {
+	color = rgb {200 200 200}
+	color_ui = rgb {200 200 200}
+}
+TAL = {
+	color = rgb {237 222 107}
+	color_ui = rgb {237 222 107}
+}
+
+MIN = {
+	color = rgb {237 222 107}
+	color_ui = rgb {237 222 107}
+}
+
+KIE = {
+	color = rgb {46 85 130}
+	color_ui = rgb {46 85 130}
+}
+
+IST = {
+	color = rgb {237 222 107}
+	color_ui = rgb {237 222 107}
+}
+ANK = {
+	color = rgb {107 218 237}
+	color_ui = rgb {107 218 237}
+}
+
 # State integration countries
 
 UNC = {

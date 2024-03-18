@@ -7,7 +7,8 @@ state={
 	}
 
 	history={
-		owner = UNC
+		owner = RIG
+		add_core_of = RIG
 		victory_points = {
 			9340 5 
 		}

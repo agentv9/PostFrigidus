@@ -3,7 +3,8 @@ state={
 	name="STATE_35"
 
 	history={
-		owner = UNC
+		owner = BRA
+		add_core_of = BRA
 		 
 		buildings = {
 			infrastructure = 3

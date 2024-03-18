@@ -11,7 +11,8 @@ state = {
 	}
 
 	history = {
-		owner = UNC
+		owner = STO
+		add_core_of = STO
 
 		victory_points = {
 			6050 20 # Stockholm

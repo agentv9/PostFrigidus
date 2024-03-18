@@ -11,7 +11,8 @@ state={
 	state_category = city
 
 	history={
-		owner = UNC
+		owner = KIE
+		add_core_of = KIE
 		victory_points = {
 			525 25
 		}
@@ -24,12 +25,7 @@ state={
 		}
 		 
 		 
-		1939.1.1 = {
-			buildings = {
-				arms_factory = 3
-				industrial_complex = 3
-			}
-		}
+	
 	}
 
 	provinces={

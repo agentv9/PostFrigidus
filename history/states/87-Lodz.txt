@@ -5,7 +5,8 @@ state={
 	
 	state_category = town
 	history={
-		owner = UNC
+		owner = WAR
+		add_core_of = WAR
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 2

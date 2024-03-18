@@ -13,7 +13,7 @@ country_event = {
 				idea = rejoice
 				days = 365
 			}
-			add_state_core   = 44
+			add_state_core = 44
 			add_state_core = 45
 			add_state_core = 47
 			add_state_core = 102

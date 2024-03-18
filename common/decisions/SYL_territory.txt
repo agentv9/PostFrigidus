@@ -15,6 +15,7 @@ syldavian_states = {
 		days_mission_timeout = 45
 		is_good = yes
 	}
+	
 	SYL_state_integration = {
 		activation = {
 			hidden_trigger = { always = no }

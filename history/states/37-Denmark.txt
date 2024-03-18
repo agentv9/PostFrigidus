@@ -6,7 +6,8 @@ state = {
 	state_category = large_city
 
 	history = {
-		owner = UNC
+		owner = SJA
+		add_core_of = SJA
 		 
 		victory_points = {
 			6287 20 
