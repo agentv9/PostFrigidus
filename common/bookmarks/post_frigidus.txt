@@ -35,7 +35,6 @@ bookmarks = {
 		SLO = {
 			history = SLO_POSTFRIGIDUS_DESC
 			ideology = communism
-			minor = yes
 		}
 
 		DAK = {
