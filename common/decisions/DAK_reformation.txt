@@ -72,3 +72,57 @@ dakota_reformation = {
 		}
 	}
 }
+
+dakota_native_actions = {
+	DAK_yankton_sioux_neg = {
+			
+		activation = {
+			hidden_trigger = { always = no }
+		}
+		available = {
+			hidden_trigger = { always = no }
+		}
+		timeout_effect = {
+			DAK = {
+				annex_country = {
+					target = YSX
+					transfer_troops = yes
+				}
+			}
+			add_state_core = 972
+		}
+		#complete_effect = {
+			
+		#}
+		days_mission_timeout = 45
+		#is_good = yes
+	}
+	DAK_ysx_assim = {
+		cost = 25
+		visible = {
+			has_country_flag = DAK_native_options
+		}
+		on_map_mode = decision_view_only
+		fire_only_once = yes
+		available = {
+			
+			AND = {
+				has_country_flag = DAK_native_options
+				has_completed_focus = DAK_native_1
+				972 = {
+					controller = {
+						tag = YSX
+					}
+				}
+			}
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 972
+			}
+		}
+		complete_effect = {
+			DAK = { country_event  = { id = dak.native.1 } }
+		}
+	}
+}

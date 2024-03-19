@@ -21,6 +21,10 @@
  states.4.d:0 "the people of [target_state.GetName] have refused our generious offer to join our glorious nation and has vowed to fight with their lives to keep us out, we must attack!"
  states.4.a:0 "Attack!"
 
-syl.1.t:0 "The federation has been restored!"
-syl.1.d:0 "After many years being apart our nation is now whole again and the people are rejoicing! SLAVA SYLDAVIA"
-syl.1.a:0 "Hurrah!"
+ syl.1.t:0 "The federation has been restored!"
+ syl.1.d:0 "After many years being apart our nation is now whole again and the people are rejoicing! SLAVA SYLDAVIA"
+ syl.1.a:0 "Hurrah!"
+
+ dak.native.1.t:0 "Negotiations have begun with the Yankton Sioux"
+ dak.native.1.d:0 "The Dakotan Ambassador to the Yankton Sioux has begun negotiations on our behalf. He has informed us of a list of things that the Yankton tribe has required of us before they consider integration."
+ dak.native.1.a:0 "Better get on it, then."

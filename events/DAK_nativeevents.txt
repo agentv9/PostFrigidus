@@ -1,0 +1,23 @@
+add_namespace = dak.native
+
+country_event = {
+	id = dak.native.1
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	title = dak.native.1.t
+	desc = dak.native.1.d  
+	option = {
+		name = dak.native.1.a
+		THIS = {
+			if = {
+				limit = { this = {
+					TAG = DAK
+				}
+				}
+			activate_mission = DAK_yankton_sioux_neg
+			}
+		}
+	}
+}
