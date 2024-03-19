@@ -4,7 +4,10 @@ state={
 	name="STATE_971"
 	manpower = 150950
 	state_category = rural
-
+	resources = {
+		steel = 7
+		oil = 2
+	}
 	history={
 		owner = DAK
 		buildings = {
@@ -26,5 +29,5 @@ state={
 		1875 7771 12620 
 	}
 
-	local_supplies=0.0 
+	local_supplies=4.0 
 }
