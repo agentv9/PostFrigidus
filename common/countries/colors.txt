@@ -201,6 +201,11 @@ ANK = {
 	color_ui = rgb {107 218 237}
 }
 
+SDR = {
+	color = rgb { 84 193 231 }
+	color_ui = rgb { 84 193 231 }
+}
+
 # State integration countries
 
 UNC = {

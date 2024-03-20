@@ -32,3 +32,11 @@ dakota_reformation = {
     }
     visible_when_empty = yes
 }
+
+dakota_native_actions = {
+    priority = 10
+    allowed = {
+        tag = DAK
+    }
+    visible_when_empty = no
+}
