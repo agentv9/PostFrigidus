@@ -4,9 +4,7 @@ on_actions = {
 				#Syldavia stuff
 			if = {
 				limit = {
-					FROM.FROM = {
-						owner = SYL
-					}
+					tag = SYL
 				}
 				FROM.FROM = {
 					set_variable = {
@@ -15,12 +13,7 @@ on_actions = {
 					}
 				}
 			}
-			if = {
-				limit = {
-					FROM.FROM = {
-						is_claimed_by = SYL
-					}
-				}
+			else = {
 				FROM.FROM = {
 					set_variable = {
 						var = SYL_integration_level
@@ -28,13 +21,11 @@ on_actions = {
 					}
 				}
 			}
-			
+		
 			#braskovia stuff
 			if = {
 				limit = {
-					FROM.FROM = {
-						owner = BRK
-					}
+					tag = BRK
 				}
 				FROM.FROM = {
 					set_variable = {
@@ -42,13 +33,7 @@ on_actions = {
 						value = 3
 					}
 				}
-			}
-			if = {
-				limit = {
-					FROM.FROM = {
-						is_claimed_by  = BRK
-					}
-				}
+			}else = {
 				FROM.FROM = {
 					set_variable = {
 						var = BRK_integration_level
@@ -56,10 +41,6 @@ on_actions = {
 					}
 				}
 			}
-
-
-
-
 
 		}
 	}

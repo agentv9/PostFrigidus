@@ -20,5 +20,6 @@ replace_path="events"
 
 replace_path="gfx/loadingscreens"
 replace_path="common/ideologies"
+replace_path="common/decisions"
 replace_path="music"
 supported_version="1.14.*"

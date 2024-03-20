@@ -1,5 +1,8 @@
-braskovian_states = {
-	BRK_state_negotiation = {
+papal_states = {
+
+
+
+	PAP_state_negotiation = {
 			
 		activation = {
 			hidden_trigger = { always = no }
@@ -13,7 +16,8 @@ braskovian_states = {
 		days_mission_timeout = 45
 		is_good = yes
 	}
-	BRK_state_integration = {
+	
+	PAP_state_integration = {
 		activation = {
 			hidden_trigger = { always = no }
 		}
@@ -27,270 +31,379 @@ braskovian_states = {
 		is_good = yes
 	}
 
-	get_state_19 = {
+	get_state_26 = {
 		cost = 50
 		available = {
 			NOT = {
 				has_country_flag = integrating_state
 			}
-			212 = {
+
+			117 = {
 				any_neighbor_state = {
 					is_owned_by = ROOT #(or TAG of a country you want)
 				}
 			}
+		}visible = {
+			117 = {
+				controller = {
+					tag = UNC
+				}
+			}
+			
+		}
+		on_map_mode = map_only
+		highlight_states = { highlight_state_targets = {
+			state = 117
+		} 
 		}
 		ai_will_do = {
-			base = 1000
-			}
-		on_map_mode = map_only
-		highlight_states = { highlight_state_targets = {
-			state = 212
-			} 
+		base = 1000
 		}
 		fire_only_once = yes
-
+ 
 		complete_effect = {
+			
 		
-	
 			
 			set_country_flag = integrating_state
-			212 = {
+			117 = {
 				save_event_target_as = target_state
 				set_variable = {
-					var = 212.BRK_integration_level
+					var = 117.PAP_integration_level
 					value = 2
 				}
 			}
-			BRK = { country_event  = { id = states.1 } }
+			PAP = { country_event  = { id = states.1 } }
 			
 		}
 	}
-	get_state_20 = {
+
+	get_state_27 = {
 		cost = 50
 		available = {
 			NOT = {
 				has_country_flag = integrating_state
 			}
-			184 = {
+
+			849 = {
 				any_neighbor_state = {
 					is_owned_by = ROOT #(or TAG of a country you want)
 				}
 			}
+		}visible = {
+			849 = {
+				controller = {
+					tag = UNC
+				}
+			}
+			
+		}
+		on_map_mode = map_only
+		highlight_states = { highlight_state_targets = {
+			state = 849
+		} 
 		}
 		ai_will_do = {
-			base = 1000
-			}
-		on_map_mode = map_only
-		highlight_states = { highlight_state_targets = {
-			state = 184
-			} 
+		base = 1000
 		}
 		fire_only_once = yes
-
+ 
 		complete_effect = {
+			
 		
-	
 			
 			set_country_flag = integrating_state
-			184 = {
+			849 = {
 				save_event_target_as = target_state
 				set_variable = {
-					var = 184.BRK_integration_level
+					var = 849.PAP_integration_level
 					value = 2
 				}
 			}
-			BRK = { country_event  = { id = states.1 } }
+			PAP = { country_event  = { id = states.1 } }
 			
 		}
 	}
-	get_state_21 = {
+
+	get_state_28 = {
 		cost = 50
 		available = {
 			NOT = {
 				has_country_flag = integrating_state
 			}
-			211 = {
+
+			156 = {
 				any_neighbor_state = {
 					is_owned_by = ROOT #(or TAG of a country you want)
 				}
 			}
+		}visible = {
+			156 = {
+				controller = {
+					tag = UNC
+				}
+			}
+			
+		}
+		on_map_mode = map_only
+		highlight_states = { highlight_state_targets = {
+			state = 156
+		} 
 		}
 		ai_will_do = {
-			base = 1000
-			}
-		on_map_mode = map_only
-		highlight_states = { highlight_state_targets = {
-			state = 211
-			} 
+		base = 1000
 		}
 		fire_only_once = yes
-
+ 
 		complete_effect = {
+			
 		
-	
 			
 			set_country_flag = integrating_state
-			211 = {
+			156 = {
 				save_event_target_as = target_state
 				set_variable = {
-					var = 211.BRK_integration_level
+					var = 156.PAP_integration_level
 					value = 2
 				}
 			}
-			BRK = { country_event  = { id = states.1 } }
+			PAP = { country_event  = { id = states.1 } }
 			
 		}
 	}
-	get_state_22 = {
+
+	get_state_29 = {
 		cost = 50
 		available = {
 			NOT = {
 				has_country_flag = integrating_state
 			}
-			46 = {
+
+			162 = {
 				any_neighbor_state = {
 					is_owned_by = ROOT #(or TAG of a country you want)
 				}
 			}
+		}visible = {
+			162 = {
+				controller = {
+					tag = UNC
+				}
+			}
+			
+		}
+		on_map_mode = map_only
+		highlight_states = { highlight_state_targets = {
+			state = 162
+		} 
 		}
 		ai_will_do = {
-			base = 1000
-			}
-		on_map_mode = map_only
-		highlight_states = { highlight_state_targets = {
-			state = 46
-			} 
+		base = 1000
 		}
 		fire_only_once = yes
-
+ 
 		complete_effect = {
+			
 		
-	
 			
 			set_country_flag = integrating_state
-			46 = {
+			162 = {
 				save_event_target_as = target_state
 				set_variable = {
-					var = 46.BRK_integration_level
+					var = 162.PAP_integration_level
 					value = 2
 				}
 			}
-			BRK = { country_event  = { id = states.1 } }
+			PAP = { country_event  = { id = states.1 } }
 			
 		}
 	}
-	get_state_23 = {
+
+	get_state_30 = {
 		cost = 50
 		available = {
 			NOT = {
 				has_country_flag = integrating_state
 			}
-			81 = {
+
+			161 = {
 				any_neighbor_state = {
 					is_owned_by = ROOT #(or TAG of a country you want)
 				}
 			}
+		}visible = {
+			161 = {
+				controller = {
+					tag = UNC
+				}
+			}
+			
+		}
+		on_map_mode = map_only
+		highlight_states = { highlight_state_targets = {
+			state = 161
+		} 
 		}
 		ai_will_do = {
-			base = 1000
-			}
-		on_map_mode = map_only
-		highlight_states = { highlight_state_targets = {
-			state = 81
-			} 
+		base = 1000
 		}
 		fire_only_once = yes
-
+ 
 		complete_effect = {
+			
 		
-	
 			
 			set_country_flag = integrating_state
-			81 = {
+			161 = {
 				save_event_target_as = target_state
 				set_variable = {
-					var = 81.BRK_integration_level
+					var = 161.PAP_integration_level
 					value = 2
 				}
 			}
-			BRK = { country_event  = { id = states.1 } }
+			PAP = { country_event  = { id = states.1 } }
 			
 		}
 	}
-	get_state_24 = {
+
+	get_state_31 = {
 		cost = 50
 		available = {
 			NOT = {
 				has_country_flag = integrating_state
 			}
-			84 = {
+
+			160 = {
 				any_neighbor_state = {
 					is_owned_by = ROOT #(or TAG of a country you want)
 				}
 			}
-		}	ai_will_do = {
-			base = 1000
+		}visible = {
+			160 = {
+				controller = {
+					tag = UNC
+				}
 			}
+			
+		}
 		on_map_mode = map_only
 		highlight_states = { highlight_state_targets = {
-			state = 84
-			} 
-		}
-		fire_only_once = yes
-
-		complete_effect = {
-		
-	
-			
-			set_country_flag = integrating_state
-			84 = {
-				save_event_target_as = target_state
-				set_variable = {
-					var = 84.BRK_integration_level
-					value = 2
-				}
-			}
-			BRK = { country_event  = { id = states.1 } }
-			
-		}
-	}
-	get_state_25 = {
-		cost = 50
-		available = {
-			NOT = {
-				has_country_flag = integrating_state
-			}
-			82 = {
-				any_neighbor_state = {
-					is_owned_by = ROOT #(or TAG of a country you want)
-				}
-			}
+			state = 160
+		} 
 		}
 		ai_will_do = {
-			base = 1000
-			}
-		on_map_mode = map_only
-		highlight_states = { highlight_state_targets = {
-			state = 82
-			} 
+		base = 1000
 		}
 		fire_only_once = yes
-
+ 
 		complete_effect = {
+			
 		
-	
 			
 			set_country_flag = integrating_state
-			82 = {
+			160 = {
 				save_event_target_as = target_state
 				set_variable = {
-					var = 82.BRK_integration_level
+					var = 160.PAP_integration_level
 					value = 2
 				}
 			}
-			BRK = { country_event  = { id = states.1 } }
+			PAP = { country_event  = { id = states.1 } }
 			
 		}
 	}
 
+	get_state_32 = {
+		cost = 50
+		available = {
+			NOT = {
+				has_country_flag = integrating_state
+			}
+
+			159 = {
+				any_neighbor_state = {
+					is_owned_by = ROOT #(or TAG of a country you want)
+				}
+			}
+		}visible = {
+			159 = {
+				controller = {
+					tag = UNC
+				}
+			}
+			
+		}
+		on_map_mode = map_only
+		highlight_states = { highlight_state_targets = {
+			state = 159
+		} 
+		}
+		ai_will_do = {
+		base = 1000
+		}
+		fire_only_once = yes
+ 
+		complete_effect = {
+			
+		
+			
+			set_country_flag = integrating_state
+			159 = {
+				save_event_target_as = target_state
+				set_variable = {
+					var = 159.PAP_integration_level
+					value = 2
+				}
+			}
+			PAP = { country_event  = { id = states.1 } }
+			
+		}
+	}
+
+	get_state_33 = {
+		cost = 50
+		available = {
+			NOT = {
+				has_country_flag = integrating_state
+			}
+
+			158 = {
+				any_neighbor_state = {
+					is_owned_by = ROOT #(or TAG of a country you want)
+				}
+			}
+		}visible = {
+			158 = {
+				controller = {
+					tag = UNC
+				}
+			}
+			
+		}
+		on_map_mode = map_only
+		highlight_states = { highlight_state_targets = {
+			state = 158
+		} 
+		}
+		ai_will_do = {
+		base = 1000
+		}
+		fire_only_once = yes
+ 
+		complete_effect = {
+			
+		
+			
+			set_country_flag = integrating_state
+			158 = {
+				save_event_target_as = target_state
+				set_variable = {
+					var = 158.PAP_integration_level
+					value = 2
+				}
+			}
+			PAP = { country_event  = { id = states.1 } }
+			
+		}
+	}
 }

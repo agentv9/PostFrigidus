@@ -28,6 +28,14 @@ country_event = {
 						}
 					activate_mission = BRK_state_negotiation
 					}
+					if = {
+						limit = { this = {
+							TAG = PAP
+						}
+						
+						}
+					activate_mission = PAP_state_negotiation
+					}
 					country_event = { id = states.2 days = 45  }
 				}
 			}
@@ -49,6 +57,15 @@ country_event = {
 						
 					}
 					activate_mission = BRK_state_negotiation
+					}
+
+					if = {
+						limit = { this = {
+							TAG = PAP
+						}
+						
+					}
+					activate_mission = PAP_state_negotiation
 					}
 					country_event = { id = states.4 days = 45  }
 				}
@@ -86,6 +103,15 @@ country_event = {
 				
 			}
 			activate_mission = BRK_state_integration
+			}
+			
+			if = {
+				limit = { this = {
+					TAG = PAP
+				}
+				
+			}
+			activate_mission = PAP_state_integration
 			}
 			country_event = { id = states.3 days = 75  }
 		}

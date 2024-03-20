@@ -1,6 +1,7 @@
 ﻿l_english:
-syldavian_states:0 "State integration/acclimation"
-braskovian_states:0 "State integration/acclimation"
+syldavian_states:0 "Integrated States"
+braskovian_states:0 "Integrated States"
+papal_states:0 "Integrated States"
 
 get_state_1:0"Integrate State"
 get_state_2:0"Integrate State"
@@ -27,6 +28,29 @@ get_state_22:0"Integrate State"
 get_state_23:0"Integrate State"
 get_state_24:0"Integrate State"
 get_state_25:0"Integrate State"
+get_state_26:0"Integrate State"
+get_state_27:0"Integrate State"
+get_state_28:0"Integrate State"
+get_state_29:0"Integrate State"
+get_state_30:0"Integrate State"
+get_state_31:0"Integrate State"
+get_state_32:0"Integrate State"
+get_state_33:0"Integrate State"
+
+
+
+
+
+
+
+
+
+
+
+
+
+PAP_state_negotiation:0 "State negotiations"
+PAP_state_integration:0 "State integration efforts"
 SYL_state_negotiation:0 "State negotiations"
 SYL_state_integration:0 "State integration efforts"
 BRK_state_negotiation:0 "State negotiations"

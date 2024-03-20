@@ -1,0 +1,38 @@
+capital = 2
+
+oob = "PAP_2000"
+
+set_popularities = {
+	theocracy = 90
+	neutrality = 2
+	monarchism = 3
+	democratic = 3
+	fascism = 1
+	communism = 1
+}
+
+set_technology = {
+	infantry_weapons = 1
+	tech_support = 1
+	tech_recon = 1
+}
+
+set_politics = {
+	ruling_party = theocracy
+	last_election = "2025.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_convoys = 5
+
+set_research_slots = 1
+
+add_state_claim = 849
+add_state_claim = 117
+add_state_claim = 156
+add_state_claim = 162
+add_state_claim = 161
+add_state_claim = 160
+add_state_claim = 159
+add_state_claim = 158

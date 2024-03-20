@@ -16,6 +16,15 @@ braskovian_states = {
     scripted_gui = BRK_states_map
 }
 
+papal_states = {
+    priority = 10
+	allowed = {
+        tag = PAP
+    }
+    visible_when_empty = yes
+  
+}
+
 dakota_reformation = {
     priority = 5
     allowed = {

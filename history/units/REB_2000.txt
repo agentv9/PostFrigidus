@@ -1,7 +1,9 @@
 division_template = {
       name = "Infantry Division"
       division_names_group = REB_INF_01 
-
+      is_locked = yes
+      is_name_ordered = yes
+    
       regiments = {
 		    infantry = { x = 0 y = 0 }
 		    infantry = { x = 0 y = 1 }

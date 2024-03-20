@@ -10,6 +10,24 @@ set_technology = {
 
 recruit_character = SYL_nicolai_belenski
 
+add_state_claim = 44
+add_state_claim = 106
+add_state_claim = 805
+add_state_claim = 185
+add_state_claim = 731
+add_state_claim = 47
+add_state_claim = 163
+add_state_claim = 103
+add_state_claim = 804
+add_state_claim = 104
+add_state_claim = 107
+add_state_claim = 764
+add_state_claim = 45
+add_state_claim = 109
+add_state_claim = 853
+add_state_claim = 852
+add_state_claim = 736
+add_state_claim = 102
 
 set_politics = {
 	ruling_party = corporatism

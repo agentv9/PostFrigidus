@@ -1,0 +1,16 @@
+BRK_kill_the_rebels = {
+	allowed = {
+		original_tag = BRK
+	}
+
+	ai_strategy = {
+		type = front_control
+		target  = REB
+		value   = 200
+		ordertype = invasion  # Can be either {front, invasion}
+		execution_type = rush  # Can be either {careful, balanced, rush, rush_weak}
+		execute_order = yes  # If set, will force activate/deactivate execution
+		manual_attack = yes  # If set the AI will try manual poke attacks (for front orders)
+
+	}
+}

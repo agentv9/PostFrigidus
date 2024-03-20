@@ -37,6 +37,9 @@ syldavian_states = {
 				has_cosmetic_tag = FED
 			}
 		}
+		ai_will_do = {
+			base = 1100
+			}
 		available = {
 			
 			AND = {
@@ -101,7 +104,7 @@ syldavian_states = {
 		} 
 		}
 		ai_will_do = {
-		base = 10
+		base = 1000
 		}
 		fire_only_once = yes
  
@@ -142,7 +145,7 @@ syldavian_states = {
 			
 		}
 		ai_will_do = {
-			base = 10
+			base = 1000
 		
 		}
 		on_map_mode = map_only
@@ -190,7 +193,7 @@ syldavian_states = {
 			
 		}
 		ai_will_do = {
-			base = 10
+			base = 1000
 		
 		}
 		on_map_mode = map_only
@@ -237,7 +240,7 @@ syldavian_states = {
 			}
 			
 		} ai_will_do = {
-			base = 10
+			base = 1000
 		
 		}
 		on_map_mode = map_only
@@ -282,7 +285,7 @@ syldavian_states = {
 			}
 			
 		}ai_will_do = {
-			base = 10
+			base = 1000
 		
 		}
 		on_map_mode = map_only
@@ -327,7 +330,7 @@ syldavian_states = {
 			}
 			
 		}ai_will_do = {
-			base = 10
+			base = 1000
 		
 		}
 		on_map_mode = map_only
@@ -372,7 +375,7 @@ syldavian_states = {
 			}
 			
 		} ai_will_do = {
-			base = 10
+			base = 1000
 		
 		}
 		on_map_mode = map_only
@@ -417,7 +420,7 @@ syldavian_states = {
 			}
 			
 		} ai_will_do = {
-			base = 10
+			base = 1000
 		
 		}
 		on_map_mode = map_only
@@ -463,7 +466,7 @@ syldavian_states = {
 			
 		}
 		ai_will_do = {
-			base = 10
+			base = 1000
 		
 		}
 		on_map_mode = map_only
@@ -508,7 +511,7 @@ syldavian_states = {
 			}
 			
 		} ai_will_do = {
-			base = 10
+			base = 1000
 		
 		}
 		on_map_mode = map_only
@@ -553,7 +556,7 @@ syldavian_states = {
 			}
 			
 		} ai_will_do = {
-			base = 10
+			base = 1000
 		
 		}
 		on_map_mode = map_only
@@ -598,7 +601,7 @@ syldavian_states = {
 			}
 			
 		} ai_will_do = {
-			base = 10
+			base = 1000
 		
 		}
 		on_map_mode = map_only
@@ -643,7 +646,7 @@ syldavian_states = {
 			}
 			
 		} ai_will_do = {
-			base = 10
+			base = 1000
 		
 		}
 		on_map_mode = map_only
@@ -694,7 +697,7 @@ syldavian_states = {
 			}
 			
 		} ai_will_do = {
-			base = 10
+			base = 1000
 		
 		}
 		on_map_mode = map_only
@@ -745,7 +748,7 @@ syldavian_states = {
 		} 
 		}
 		ai_will_do = {
-		base = 10
+		base = 1000
 	
 		}
 		fire_only_once = yes
@@ -786,7 +789,7 @@ syldavian_states = {
 			}
 			
 		} ai_will_do = {
-			base = 10
+			base = 1000
 		
 		}
 		on_map_mode = map_only
@@ -836,7 +839,7 @@ syldavian_states = {
 			}
 			
 		} ai_will_do = {
-			base = 10
+			base = 1000
 		
 		}
 		on_map_mode = map_only
@@ -883,7 +886,7 @@ syldavian_states = {
 			}
 			
 		} ai_will_do = {
-			base = 10
+			base = 1000
 		
 		}
 		on_map_mode = map_only
