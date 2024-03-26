@@ -1,0 +1,159 @@
+defined_text = {
+	name = GetIntegration1Title
+	text = {
+		trigger = {
+			original_tag = PAP
+			
+		}
+		localization_key = STATES_1_t_PAP
+	}
+	text = {
+		localization_key = STATES_1_t_DEFAULT
+	}
+}
+defined_text = {
+	name = GetIntegration1Description
+	text = {
+		trigger = {
+			original_tag = PAP
+			
+		}
+		localization_key = STATES_1_d_PAP
+	}
+	text = {
+		localization_key = STATES_1_d_DEFAULT
+	}
+}
+defined_text = {
+	name = GetIntegration1Answer
+	text = {
+		trigger = {
+			original_tag = PAP
+			
+		}
+		localization_key = STATES_1_a_PAP
+	}
+	text = {
+		localization_key = STATES_1_a_DEFAULT
+	}
+}
+
+defined_text = {
+	name = GetIntegration2Title
+	text = {
+		trigger = {
+			original_tag = PAP
+			
+		}
+		localization_key = STATES_2_t_PAP
+	}
+	text = {
+		localization_key = STATES_2_t_DEFAULT
+	}
+}
+defined_text = {
+	name = GetIntegration2Description
+	text = {
+		trigger = {
+			original_tag = PAP
+			
+		}
+		localization_key = STATES_2_d_PAP
+	}
+	text = {
+		localization_key = STATES_2_d_DEFAULT
+	}
+}
+defined_text = {
+	name = GetIntegration2Answer
+	text = {
+		trigger = {
+			original_tag = PAP
+			
+		}
+		localization_key = STATES_2_a_PAP
+	}
+	text = {
+		localization_key = STATES_2_a_DEFAULT
+	}
+}
+
+defined_text = {
+	name = GetIntegration3Title
+	text = {
+		trigger = {
+			original_tag = PAP
+			
+		}
+		localization_key = STATES_3_t_PAP
+	}
+	text = {
+		localization_key = STATES_3_t_DEFAULT
+	}
+}
+defined_text = {
+	name = GetIntegration3Description
+	text = {
+		trigger = {
+			original_tag = PAP
+			
+		}
+		localization_key = STATES_3_d_PAP
+	}
+	text = {
+		localization_key = STATES_3_d_DEFAULT
+	}
+}
+defined_text = {
+	name = GetIntegration3Answer
+	text = {
+		trigger = {
+			original_tag = PAP
+			
+		}
+		localization_key = STATES_3_a_PAP
+	}
+	text = {
+		localization_key = STATES_3_a_DEFAULT
+	}
+}
+
+defined_text = {
+	name = GetIntegration4Title
+	text = {
+		trigger = {
+			original_tag = PAP
+			
+		}
+		localization_key = STATES_4_t_PAP
+	}
+	text = {
+		localization_key = STATES_4_t_DEFAULT
+	}
+}
+defined_text = {
+	name = GetIntegration4Description
+	text = {
+		trigger = {
+			original_tag = PAP
+			
+		}
+		localization_key = STATES_4_d_PAP
+	}
+	text = {
+		localization_key = STATES_4_d_DEFAULT
+	}
+}
+defined_text = {
+	name = GetIntegration4Answer
+	text = {
+		trigger = {
+			original_tag = PAP
+			
+		}
+		localization_key = STATES_4_a_PAP
+	}
+	text = {
+		localization_key = STATES_4_a_DEFAULT
+	}
+}

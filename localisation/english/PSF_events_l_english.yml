@@ -5,21 +5,62 @@
  welcome.1.d:0 "Thank you for using our mod! \nThis is a early version (version 0.1) so there isnt alot of content here yet, currently we only have a few nations added but we are actively working on adding more content for all to enjoy! \nWe hope you enjoy this early version of our mod, please join our discord if you have any questions or suggestions!"
  welcome.1.a:0 "Thanks!"
 
- states.1.t:0 "Beginning negotiations for [target_state.GetName]"
- states.1.d:0 "To begin integrating this terriroty back into our glorious nation we must first negotiate with the people living there to re-integrate them into civilization, this will take aprox 45 days"
- states.1.a:0 "Begin negotiations."
+ states.1.t:0 "[GetIntegration1Title]"
+ STATES_1_t_Default:0 "Beginning negotiations for [target_state.GetName]"
+ STATES_1_t_PAP:0 "sending religious mfs to [target_state.GetName]"
 
- states.2.t:0 "Negotiations for [target_state.GetName] is finished"
- states.2.d:0 "The negotiation process has finished and we can now begin re-integrating the territory, this will consume 2 of our civilian factories and take aprox 75 days"
- states.2.a:0 "Begin construction."
+ states.1.d:0 "[GetIntegration1Description]"
+ STATES_1_d_DEFAULT:0 "To begin integrating this terriroty back into our glorious nation we must first negotiate with the people living there to re-integrate them into civilization, this will take aprox 45 days"
 
- states.3.t:0 "Integration for [target_state.GetName] is finished!"
- states.3.d:0 "[target_state.GetName] has been re-integrated into our nation!"
- states.3.a:0 "Ok!"
+ STATES_1_d_PAP:0 "Religion and shit is kewl and they should join us frfr"
 
- states.4.t:0 "Negotions for [target_state.GetName] have failed"
- states.4.d:0 "the people of [target_state.GetName] have refused our generious offer to join our glorious nation and has vowed to fight with their lives to keep us out, we must attack!"
- states.4.a:0 "Attack!"
+ states.1.a:0 "[GetIntegration1Answer]"
+ STATES_1_a_DEFAULT:0 "Begin negotiations."
+ STATES_1_a_PAP:0 "HEIL GODLER."
+
+
+ states.2.t:0 "[GetIntegration2Title]"
+ STATES_2_t_Default:0 "Negotiations for [target_state.GetName] is finished"
+ STATES_2_t_PAP:0 "sending religious mfs to [target_state.GetName]"
+
+ states.2.d:0 "[GetIntegration2Description]"
+ STATES_2_d_DEFAULT:0 "The negotiation process has finished and we can now begin re-integrating the territory, this will consume 2 of our civilian factories and take aprox 75 days"
+
+ STATES_2_d_PAP:0 "Our religious mfs have finished spreading the gospel within [target_state.GetName] and they have accepted the lord with open arms! we will begin construction of churches throughout the territory, this will take us 75 days to finish."
+
+ states.2.a:0 "[GetIntegration2Answer]"
+ STATES_2_a_DEFAULT:0 "Begin construction."
+ STATES_2_a_PAP:0 "Begin construction."
+
+
+ states.3.t:0 "[GetIntegration3Title]"
+ STATES_3_t_DEFAULT:0 "Integration for [target_state.GetName] is finished!"
+ STATES_3_t_PAP:0 "Integration for [target_state.GetName] is finished!"
+
+ states.3.d:0 "[GetIntegration3Description]"
+ STATES_3_d_DEFAULT:0 "[target_state.GetName] has been re-integrated into our nation!"
+ STATES_3_d_PAP:0 "Churches have finished construction within [target_state.GetName]!"
+
+ states.3.a:0 "[GetIntegration3Answer]"
+ STATES_3_a_DEFAULT:0 "Ok!"
+ STATES_3_a_PAP:0 "Ok!"
+
+
+ states.4.t:0 "[GetIntegration4Title]"
+ STATES_4_t_DEFAULT:0 "Negotions for [target_state.GetName] have failed!"
+ STATES_4_t_PAP:0 "Negotions for [target_state.GetName] have failed!"
+
+
+ states.4.d:0 "[GetIntegration4Description]"
+ STATES_4_d_DEFAULT:0 "the people of [target_state.GetName] have refused our generious offer to join our glorious nation and has vowed to fight with their lives to keep us out, we must attack!"
+
+ STATES_4_d_PAP:0 "the people of [target_state.GetName] have refused our generious offer to join our glorious nation and has vowed to fight with their lives to keep us out, we must attack!"
+
+ states.4.a:0 "[GetIntegration4Answer]"
+ STATES_4_a_DEFAULT:0 "Attack!"
+ STATES_4_a_PAP:0 "Attack!"
+
+
 
  syl.1.t:0 "The federation has been restored!"
  syl.1.d:0 "After many years being apart our nation is now whole again and the people are rejoicing! SLAVA SYLDAVIA"
