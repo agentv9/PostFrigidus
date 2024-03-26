@@ -36,3 +36,16 @@ country_event = {
 		name = dak.3.a
 	}
 }
+
+country_event = {
+	id = dak.4
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	picture = GFX_mt_rushmore_sprite
+	title = dak.4.t
+	desc = dak.4.d
+	option = {
+		name = dak.4.a
+	}
+}
