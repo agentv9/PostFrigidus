@@ -10,23 +10,23 @@
  STATES_1_t_PAP:0 "sending religious mfs to [target_state.GetName]"
 
  states.1.d:0 "[GetIntegration1Description]"
- STATES_1_d_DEFAULT:0 "To begin integrating this terriroty back into our glorious nation we must first negotiate with the people living there to re-integrate them into civilization, this will take aprox 45 days"
+ STATES_1_d_DEFAULT:0 "To begin integrating this terriroty back into our Holy nation, we must first negotiate with the people living there to re-integrate them into civilization, this will take aproximately 45 days"
 
- STATES_1_d_PAP:0 "Religion and shit is kewl and they should join us frfr"
+ STATES_1_d_PAP:0 "The Church is One, Holy, Catholic, and Apostolic. All people's will submit to Rome."
 
  states.1.a:0 "[GetIntegration1Answer]"
  STATES_1_a_DEFAULT:0 "Begin negotiations."
- STATES_1_a_PAP:0 "HEIL GODLER."
+ STATES_1_a_PAP:0 "Ave Christus Rex!"
 
 
  states.2.t:0 "[GetIntegration2Title]"
  STATES_2_t_Default:0 "Negotiations for [target_state.GetName] is finished"
- STATES_2_t_PAP:0 "sending religious mfs to [target_state.GetName]"
+ STATES_2_t_PAP:0 "Sending the missionaries of the Lord to [target_state.GetName]"
 
  states.2.d:0 "[GetIntegration2Description]"
- STATES_2_d_DEFAULT:0 "The negotiation process has finished and we can now begin re-integrating the territory, this will consume 2 of our civilian factories and take aprox 75 days"
+ STATES_2_d_DEFAULT:0 "The negotiation process has finished and we can now begin re-integrating the territory, this will consume 2 of our civilian factories and take aproximately 75 days"
 
- STATES_2_d_PAP:0 "Our religious mfs have finished spreading the gospel within [target_state.GetName] and they have accepted the lord with open arms! we will begin construction of churches throughout the territory, this will take us 75 days to finish."
+ STATES_2_d_PAP:0 "Our Missionaries have finished proclaiming the Holy Gospel within [target_state.GetName] and they have accepted the Lord with open arms! We will begin construction of churches throughout the territory, this will take us 75 days to finish."
 
  states.2.a:0 "[GetIntegration2Answer]"
  STATES_2_a_DEFAULT:0 "Begin construction."
@@ -47,14 +47,14 @@
 
 
  states.4.t:0 "[GetIntegration4Title]"
- STATES_4_t_DEFAULT:0 "Negotions for [target_state.GetName] have failed!"
- STATES_4_t_PAP:0 "Negotions for [target_state.GetName] have failed!"
+ STATES_4_t_DEFAULT:0 "Negotions with [target_state.GetName] have failed!"
+ STATES_4_t_PAP:0 "Negotions with [target_state.GetName] have failed!"
 
 
  states.4.d:0 "[GetIntegration4Description]"
- STATES_4_d_DEFAULT:0 "the people of [target_state.GetName] have refused our generious offer to join our glorious nation and has vowed to fight with their lives to keep us out, we must attack!"
+ STATES_4_d_DEFAULT:0 "the heathens of [target_state.GetName] have refused our generious offer to join our glorious nation and has vowed to fight with their lives to keep us out, we must attack!"
 
- STATES_4_d_PAP:0 "the people of [target_state.GetName] have refused our generious offer to join our glorious nation and has vowed to fight with their lives to keep us out, we must attack!"
+ STATES_4_d_PAP:0 "the heathens of [target_state.GetName] have refused our generious offer to join our glorious nation and has vowed to fight with their lives to keep us out, we must attack!"
 
  states.4.a:0 "[GetIntegration4Answer]"
  STATES_4_a_DEFAULT:0 "Attack!"
