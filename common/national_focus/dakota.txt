@@ -42,7 +42,7 @@ focus_tree = {
 		
 		completion_reward = {
 			add_political_power = 50
-            DAK = { country_event = dak_focus_event.0 }
+            DAK = { country_event = dak.1 }
 		}
 		
 		ai_will_do = {
@@ -67,7 +67,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			DAK = { country_event = dak_focus_inside.0 }
+			DAK = { country_event = dak.inside.1 }
 		}
 		
 		ai_will_do = {
@@ -119,7 +119,7 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-			DAK = { country_event = dak_focus_outside.0 }
+			DAK = { country_event = dak.outside.1 }
 		}
 		
 		ai_will_do = {
