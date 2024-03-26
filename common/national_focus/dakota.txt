@@ -31,7 +31,7 @@ focus_tree = {
 		id = DAK_start
 		icon = GFX_focus_generic_improve_the_administration
 		
-		x = 2
+		x = 3
 		y = 0
 		
 		cost = 1
@@ -55,7 +55,7 @@ focus_tree = {
 		icon = GFX_focus_NORDIC_dem_civilian
 		prerequisite = { focus = DAK_start }
 		
-		x = -1
+		x = -2
 		y = 1
 		relative_position_id = DAK_start
 		mutually_exclusive = {  }
@@ -134,7 +134,7 @@ focus_tree = {
 		icon = GFX_focus_NORDIC_dem_army
 		prerequisite = { focus = DAK_start }
 		
-		x = 1
+		x = 2
 		y = 1
 		relative_position_id = DAK_start
 		mutually_exclusive = {  }
