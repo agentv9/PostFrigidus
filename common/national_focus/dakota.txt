@@ -119,7 +119,6 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			add_political_power = 20
 			DAK = { country_event = dak.4 }
 		}
 

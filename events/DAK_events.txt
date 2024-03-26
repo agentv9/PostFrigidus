@@ -47,5 +47,7 @@ country_event = {
 	desc = dak.4.d
 	option = {
 		name = dak.4.a
+		add_political_power = 20
+		add_stability = 0.03
 	}
 }
