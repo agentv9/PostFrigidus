@@ -1,0 +1,38 @@
+add_namespace = dak
+
+country_event = {
+	id = dak.1
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	picture = GFX_mt_rushmore_sprite
+	title = dak.1.t
+	desc = dak.1.d
+	option = {
+		name = dak.1.a
+	}
+}
+country_event = {
+	id = dak.2
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	picture = GFX_mt_rushmore_sprite
+	title = dak.2.t
+	desc = dak.2.d
+	option = {
+		name = dak.2.a
+	}
+}
+country_event = {
+	id = dak.3
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	picture = GFX_mt_rushmore_sprite
+	title = dak.3.t
+	desc = dak.3.d
+	option = {
+		name = dak.3.a
+	}
+}
