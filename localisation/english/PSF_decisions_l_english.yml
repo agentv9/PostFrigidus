@@ -1,7 +1,11 @@
 ﻿l_english:
 syldavian_states:0 "Integrated States"
+syldavian_states_desc:0 "After the freeze we have lost control of the outer regions of our nation. we must reclaim control over our rightful lands and establish outselves in this new world to ensure our survival against the insurmountable odds of the environment and our hostile neighbors."
 braskovian_states:0 "Integrated States"
-papal_states:0 "Integrated States"
+papal_states_integration:0 "Spreading the gospel"
+papal_states:0 "Restitutio Pontifica"
+papal_states_desc:0 "In the wake of the great freeze, the only hope remaining for those who survived is the lord himself to return and save us all from this apocalypse, we must spread his holy scripture to these sinnful lands and prepare ourselves for his return!"
+
 
 get_state_1:0"Integrate State"
 get_state_2:0"Integrate State"
@@ -49,8 +53,8 @@ get_state_33:0"Integrate State"
 
 
 
-PAP_state_negotiation:0 "State negotiations"
-PAP_state_integration:0 "State integration efforts"
+PAP_state_negotiation:0 "Sending missionaries"
+PAP_state_integration:0 "Building churches"
 SYL_state_negotiation:0 "State negotiations"
 SYL_state_integration:0 "State integration efforts"
 BRK_state_negotiation:0 "State negotiations"

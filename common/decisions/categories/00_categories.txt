@@ -17,6 +17,14 @@ braskovian_states = {
 }
 
 papal_states = {
+    priority = 5
+	allowed = {
+        tag = PAP
+    }
+    visible_when_empty = yes
+  
+}
+papal_states_integration = {
     priority = 10
 	allowed = {
         tag = PAP

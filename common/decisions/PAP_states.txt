@@ -1,6 +1,4 @@
-papal_states = {
-
-
+papal_states_integration = {
 
 	PAP_state_negotiation = {
 			
@@ -407,3 +405,4 @@ papal_states = {
 		}
 	}
 }
+
