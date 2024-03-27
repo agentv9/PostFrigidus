@@ -51,3 +51,85 @@ country_event = {
 		add_stability = 0.03
 	}
 }
+
+news_event = {
+	id = dak.8
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	picture = GFX_congress_sprite
+	title = dak.8.t
+	desc = dak.8.d
+	option = {
+		name = dak.8.a
+		add_political_power = 75
+		add_stability = 0.075
+	}
+}
+
+news_event = {
+	id = dak.9
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	picture = GFX_mt_rushmore_sprite
+	title = dak.9.t
+	desc = dak.9.d
+	option = {
+		name = dak.9.a
+		random_owned_controlled_state = {
+			limit = {
+				free_building_slots = {
+					building = infrastructure
+					size < 5
+				}
+				OR = {
+					is_in_home_area = yes
+					NOT = {
+						owner = {
+							any_owned_state = {
+								free_building_slots = {
+									building = infrastructure
+									size < 5
+								}
+							}
+						}
+					}
+				}
+			}
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+		}
+		random_owned_controlled_state = {
+			limit = {
+				free_building_slots = {
+					building = infrastructure
+					size < 5
+				}
+				OR = {
+					is_in_home_area = yes
+					NOT = {
+						owner = {
+							any_owned_state = {
+								free_building_slots = {
+									building = infrastructure
+									size < 5
+								}
+							}
+						}
+					}
+				}
+			}
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+		}
+	}
+}
