@@ -23,5 +23,13 @@ ideas = {
 				recruitable_population_factor = -0.2
 			}
 		}
+		DAK_national_police = {
+			picture = DAK_national_police
+
+			modifier = {
+				stability_factor = 0.035
+				stability_weekly = 0.005
+			}
+		}
 	}
 }

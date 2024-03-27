@@ -115,7 +115,7 @@ focus_tree = {
 		cost = 3
 
 		available = {
-
+			
 		}
 
 		completion_reward = {
@@ -141,11 +141,11 @@ focus_tree = {
 		cost = 3
 
 		available = {
-
+			has_completed_focus = DAK_congress
 		}
 
 		completion_reward = {
-			DAK = { country_event = dak.5 }
+			DAK = { news_event = dak.5 }
 		}
 
 		ai_will_do = {
@@ -223,7 +223,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			DAK = { country_event = dak.8 }
+			DAK = { news_event = dak.8 }
 
 		}
 

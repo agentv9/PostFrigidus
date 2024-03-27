@@ -12,4 +12,8 @@ spriteTypes = {
         name = "GFX_congress_sprite"
         textureFile = "gfx/event_pictures/Congress.dds"
     }
+    spriteType = {
+        name = "GFX_DAK_highway_patrol"
+        textureFile = "gfx/event_pictures/DAK_highway_patrol.dds"
+    }
 }
