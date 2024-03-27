@@ -6,7 +6,7 @@
  welcome.1.a:0 "Thanks!"
 
  states.1.t:0 "[GetIntegration1Title]"
- STATES_1_t_Default:0 "Beginning negotiations for [target_state.GetName]"
+ STATES_1_t_DEFAULT:0 "Beginning negotiations for [target_state.GetName]"
  STATES_1_t_PAP:0 "sending religious mfs to [target_state.GetName]"
 
  states.1.d:0 "[GetIntegration1Description]"
@@ -20,7 +20,7 @@
 
 
  states.2.t:0 "[GetIntegration2Title]"
- STATES_2_t_Default:0 "Negotiations for [target_state.GetName] is finished"
+ STATES_2_t_DEFAULT:0 "Negotiations for [target_state.GetName] is finished"
  STATES_2_t_PAP:0 "Sending the missionaries of the Lord to [target_state.GetName]"
 
  states.2.d:0 "[GetIntegration2Description]"
