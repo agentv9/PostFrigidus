@@ -1,0 +1,31 @@
+on_actions = {
+	#corporate influence increase stuff
+	on_weekly = { 
+		effect = {
+			if = {
+				limit = {
+					original_tag = SYL
+				}
+				SYL = {
+					add_to_variable = {
+						var = education_influence
+						value = education_influence_growth
+					}
+					add_to_variable = {
+						var = construction_influence
+						value = construction_influence_growth
+					}
+					add_to_variable = {
+						var = production_influence
+						value = production_influence_growth
+					}
+					add_to_variable = {
+						var = civilian_influence
+						value = civilian_influence_growth
+					}
+				}
+			}
+			
+		}
+	}
+}

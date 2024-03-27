@@ -1,0 +1,176 @@
+defined_text = {
+	name = GetEducationInfluenceColor
+	text = {
+		trigger = {
+			check_variable = {
+				SYL.education_influence < 26 
+			}
+		}
+		localization_key = GREEN
+	}
+	text = {
+		trigger = {
+			
+				check_variable = {
+					SYL.education_influence > 25 
+				}
+				check_variable = {
+					SYL.education_influence < 51 
+				}
+		}
+		localization_key = YELLOW
+	}
+	text = {
+		trigger = {
+			
+				check_variable = {
+					SYL.education_influence > 50 
+				}
+				check_variable = {
+					SYL.education_influence < 76 
+				}
+		}
+		localization_key = ORANGE
+	}
+	text = {
+		trigger = {
+			
+				check_variable = {
+					SYL.education_influence > 75 
+				}
+		}
+		localization_key = RED
+	}
+}
+defined_text = {
+	name = GetConstructionInfluenceColor
+	text = {
+		trigger = {
+			check_variable = {
+				SYL.construction_influence   < 26 
+			}
+		}
+		localization_key = GREEN
+	}
+	text = {
+		trigger = {
+			
+				check_variable = {
+					SYL.construction_influence > 25 
+				}
+				check_variable = {
+					SYL.construction_influence < 51 
+				}
+		}
+		localization_key = YELLOW
+	}
+	text = {
+		trigger = {
+			
+				check_variable = {
+					SYL.construction_influence > 50 
+				}
+				check_variable = {
+					SYL.construction_influence < 76 
+				}
+		}
+		localization_key = ORANGE
+	}
+	text = {
+		trigger = {
+			
+				check_variable = {
+					SYL.construction_influence > 75 
+				}
+		}
+		localization_key = RED
+	}
+}
+defined_text = {
+	name = GetProductionInfluenceColor
+	text = {
+		trigger = {
+			check_variable = {
+				SYL.production_influence   < 26 
+			}
+		}
+		localization_key = GREEN
+	}
+	text = {
+		trigger = {
+			
+				check_variable = {
+					SYL.production_influence > 25 
+				}
+				check_variable = {
+					SYL.production_influence < 51 
+				}
+		}
+		localization_key = YELLOW
+	}
+	text = {
+		trigger = {
+			
+				check_variable = {
+					SYL.production_influence > 50 
+				}
+				check_variable = {
+					SYL.production_influence < 76 
+				}
+		}
+		localization_key = ORANGE
+	}
+	text = {
+		trigger = {
+			
+				check_variable = {
+					SYL.production_influence > 75 
+				}
+		}
+		localization_key = RED
+	}
+}
+defined_text = {
+	name = GetCivilianInfluenceColor
+	text = {
+		trigger = {
+			check_variable = {
+				SYL.civilian_influence < 26 
+			}
+		}
+		localization_key = GREEN
+	}
+	text = {
+		trigger = {
+			
+				check_variable = {
+					SYL.civilian_influence > 25 
+				}
+				check_variable = {
+					SYL.civilian_influence < 51 
+				}
+		}
+		localization_key = YELLOW
+	}
+	text = {
+		trigger = {
+			
+				check_variable = {
+					SYL.civilian_influence > 50 
+				}
+				check_variable = {
+					SYL.civilian_influence < 76 
+				}
+		}
+		localization_key = ORANGE
+	}
+	text = {
+		trigger = {
+			
+				check_variable = {
+					SYL.civilian_influence > 75 
+				}
+		}
+		localization_key = RED
+	}
+}

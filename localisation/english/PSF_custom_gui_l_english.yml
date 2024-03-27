@@ -1,0 +1,23 @@
+﻿l_english:
+
+SYL_education_influence:0 "§CCorporate §!influence on §YEducation§!:"
+SYL_construction_influence:0 "§CCorporate §!influence on §GConstruction§!:"
+SYL_production_influence:0 "§CCorporate §!influence on §BProduction§!:"
+SYL_civilian_influence:0 "§CCorporate §!influence on §OCivilian products§!:"
+
+GUI_Testing2:0 "§C25%§!"
+
+GREEN:0 "§G"
+YELLOW:0 "§Y"
+ORANGE:0 "§O"
+RED:0 "§R"
+
+education_influence_value:0 "[GetEducationInfluenceColor][?SYL.education_influence]%"
+construction_influence_value:0 "[GetConstructionInfluenceColor][?SYL.construction_influence]%"
+production_influence_value:0 "[GetProductionInfluenceColor][?SYL.production_influence]%"
+civilian_influence_value:0 "[GetCivilianInfluenceColor][?SYL.civilian_influence]%"
+
+SYL_education_influence_tooltip:0 "\n\nweekly incluence growth: [?SYL.education_influence_growth]%"
+SYL_construction_influence_tooltip:0 "\n\nweekly incluence growth: [?SYL.construction_influence_growth]%"
+SYL_production_influence_tooltip:0 "\n\nweekly incluence growth: [?SYL.production_influence_growth]%"
+SYL_civilian_influence_tooltip:0 "\n\nweekly incluence growth: [?SYL.civilian_influence_growth]%"

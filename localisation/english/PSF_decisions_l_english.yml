@@ -1,6 +1,11 @@
-﻿l_english:
+﻿ 
 syldavian_states:0 "Integrated States"
 syldavian_states_desc:0 "After the freeze we have lost control of the outer regions of our nation. we must reclaim control over our rightful lands and establish outselves in this new world to ensure our survival against the insurmountable odds of the environment and our hostile neighbors."
+
+syldavian_corporations:0 "Corporate Control"
+syldavian_corporations_desc:0 "The corporations headquartered within our nation have been a great help to our recovery after the freeze, however they have begun encroaching upon various governmental offices and public services, we fear that if they gain too much influence we may lose control over our own nation!"
+
+
 braskovian_states:0 "Integrated States"
 papal_states_integration:0 "Spreading the gospel"
 papal_states:0 "Restitutio Pontifica"

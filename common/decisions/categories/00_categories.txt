@@ -7,6 +7,15 @@ syldavian_states = {
     scripted_gui = SYL_states_map
 }
 
+syldavian_corporations = {
+    priority = 10
+	allowed = {
+        tag = SYL
+    }
+    visible_when_empty = yes
+    scripted_gui = syldavian_corporations
+}
+
 braskovian_states = {
     priority = 10
 	allowed = {

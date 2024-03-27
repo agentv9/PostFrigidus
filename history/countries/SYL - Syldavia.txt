@@ -47,14 +47,16 @@ set_popularities = {
 
 set_convoys = 5
 
-set_variable = {
-	var = integration_event_name
-	value = SYL_state_integration
-}
-set_variable = {
-	var = negotiation_event_name
-	value = SYL_state_negotiation
-}
+set_variable = {var = education_influence value = 0}
+set_variable = {var = education_influence_growth value = 0.1}
+set_variable = {var = construction_influence value = 0}
+set_variable = {var = construction_influence_growth value = 1}
+set_variable = {var = production_influence value = 0}
+set_variable = {var = production_influence_growth value = 2}
+set_variable = {var = civilian_influence value = 0}
+set_variable = {var = civilian_influence_growth value = 3}
+
+
 set_research_slots = 3
 
 set_technology = {

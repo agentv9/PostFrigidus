@@ -1,0 +1,117 @@
+guiTypes = {
+    containerWindowType = {
+        name = "SYL_corporate_influence" # Can be used in the window_name of scripted GUI
+        position = { x = 0 y = 0 }
+        size = { width = 200 height= 200 }
+        
+        containerWindowType = {
+            name = "container" # Located inside of another container, thus impossible to assign scripted GUI
+            position = { x = 0 y = 0 }
+            size = { width = 100 height= 100 }
+
+			#lables
+			instantTextBoxType = {
+				name = education_influence
+		
+				position = {
+					x = 100
+					y = 50
+					
+				}
+				maxWidth = 410
+				format = left
+				text = SYL_education_influence
+			}
+			instantTextBoxType = {
+				name = construction_influence
+		
+				position = {
+					x = 100
+					y = 75
+					
+				}
+				maxWidth = 410
+				format = left
+				text = SYL_construction_influence
+			}
+			instantTextBoxType = {
+				name = production_influence
+		
+				position = {
+					x = 100
+					y = 100
+					
+				}
+				maxWidth = 410
+				format = left
+				text = SYL_production_influence
+			}
+			instantTextBoxType = {
+				name = civilian_influence
+		
+				position = {
+					x = 100
+					y = 125
+					
+				}
+				maxWidth = 410
+				format = left
+				text = SYL_civilian_influence
+			}
+			
+			#values
+			instantTextBoxType = {
+				name = education_influence_value
+		
+				position = {
+					x = 225
+					y = 50
+					
+				}
+				maxWidth = 200
+				format = right
+				text = education_influence_value
+				tooltip = SYL_education_influence_tooltip
+			}
+			instantTextBoxType = {
+				name = construction_influence_value
+		
+				position = {
+					x = 225
+					y = 75
+					
+				}
+				maxWidth = 200
+				format = right
+				text = construction_influence_value
+				tooltip = SYL_construction_influence_tooltip
+			}
+			instantTextBoxType = {
+				name = production_influence_value
+		
+				position = {
+					x = 225
+					y = 100
+					
+				}
+				maxWidth = 200
+				format = right
+				text = production_influence_value
+				tooltip = SYL_production_influence_tooltip
+			}
+			instantTextBoxType = {
+				name = civilian_influence_value
+		
+				position = {
+					x = 225
+					y = 125
+					
+				}
+				maxWidth = 200
+				format = right
+				text = civilian_influence_value
+				tooltip = SYL_civilian_influence_tooltip
+			}
+        }
+    }
+}

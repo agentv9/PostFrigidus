@@ -66,18 +66,6 @@
  syl.1.d:0 "After many years being apart our nation is now whole again and the people are rejoicing! SLAVA SYLDAVIA"
  syl.1.a:0 "Hurrah!"
 
- dak.1.t:0 "Chapter 1 - Restoration"
- dak.1.d:0 "The once beautiful state of South Dakota is now in ruins after the Great Freeze. Much of the land fell, abandoned and lawless. What remains are a couple Native tribes and the terribly disorganized nation state of Dakota. It is your responsibility to restore Dakota and push it forward to greatness.\n\n§RGAMEPLAY INFORMATION§!\nThe focus tree for Dakota is set up in chapters. It is meant to play out like a story line. It is not particularly linear, however the only way to progress to the next chapter is to complete certain criteria, such as completing a focus subtree. Opening a new chapter [i]will not[/i] lock you out of focuses in previous chapters, with very few exceptions. If opening a new chapter will lock you out of a focus, you will be notified in the focus popup."
- dak.1.a:0 "An arduous task, indeed."
-
- dak.2.t:0 "Looking Inwards"
- dak.2.d:0 "tba"
- dak.2.a:0 "We must press on."
-
- dak.3.t:0 "Looking Outwards"
- dak.3.d:0 "tba"
- dak.3.a:0 "To survive, we must grow."
-
  dak.native.1.t:0 "Negotiations have begun with the Yankton Sioux"
  dak.native.1.d:0 "The Dakotan Ambassador to the Yankton Sioux has begun negotiations on our behalf. He has informed us of a list of things that the Yankton tribe has required of us before they consider integration."
  dak.native.1.a:0 "Better get on it, then."

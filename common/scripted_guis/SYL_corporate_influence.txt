@@ -1,0 +1,7 @@
+scripted_gui = {
+	syldavian_corporations = {
+		window_name = "SYL_corporate_influence"
+		context_type = decision_category
+	}
+
+}
