@@ -11,17 +11,89 @@ on_actions = {
 						var = education_influence
 						value = education_influence_growth
 					}
+					if = {
+						limit = {
+							check_variable = { SYL.education_influence > 100}
+						}
+						SYL = {
+							set_variable = {var = education_influence value = 100}
+						}
+						
+					}
+					if = {
+						limit = {
+							check_variable = { SYL.education_influence < 0}
+						}
+						SYL = {
+							set_variable = {var = education_influence value = 0}
+						}
+						
+					}
 					add_to_variable = {
 						var = construction_influence
 						value = construction_influence_growth
+					}
+					if = {
+						limit = {
+							check_variable = { SYL.construction_influence > 100}
+						}
+						SYL = {
+							set_variable = {var = construction_influence value = 100}
+						}
+						
+					}
+					if = {
+						limit = {
+							check_variable = { SYL.construction_influence < 0}
+						}
+						SYL = {
+							set_variable = {var = construction_influence value = 0}
+						}
+						
 					}
 					add_to_variable = {
 						var = production_influence
 						value = production_influence_growth
 					}
+					if = {
+						limit = {
+							check_variable = { SYL.production_influence > 100}
+						}
+						SYL = {
+							set_variable = {var = production_influence value = 100}
+						}
+						
+					}
+					if = {
+						limit = {
+							check_variable = { SYL.production_influence < 0}
+						}
+						SYL = {
+							set_variable = {var = production_influence value = 0}
+						}
+						
+					}
 					add_to_variable = {
 						var = civilian_influence
 						value = civilian_influence_growth
+					}
+					if = {
+						limit = {
+							check_variable = { SYL.civilian_influence > 100}
+						}
+						SYL = {
+							set_variable = {var = civilian_influence value = 100}
+						}
+						
+					}
+					if = {
+						limit = {
+							check_variable = { SYL.civilian_influence < 0}
+						}
+						SYL = {
+							set_variable = {var = civilian_influence value = 0}
+						}
+						
 					}
 				}
 			}
