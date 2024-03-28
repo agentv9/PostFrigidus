@@ -12,7 +12,6 @@ guiTypes = {
 			#lables
 			instantTextBoxType = {
 				name = education_influence
-		
 				position = {
 					x = 100
 					y = 50
@@ -24,7 +23,6 @@ guiTypes = {
 			}
 			instantTextBoxType = {
 				name = construction_influence
-		
 				position = {
 					x = 100
 					y = 75
@@ -36,7 +34,6 @@ guiTypes = {
 			}
 			instantTextBoxType = {
 				name = production_influence
-		
 				position = {
 					x = 100
 					y = 100
@@ -48,7 +45,6 @@ guiTypes = {
 			}
 			instantTextBoxType = {
 				name = civilian_influence
-		
 				position = {
 					x = 100
 					y = 125
@@ -62,7 +58,6 @@ guiTypes = {
 			#values
 			instantTextBoxType = {
 				name = education_influence_value
-		
 				position = {
 					x = 225
 					y = 50
@@ -75,7 +70,6 @@ guiTypes = {
 			}
 			instantTextBoxType = {
 				name = construction_influence_value
-		
 				position = {
 					x = 225
 					y = 75
@@ -88,7 +82,6 @@ guiTypes = {
 			}
 			instantTextBoxType = {
 				name = production_influence_value
-		
 				position = {
 					x = 225
 					y = 100
@@ -101,7 +94,6 @@ guiTypes = {
 			}
 			instantTextBoxType = {
 				name = civilian_influence_value
-		
 				position = {
 					x = 225
 					y = 125

@@ -1,0 +1,49 @@
+﻿l_english:
+
+SYL_education_influence:0 "§CCorporate §!influence on §YEducation§!:"
+SYL_construction_influence:0 "§CCorporate §!influence on §GConstruction§!:"
+SYL_production_influence:0 "§CCorporate §!influence on §BProduction§!:"
+SYL_civilian_influence:0 "§CCorporate §!influence on §OCivilian products§!:"
+
+GUI_Testing2:0 "§C25%§!"
+
+GREEN:0 "§G"
+YELLOW:0 "§Y"
+ORANGE:0 "§O"
+RED:0 "§R"
+
+education_influence_value:0 "[GetEducationInfluenceColor][?SYL.education_influence]%"
+construction_influence_value:0 "[GetConstructionInfluenceColor][?SYL.construction_influence]%"
+production_influence_value:0 "[GetProductionInfluenceColor][?SYL.production_influence]%"
+civilian_influence_value:0 "[GetCivilianInfluenceColor][?SYL.civilian_influence]%"
+
+SYL_education_influence_tooltip:0 "[GetEducationInfluenceEffects]\n\nweekly incluence growth: [?SYL.education_influence_growth]%"
+SYL_construction_influence_tooltip:0 "[GetConstructionInfluenceEffects]\n\nweekly incluence growth: [?SYL.construction_influence_growth]%"
+SYL_production_influence_tooltip:0 "[GetProductionInfluenceEffects]\n\nweekly incluence growth: [?SYL.production_influence_growth]%"
+SYL_civilian_influence_tooltip:0 "[GetCivilianInfluenceEffects]\n\nweekly incluence growth: [?SYL.civilian_influence_growth]%"
+
+25EducationInfluence:0 "§R-5%§! Recruitable population\n§R-2.5%§! Production efficenty growth\n§G+3%§! Research speed"
+50EducationInfluence:0 "§R-10%§! Recruitable population\n§R-5%§! Production efficenty growth\n§G+9%§! Research speed"
+75EducationInfluence:0 "§R-15%§! Recruitable population\n§R-10%§! Production efficenty growth\n§G+12%§! Research speed"
+90EducationInfluence:0 "§R-20%§! Recruitable population\n§R-13%§! Production efficenty growth\n§G+15%§! Research speed"
+100EducationInfluence:0 "§R-35%§! Recruitable population\n§R-15%§! Production efficenty growth\n§G+25%§! Research speed"
+
+
+
+25ConstructionInfluence:0 "§G+5%§! Construction speed\n§R-3%§! Stability"
+50ConstructionInfluence:0 "§G+7%§! Construction speed\n§R-5%§! Stability"
+75ConstructionInfluence:0 "§G+9%§! Construction speed\n§R-7%§! Stability"
+90ConstructionInfluence:0 "§G+12%§! Construction speed\n§R-9%§! Stability"
+100ConstructionInfluence:0 "§G+15%§! Construction speed\n§R-11%§! Stability"
+
+25ProductionInfluence:0 ""
+50ProductionInfluence:0 ""
+75ProductionInfluence:0 ""
+90ProductionInfluence:0 ""
+100ProductionInfluence:0 ""
+
+25CivilianInfluence:0 ""
+50CivilianInfluence:0 ""
+75CivilianInfluence:0 ""
+90CivilianInfluence:0 ""
+100CivilianInfluence:0 ""

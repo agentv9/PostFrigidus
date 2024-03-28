@@ -3,7 +3,7 @@ defined_text = {
 	text = {
 		trigger = {
 			check_variable = {
-				SYL.education_influence < 26 
+				SYL.education_influence < 25 
 			}
 		}
 		localization_key = GREEN
@@ -12,10 +12,10 @@ defined_text = {
 		trigger = {
 			
 				check_variable = {
-					SYL.education_influence > 25 
+					SYL.education_influence > 24 
 				}
 				check_variable = {
-					SYL.education_influence < 51 
+					SYL.education_influence < 50 
 				}
 		}
 		localization_key = YELLOW
@@ -24,10 +24,10 @@ defined_text = {
 		trigger = {
 			
 				check_variable = {
-					SYL.education_influence > 50 
+					SYL.education_influence > 49 
 				}
 				check_variable = {
-					SYL.education_influence < 76 
+					SYL.education_influence < 75 
 				}
 		}
 		localization_key = ORANGE
@@ -36,18 +36,80 @@ defined_text = {
 		trigger = {
 			
 				check_variable = {
-					SYL.education_influence > 75 
+					SYL.education_influence > 74 
 				}
 		}
 		localization_key = RED
 	}
 }
+
+defined_text = {
+	name = GetEducationInfluenceEffects
+	text = {
+		trigger = {
+			check_variable = {
+				SYL.education_influence > 4
+			}
+			check_variable = {
+				SYL.education_influence < 25
+			}
+		}
+		localization_key = 25EducationInfluence
+	}
+	text = {
+		trigger = {
+			
+				check_variable = {
+					SYL.education_influence > 24
+				}
+				check_variable = {
+					SYL.education_influence < 50 
+				}
+		}
+		localization_key = 50EducationInfluence
+	}
+	text = {
+		trigger = {
+			
+				check_variable = {
+					SYL.education_influence > 49 
+				}
+				check_variable = {
+					SYL.education_influence < 75 
+				}
+		}
+		localization_key = 75EducationInfluence
+	}
+	text = {
+		trigger = {
+			
+				check_variable = {
+					SYL.education_influence > 74
+				}
+				check_variable = {
+					SYL.education_influence < 100
+				}
+		}
+		localization_key = 90EducationInfluence
+	}
+	text = {
+		trigger = {
+			
+				
+				check_variable = {
+					SYL.education_influence = 100
+				}
+		}
+		localization_key = 100EducationInfluence
+	}
+}
+
 defined_text = {
 	name = GetConstructionInfluenceColor
 	text = {
 		trigger = {
 			check_variable = {
-				SYL.construction_influence   < 26 
+				SYL.construction_influence   < 25 
 			}
 		}
 		localization_key = GREEN
@@ -56,10 +118,10 @@ defined_text = {
 		trigger = {
 			
 				check_variable = {
-					SYL.construction_influence > 25 
+					SYL.construction_influence > 24 
 				}
 				check_variable = {
-					SYL.construction_influence < 51 
+					SYL.construction_influence < 50 
 				}
 		}
 		localization_key = YELLOW
@@ -68,10 +130,10 @@ defined_text = {
 		trigger = {
 			
 				check_variable = {
-					SYL.construction_influence > 50 
+					SYL.construction_influence > 49 
 				}
 				check_variable = {
-					SYL.construction_influence < 76 
+					SYL.construction_influence < 75 
 				}
 		}
 		localization_key = ORANGE
@@ -80,18 +142,81 @@ defined_text = {
 		trigger = {
 			
 				check_variable = {
-					SYL.construction_influence > 75 
+					SYL.construction_influence > 74 
 				}
 		}
 		localization_key = RED
 	}
 }
+
+defined_text = {
+	name = GetConstructionInfluenceEffects
+	text = {
+		trigger = {
+			check_variable = {
+				SYL.construction_influence > 4
+			}
+			check_variable = {
+				SYL.construction_influence < 25
+			}
+		}
+		localization_key = 25ConstructionInfluence
+	}
+	text = {
+		trigger = {
+			
+				check_variable = {
+					SYL.construction_influence > 24
+				}
+				check_variable = {
+					SYL.construction_influence < 50 
+				}
+		}
+		localization_key = 50ConstructionInfluence
+	}
+	text = {
+		trigger = {
+			
+				check_variable = {
+					SYL.construction_influence > 49 
+				}
+				check_variable = {
+					SYL.construction_influence < 75 
+				}
+		}
+		localization_key = 75ConstructionInfluence
+	}
+	text = {
+		trigger = {
+			
+				check_variable = {
+					SYL.construction_influence > 74
+				}
+				check_variable = {
+					SYL.construction_influence < 100
+				}
+		}
+		localization_key = 90ConstructionInfluence
+	}
+	text = {
+		trigger = {
+			
+				
+				check_variable = {
+					SYL.construction_influence = 100
+				}
+		}
+		localization_key = 100ConstructionInfluence
+	}
+}
+
+
 defined_text = {
 	name = GetProductionInfluenceColor
 	text = {
 		trigger = {
 			check_variable = {
-				SYL.production_influence   < 26 
+				SYL.production_influence   < 25 
 			}
 		}
 		localization_key = GREEN
@@ -100,10 +225,10 @@ defined_text = {
 		trigger = {
 			
 				check_variable = {
-					SYL.production_influence > 25 
+					SYL.production_influence > 24 
 				}
 				check_variable = {
-					SYL.production_influence < 51 
+					SYL.production_influence < 50 
 				}
 		}
 		localization_key = YELLOW
@@ -112,10 +237,10 @@ defined_text = {
 		trigger = {
 			
 				check_variable = {
-					SYL.production_influence > 50 
+					SYL.production_influence > 49 
 				}
 				check_variable = {
-					SYL.production_influence < 76 
+					SYL.production_influence < 75 
 				}
 		}
 		localization_key = ORANGE
@@ -124,18 +249,80 @@ defined_text = {
 		trigger = {
 			
 				check_variable = {
-					SYL.production_influence > 75 
+					SYL.production_influence > 74 
 				}
 		}
 		localization_key = RED
 	}
 }
+
+defined_text = {
+	name = GetProductionInfluenceEffects
+	text = {
+		trigger = {
+			check_variable = {
+				SYL.production_influence > 4
+			}
+			check_variable = {
+				SYL.production_influence < 25
+			}
+		}
+		localization_key = 25ProductionInfluence
+	}
+	text = {
+		trigger = {
+			
+				check_variable = {
+					SYL.production_influence > 24
+				}
+				check_variable = {
+					SYL.production_influence < 50 
+				}
+		}
+		localization_key = 50ProductionInfluence
+	}
+	text = {
+		trigger = {
+			
+				check_variable = {
+					SYL.production_influence > 49 
+				}
+				check_variable = {
+					SYL.production_influence < 75 
+				}
+		}
+		localization_key = 75ProductionInfluence
+	}
+	text = {
+		trigger = {
+			
+				check_variable = {
+					SYL.production_influence > 74
+				}
+				check_variable = {
+					SYL.production_influence < 100
+				}
+		}
+		localization_key = 90ProductionInfluence
+	}
+	text = {
+		trigger = {
+			
+				
+				check_variable = {
+					SYL.production_influence = 100
+				}
+		}
+		localization_key = 100ProductionInfluence
+	}
+}
+
 defined_text = {
 	name = GetCivilianInfluenceColor
 	text = {
 		trigger = {
 			check_variable = {
-				SYL.civilian_influence < 26 
+				SYL.civilian_influence < 25 
 			}
 		}
 		localization_key = GREEN
@@ -144,10 +331,10 @@ defined_text = {
 		trigger = {
 			
 				check_variable = {
-					SYL.civilian_influence > 25 
+					SYL.civilian_influence > 24 
 				}
 				check_variable = {
-					SYL.civilian_influence < 51 
+					SYL.civilian_influence < 50 
 				}
 		}
 		localization_key = YELLOW
@@ -156,10 +343,10 @@ defined_text = {
 		trigger = {
 			
 				check_variable = {
-					SYL.civilian_influence > 50 
+					SYL.civilian_influence > 49 
 				}
 				check_variable = {
-					SYL.civilian_influence < 76 
+					SYL.civilian_influence < 75 
 				}
 		}
 		localization_key = ORANGE
@@ -168,9 +355,70 @@ defined_text = {
 		trigger = {
 			
 				check_variable = {
-					SYL.civilian_influence > 75 
+					SYL.civilian_influence > 74 
 				}
 		}
 		localization_key = RED
+	}
+}
+
+defined_text = {
+	name = GetCivilianInfluenceEffects
+	text = {
+		trigger = {
+			check_variable = {
+				SYL.civilian_influence > 4
+			}
+			check_variable = {
+				SYL.civilian_influence < 25
+			}
+		}
+		localization_key = 25CivilianInfluence
+	}
+	text = {
+		trigger = {
+			
+				check_variable = {
+					SYL.civilian_influence > 24
+				}
+				check_variable = {
+					SYL.civilian_influence < 50 
+				}
+		}
+		localization_key = 50CivilianInfluence
+	}
+	text = {
+		trigger = {
+			
+				check_variable = {
+					SYL.civilian_influence > 49 
+				}
+				check_variable = {
+					SYL.civilian_influence < 75 
+				}
+		}
+		localization_key = 75CivilianInfluence
+	}
+	text = {
+		trigger = {
+			
+				check_variable = {
+					SYL.civilian_influence > 74
+				}
+				check_variable = {
+					SYL.civilian_influence < 100
+				}
+		}
+		localization_key = 90CivilianInfluence
+	}
+	text = {
+		trigger = {
+			
+				
+				check_variable = {
+					SYL.civilian_influence  = 100
+				}
+		}
+		localization_key = 100CivilianInfluence
 	}
 }

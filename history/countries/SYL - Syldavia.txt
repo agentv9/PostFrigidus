@@ -10,6 +10,10 @@ set_technology = {
 
 recruit_character = SYL_nicolai_belenski
 
+add_ideas = {
+	DAK_political_corruption
+}
+
 add_state_claim = 44
 add_state_claim = 106
 add_state_claim = 805
@@ -48,13 +52,13 @@ set_popularities = {
 set_convoys = 5
 
 set_variable = {var = education_influence value = 0}
-set_variable = {var = education_influence_growth value = 0.1}
+set_variable = {var = education_influence_growth value = 0}
 set_variable = {var = construction_influence value = 0}
-set_variable = {var = construction_influence_growth value = 1}
+set_variable = {var = construction_influence_growth value = 0}
 set_variable = {var = production_influence value = 0}
-set_variable = {var = production_influence_growth value = 2}
+set_variable = {var = production_influence_growth value = 0}
 set_variable = {var = civilian_influence value = 0}
-set_variable = {var = civilian_influence_growth value = 3}
+set_variable = {var = civilian_influence_growth value = 0}
 
 
 set_research_slots = 3
