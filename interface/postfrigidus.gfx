@@ -7,4 +7,13 @@ spriteTypes = {
         name = "GFX_mt_rushmore_sprite"
         textureFile = "gfx/event_pictures/Mount_Rushmore.dds"
     }
+
+    spriteType = {
+        name = "GFX_congress_sprite"
+        textureFile = "gfx/event_pictures/Congress.dds"
+    }
+    spriteType = {
+        name = "GFX_DAK_highway_patrol"
+        textureFile = "gfx/event_pictures/DAK_highway_patrol.dds"
+    }
 }

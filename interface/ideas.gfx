@@ -8,6 +8,11 @@ spriteTypes = {
 		noOfFrames = 18
 	}
 
+	spriteType = {
+		name = "GFX_idea_DAK_national_police"
+		textureFile = "gfx/interface/ideas/idea_DAK_national_police.dds"
+	}
+
 	### new tfv nat spirit icons
 
 	spriteType = {

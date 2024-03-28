@@ -13,6 +13,12 @@
  DAK_government_services:0 "Reestablish Government Services"
  DAK_government_services_desc:0 "We must reestablish our government services if there is any hope of fixing our nation."
 
+ DAK_police_1:0 "Police Force"
+ DAK_fire_1:0 "National Fire Safety Efforts"
+ DAK_medical_1:0 "Dakota National Health Service"
+ DAK_congress:0 "Dakota National Congress"
+ DAK_infrastructure_1:0 "National Highway Bill"
+
  DAK_focus_outside:0 "Looking Outwards"
  DAK_focus_outside_desc:0 "tba"
 

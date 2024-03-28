@@ -1,5 +1,11 @@
 spriteTypes = {	
 
+	#### DAKOTA focuses
+	spriteType = {
+		name = "GFX_focus_dak_highway_initiative"
+		textureFile = "gfx/interface/goals/focus_dak_highway_initiative.dds"
+	}
+
 	#### Generic continuous goal icons
 
 	SpriteType = {
