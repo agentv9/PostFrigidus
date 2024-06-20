@@ -1,0 +1,7 @@
+﻿l_english:
+RULE_SYL_CORPRATE_INFLUENCE:0 "Syldavia corporate influence mechanic"
+RULE_SYL_CORPRATE_INFLUENCE_DISABLED_DESC:0 "Disables the corporate influence mechanic for syldavia"
+RULE_SYL_CORPRATE_INFLUENCE_ENABLED_DESC:0 "Enables the corporate influence mechanic for syldavia"
+
+RULE_OPTION_ENABLED:0 "Enabled"
+RULE_OPTION_DISABLED:0 "Disabled"

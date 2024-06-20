@@ -1,0 +1,978 @@
+syldavian_states = {
+
+	
+	SYL_state_negotiation = {
+			
+		activation = {
+			hidden_trigger = { always = no }
+		}
+		available = {
+			hidden_trigger = { always = no }
+		}
+		complete_effect = {
+			
+		}
+		days_mission_timeout = 45
+		is_good = yes
+	}
+	
+	SYL_state_integration = {
+		activation = {
+			hidden_trigger = { always = no }
+		}
+		available = {
+			hidden_trigger = { always = no }
+		}
+		complete_effect = {
+			
+		}
+		days_mission_timeout = 75
+		is_good = yes
+	}
+	
+	reform_the_federation = {
+		cost = 500
+		visible = {
+			NOT = {
+				has_cosmetic_tag = FED
+			}
+		}
+		ai_will_do = {
+			base = 1100
+			}
+		available = {
+			
+			AND = {
+				NOT = {
+					has_cosmetic_tag = FED
+				}
+				owns_state = 44
+				owns_state = 45
+				owns_state = 47
+				owns_state = 102
+				owns_state = 103
+				owns_state = 104
+				owns_state = 105
+				owns_state = 106
+				owns_state = 107
+				owns_state = 108
+				owns_state = 109
+				owns_state = 163
+				owns_state = 185
+				owns_state = 731
+				owns_state = 736
+				owns_state = 764
+				owns_state = 802
+				owns_state = 803
+				owns_state = 804
+				owns_state = 805
+				owns_state = 852
+				owns_state = 853
+			}
+		}
+
+		complete_effect = {
+			
+			
+
+			SYL = { country_event  = { id = syl.1 } }
+		}
+	}
+	get_state_1 = {
+		cost = 50
+		available = {
+			NOT = {
+				has_country_flag = integrating_state
+			}
+
+			106 = {
+				any_neighbor_state = {
+					is_owned_by = ROOT #(or TAG of a country you want)
+				}
+			}
+		}visible = {
+			106 = {
+				controller = {
+					tag = UNC
+				}
+			}
+			
+		}
+		on_map_mode = map_only
+		highlight_states = { highlight_state_targets = {
+			state = 106
+		} 
+		}
+		ai_will_do = {
+		base = 1000
+		}
+		fire_only_once = yes
+ 
+		complete_effect = {
+			
+		
+			
+			set_country_flag = integrating_state
+			106 = {
+				save_event_target_as = target_state
+				set_variable = {
+					var = 106.SYL_integration_level
+					value = 2
+				}
+			}
+			SYL = { country_event  = { id = states.1 } }
+			
+		}
+	}
+
+	get_state_2 = {
+		cost = 50
+		available = {
+			NOT = {
+				has_country_flag = integrating_state
+			}
+			44 = {
+				any_neighbor_state = {
+					is_owned_by = ROOT #(or TAG of a country you want)
+				}
+			}
+		}visible = {
+			44 = {
+				controller = {
+					tag = UNC
+				}
+			}
+			
+		}
+		ai_will_do = {
+			base = 1000
+		
+		}
+		on_map_mode = map_only
+		highlight_states = { highlight_state_targets = {
+			state = 44
+		} 
+		}
+
+		fire_only_once = yes
+
+		complete_effect = {
+		
+	
+			
+			set_country_flag = integrating_state
+			44 = {
+				save_event_target_as = target_state
+				set_variable = {
+					var = 44.SYL_integration_level
+					value = 2
+				}
+			}
+			SYL = { country_event  = { id = states.1 } }
+			
+		}
+	}
+
+	get_state_3 = {
+		cost = 50
+		available = {
+			NOT = {
+				has_country_flag = integrating_state
+			}
+			805 = {
+				any_neighbor_state = {
+					is_owned_by = ROOT #(or TAG of a country you want)
+				}
+			}
+		}visible = {
+			805 = {
+				controller = {
+					tag = UNC
+				}
+			}
+			
+		}
+		ai_will_do = {
+			base = 1000
+		
+		}
+		on_map_mode = map_only
+		highlight_states = { highlight_state_targets = {
+			state = 805
+		} 
+		}
+
+		fire_only_once = yes
+
+		complete_effect = {
+		
+	
+		
+			set_country_flag = integrating_state
+			805 = {
+				save_event_target_as = target_state
+				set_variable = {
+					var = 805.SYL_integration_level
+					value = 2
+				}
+			}
+			SYL = { country_event  = { id = states.1 } }
+			
+		}
+	}
+
+	get_state_4 = {
+		cost = 50
+		available = {
+			NOT = {
+				has_country_flag = integrating_state
+			}
+			731 = {
+				any_neighbor_state = {
+					is_owned_by = ROOT #(or TAG of a country you want)
+				}
+			}
+		}visible = {
+			731 = {
+				controller = {
+					tag = UNC
+				}
+			}
+			
+		} ai_will_do = {
+			base = 1000
+		
+		}
+		on_map_mode = map_only
+		highlight_states = { highlight_state_targets = {
+			state = 731
+		} 
+		}
+
+		fire_only_once = yes
+
+		complete_effect = {
+		
+	
+			
+			set_country_flag = integrating_state
+			731 = {
+				save_event_target_as = target_state
+				set_variable = {
+					var = 731.SYL_integration_level
+					value = 2
+				}
+			}
+			SYL = { country_event  = { id = states.1 } }
+			
+		}
+	}
+	get_state_5 = { cost = 50
+		available = {
+			NOT = {
+				has_country_flag = integrating_state
+			}
+			185 = {
+				any_neighbor_state = {
+					is_owned_by = ROOT #(or TAG of a country you want)
+				}
+			}
+		}visible = {
+			185 = {
+				controller = {
+					tag = UNC
+				}
+			}
+			
+		}ai_will_do = {
+			base = 1000
+		
+		}
+		on_map_mode = map_only
+		highlight_states = { highlight_state_targets = {
+			state = 185
+		} 
+		}
+
+		fire_only_once = yes
+
+		complete_effect = {
+		
+	
+		
+			set_country_flag = integrating_state
+			185 = {
+				save_event_target_as = target_state
+				set_variable = {
+					var = 185.SYL_integration_level
+					value = 2
+				}
+			}
+			SYL = { country_event  = { id = states.1 } }
+			
+		}
+	}
+	get_state_6 = { cost = 50
+		available = {
+			NOT = {
+				has_country_flag = integrating_state
+			}
+			47 = {
+				any_neighbor_state = {
+					is_owned_by = ROOT #(or TAG of a country you want)
+				}
+			}
+		}visible = {
+			47 = {
+				controller = {
+					tag = UNC
+				}
+			}
+			
+		}ai_will_do = {
+			base = 1000
+		
+		}
+		on_map_mode = map_only
+		highlight_states = { highlight_state_targets = {
+			state = 47
+		} 
+		}
+
+		fire_only_once = yes
+
+		complete_effect = {
+		
+	
+		
+			set_country_flag = integrating_state
+			47 = {
+				save_event_target_as = target_state
+				set_variable = {
+					var = 47.SYL_integration_level
+					value = 2
+				}
+			}
+			SYL = { country_event  = { id = states.1 } }
+			
+		}
+	}
+	get_state_7 = { cost = 50
+		available = {
+			NOT = {
+				has_country_flag = integrating_state
+			}
+			104 = {
+				any_neighbor_state = {
+					is_owned_by = ROOT #(or TAG of a country you want)
+				}
+			}
+		}visible = {
+			104 = {
+				controller = {
+					tag = UNC
+				}
+			}
+			
+		} ai_will_do = {
+			base = 1000
+		
+		}
+		on_map_mode = map_only
+		highlight_states = { highlight_state_targets = {
+			state = 104
+		} 
+		}
+
+		fire_only_once = yes
+
+		complete_effect = {
+		
+	
+			
+			set_country_flag = integrating_state
+			104 = {
+				save_event_target_as = target_state
+				set_variable = {
+					var = 104.SYL_integration_level
+					value = 2
+				}
+			}
+			SYL = { country_event  = { id = states.1 } }
+			
+		}
+	}
+	get_state_8 = { cost = 50
+		available = {
+			NOT = {
+				has_country_flag = integrating_state
+			}
+			107 = {
+				any_neighbor_state = {
+					is_owned_by = ROOT #(or TAG of a country you want)
+				}
+			}
+		}visible = {
+			107 = {
+				controller = {
+					tag = UNC
+				}
+			}
+			
+		} ai_will_do = {
+			base = 1000
+		
+		}
+		on_map_mode = map_only
+		highlight_states = { highlight_state_targets = {
+			state = 107
+		} 
+		}
+
+		fire_only_once = yes
+
+		complete_effect = {
+		
+	
+			
+			set_country_flag = integrating_state
+			107 = {
+				save_event_target_as = target_state
+				set_variable = {
+					var = 107.SYL_integration_level
+					value = 2
+				}
+			}
+			SYL = { country_event  = { id = states.1 } }
+			
+		}
+	}
+	get_state_9 = { cost = 50
+		available = {
+			NOT = {
+				has_country_flag = integrating_state
+			}
+			764 = {
+				any_neighbor_state = {
+					is_owned_by = ROOT #(or TAG of a country you want)
+				}
+			}
+		}visible = {
+			764 = {
+				controller = {
+					tag = UNC
+				}
+			}
+			
+		}
+		ai_will_do = {
+			base = 1000
+		
+		}
+		on_map_mode = map_only
+		highlight_states = { highlight_state_targets = {
+			state = 764
+		} 
+		}
+
+		fire_only_once = yes
+
+		complete_effect = {
+		
+	
+		
+			set_country_flag = integrating_state
+			764 = {
+				save_event_target_as = target_state
+				set_variable = {
+					var = 764.SYL_integration_level
+					value = 2
+				}
+			}
+			SYL = { country_event  = { id = states.1 } }
+			
+		}
+	}
+	get_state_10 = { cost = 50
+		available = {
+			NOT = {
+				has_country_flag = integrating_state
+			}
+			45 = {
+				any_neighbor_state = {
+					is_owned_by = ROOT #(or TAG of a country you want)
+				}
+			}
+		}visible = {
+			45 = {
+				controller = {
+					tag = UNC
+				}
+			}
+			
+		} ai_will_do = {
+			base = 1000
+		
+		}
+		on_map_mode = map_only
+		highlight_states = { highlight_state_targets = {
+			state = 45
+		} 
+		}
+
+		fire_only_once = yes
+
+		complete_effect = {
+		
+	
+			
+			set_country_flag = integrating_state
+			45 = {
+				save_event_target_as = target_state
+				set_variable = {
+					var = 45.SYL_integration_level
+					value = 2
+				}
+			}
+			SYL = { country_event  = { id = states.1 } }
+			
+		}
+	}
+	get_state_11 = { cost = 50
+		available = {
+			NOT = {
+				has_country_flag = integrating_state
+			}
+			109 = {
+				any_neighbor_state = {
+					is_owned_by = ROOT #(or TAG of a country you want)
+				}
+			}
+		}visible = {
+			109 = {
+				controller = {
+					tag = UNC
+				}
+			}
+			
+		} ai_will_do = {
+			base = 1000
+		
+		}
+		on_map_mode = map_only
+		highlight_states = { highlight_state_targets = {
+			state = 109
+		} 
+		}
+
+		fire_only_once = yes
+
+		complete_effect = {
+		
+	
+			
+			set_country_flag = integrating_state
+			109 = {
+				save_event_target_as = target_state
+				set_variable = {
+					var = 109.SYL_integration_level
+					value = 2
+				}
+			}
+			SYL = { country_event  = { id = states.1 } }
+			
+		}
+	}
+	get_state_12= { cost = 50
+		available = {
+			NOT = {
+				has_country_flag = integrating_state
+			}
+			804 = {
+				any_neighbor_state = {
+					is_owned_by = ROOT #(or TAG of a country you want)
+				}
+			}
+		}visible = {
+			804 = {
+				controller = {
+					tag = UNC
+				}
+			}
+			
+		} ai_will_do = {
+			base = 1000
+		
+		}
+		on_map_mode = map_only
+		highlight_states = { highlight_state_targets = {
+			state = 804
+		} 
+		}
+
+		fire_only_once = yes
+
+		complete_effect = {
+		
+	
+		
+			set_country_flag = integrating_state
+			804 = {
+				save_event_target_as = target_state
+				set_variable = {
+					var = 804.SYL_integration_level
+					value = 2
+				}
+			}
+			SYL = { country_event  = { id = states.1 } }
+			
+		}
+	}
+	get_state_13 = { cost = 50
+		available = {
+			NOT = {
+				has_country_flag = integrating_state
+			}
+			103 = {
+				any_neighbor_state = {
+					is_owned_by = ROOT #(or TAG of a country you want)
+				}
+			}
+		}visible = {
+			103 = {
+				controller = {
+					tag = UNC
+				}
+			}
+			
+		} ai_will_do = {
+			base = 1000
+		
+		}
+		on_map_mode = map_only
+		highlight_states = { highlight_state_targets = {
+			state = 103
+		} 
+		}
+
+		fire_only_once = yes
+
+		complete_effect = {
+		
+	
+			
+			set_country_flag = integrating_state
+			103 = {
+				save_event_target_as = target_state
+				set_variable = {
+					var = 103.SYL_integration_level
+					value = 2
+				}
+			}
+			SYL = { country_event  = { id = states.1 } }
+			
+		}
+	}
+	get_state_14= { cost = 50
+		available = {
+			NOT = {
+				has_country_flag = integrating_state
+			}
+
+			102 = {
+				
+					
+					any_neighbor_state = {
+						is_owned_by = ROOT #(or TAG of a country you want)
+					}
+				
+				
+			}
+		}
+		visible = {
+			102 = {
+				controller = {
+					tag = UNC
+				}
+			}
+			
+		} ai_will_do = {
+			base = 1000
+		
+		}
+		on_map_mode = map_only
+		highlight_states = { highlight_state_targets = {
+			state = 102
+		} 
+		}
+
+		fire_only_once = yes
+
+		complete_effect = {
+		
+	
+		
+			set_country_flag = integrating_state
+			102 = {
+				save_event_target_as = target_state
+				set_variable = {
+					var = 102.SYL_integration_level
+					value = 2
+				}
+			}
+			SYL = { country_event  = { id = states.1 } }
+			
+		}
+	}
+	get_state_15= { cost = 50
+		available = {
+			NOT = {
+				has_country_flag = integrating_state
+			}
+			163 = {
+				any_neighbor_state = {
+					is_owned_by = ROOT #(or TAG of a country you want)
+				}
+			}
+		}visible = {
+			163 = {
+				controller = {
+					tag = UNC
+				}
+			}
+			
+		}
+		on_map_mode = map_only
+		highlight_states = { highlight_state_targets = {
+			state = 163
+		} 
+		}
+		ai_will_do = {
+		base = 1000
+	
+		}
+		fire_only_once = yes
+
+		complete_effect = {
+		
+	
+		
+			set_country_flag = integrating_state
+			163 = {
+				save_event_target_as = target_state
+				set_variable = {
+					var = 163.SYL_integration_level
+					value = 2
+				}
+			}
+			SYL = { country_event  = { id = states.1 } }
+			
+		}
+	}
+	get_state_16= { cost = 50
+		available = {
+			NOT = {
+				has_country_flag = integrating_state
+			}
+		
+				853 = {
+					any_neighbor_state = {
+						is_owned_by = ROOT #(or TAG of a country you want)
+					}
+				}
+			
+		}visible = {
+			853 = {
+				controller = {
+					tag = UNC
+				}
+			}
+			
+		} ai_will_do = {
+			base = 1000
+		
+		}
+		on_map_mode = map_only
+		highlight_states = { highlight_state_targets = {
+			state = 853
+		} 
+		}
+
+		fire_only_once = yes
+
+		complete_effect = {
+		
+	
+			
+			set_country_flag = integrating_state
+			853 = {
+				save_event_target_as = target_state
+				set_variable = {
+					var = 853.SYL_integration_level
+					value = 2
+				}
+			}
+			SYL = { country_event  = { id = states.1 } }
+			
+		}
+	}
+	get_state_17= { cost = 50
+		available = {
+			NOT = {
+				has_country_flag = integrating_state
+			}
+		
+			
+					852 = {
+						any_neighbor_state = {
+							is_owned_by = ROOT #(or TAG of a country you want)
+						}
+					}
+				
+			
+			
+		}visible = {
+			852 = {
+				controller = {
+					tag = UNC
+				}
+			}
+			
+		} ai_will_do = {
+			base = 1000
+		
+		}
+		on_map_mode = map_only
+		highlight_states = { highlight_state_targets = {
+			state = 852
+		} 
+		}
+
+		fire_only_once = yes
+
+		complete_effect = {
+		
+	
+			
+			set_country_flag = integrating_state
+			852 = {
+				save_event_target_as = target_state
+				set_variable = {
+					var = 852.SYL_integration_level
+					value = 2
+				}
+			}
+			SYL = { country_event  = { id = states.1 } }
+			
+		}
+	}
+	get_state_18= { 
+		cost = 50
+		available = {
+			NOT = {
+				has_country_flag = integrating_state
+			}
+			736 = {
+				any_neighbor_state = {
+					is_owned_by = ROOT #(or TAG of a country you want)
+				}
+			}
+			
+		}visible = {
+			736 = {
+				controller = {
+					tag = UNC
+				}
+			}
+			
+		} ai_will_do = {
+			base = 1000
+		
+		}
+		on_map_mode = map_only
+		highlight_states = { 
+			
+			highlight_state_targets = {
+				
+			state = 736
+		} 
+		}
+
+		fire_only_once = yes
+
+		complete_effect = {
+		
+	
+			
+			set_country_flag = integrating_state
+			736 = {
+				save_event_target_as = target_state
+				set_variable = {
+					var = 736.SYL_integration_level
+					value = 2
+				}
+			}
+			SYL = { country_event  = { id = states.1 } }
+			
+		}
+	}
+}
+syldavian_corporations = {
+	investigate_education_influence = {
+		cost = 50
+		
+		
+		
+		ai_will_do = {
+		base = 1000
+		}
+		fire_only_once = yes
+ 
+		complete_effect = {
+		
+		}
+	}
+	investigate_construction_influence = {
+		cost = 50
+		
+		
+		
+		ai_will_do = {
+		base = 1000
+		}
+		fire_only_once = yes
+ 
+		complete_effect = {
+		
+		}
+	}
+	investigate_production_influence = {
+		cost = 50
+		
+		
+		
+		ai_will_do = {
+		base = 1000
+		}
+		fire_only_once = yes
+ 
+		complete_effect = {
+		
+		}
+	}
+	investigate_civilian_influence = {
+		cost = 50
+		
+		
+		
+		ai_will_do = {
+		base = 1000
+		}
+		fire_only_once = yes
+ 
+		complete_effect = {
+		
+		}
+	}
+
+}

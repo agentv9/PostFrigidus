@@ -15,15 +15,6 @@ guiTypes = {
             size = { width = 0 height = 0}
             position = { x = 0 y = 50}
 
-            #iconType = {
-            #    name = "ENG_Base_map"
-            #    position = {
-            #        x = 0
-            #        y = 0
-            #    }
-            #    spriteType = "GFX_ENG_political_map_base"
-            #}
-
             iconType = {
                 name = "SYL_47"
                 position = {

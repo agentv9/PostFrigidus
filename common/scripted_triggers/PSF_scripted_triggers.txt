@@ -1,0 +1,18 @@
+SYL_CORPORATE_INFLUENCE_ENABLED = {
+	if = {
+		limit = { has_game_rule = {
+			rule = SYL_corporate_influence
+			option = ENABLED
+		}
+		}
+		always = yes
+	}
+	if = {
+		limit = { has_game_rule = {
+			rule = SYL_corporate_influence
+			option = DISABLED
+		}
+		}
+		always = no
+	}
+}

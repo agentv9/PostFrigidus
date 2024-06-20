@@ -5,6 +5,7 @@ on_actions = {
 			if = {
 				limit = {
 					original_tag = SYL
+					SYL_CORPORATE_INFLUENCE_ENABLED = yes
 				}
 				SYL = {
 					add_to_variable = {
@@ -58,6 +59,7 @@ on_actions = {
 		effect = {
 			if = {
 				limit = {original_tag = SYL}
+				#education related
 				SYL = {
 					if = {
 						limit = { 
@@ -69,10 +71,10 @@ on_actions = {
 							}
 						}
 						add_ideas = {
-							25EducationInfluence
+							SYL_25EducationInfluence
 						}
 						remove_ideas = {
-							50EducationInfluence
+							SYL_50EducationInfluence
 						}
 					}
 					if = {
@@ -85,11 +87,11 @@ on_actions = {
 							}
 						}
 						add_ideas = {
-							50EducationInfluence
+							SYL_50EducationInfluence
 						}
 						remove_ideas = {
-							25EducationInfluence
-							75EducationInfluence
+							SYL_25EducationInfluence
+							SYL_75EducationInfluence
 						}
 					}
 					if = {
@@ -102,11 +104,11 @@ on_actions = {
 							}
 						}
 						add_ideas = {
-							75EducationInfluence
+							SYL_75EducationInfluence
 						}
 						remove_ideas = {
-							50EducationInfluence
-							90EducationInfluence
+							SYL_50EducationInfluence
+							SYL_90EducationInfluence
 						}
 					}
 					if = {
@@ -119,11 +121,11 @@ on_actions = {
 							}
 						}
 						add_ideas = {
-							90EducationInfluence
+							SYL_90EducationInfluence
 						}
 						remove_ideas = {
-							75EducationInfluence
-							100EducationInfluence
+							SYL_75EducationInfluence
+							SYL_100EducationInfluence
 						}
 					}
 					if = {
@@ -134,14 +136,102 @@ on_actions = {
 							}
 						}
 						add_ideas = {
-							100EducationInfluence
+							SYL_100EducationInfluence
 							
 						}
 						remove_ideas = {
-							90EducationInfluence
+							SYL_90EducationInfluence
 						}
 					}
 				}
+				#construction related
+				SYL = {
+					if = {
+						limit = { 
+							check_variable = {
+								SYL.construction_influence > 4
+							}
+							check_variable = {
+								SYL.construction_influence < 25
+							}
+						}
+						add_ideas = {
+							SYL_25ConstructionInfluence
+						}
+						remove_ideas = {
+							SYL_50ConstructionInfluence
+						}
+					}
+					if = {
+						limit = { 
+							check_variable = {
+								SYL.construction_influence > 24
+							}
+							check_variable = {
+								SYL.construction_influence < 50
+							}
+						}
+						add_ideas = {
+							SYL_50ConstructionInfluence
+						}
+						remove_ideas = {
+							SYL_25ConstructionInfluence
+							SYL_75ConstructionInfluence
+						}
+					}
+					if = {
+						limit = { 
+							check_variable = {
+								SYL.construction_influence > 49
+							}
+							check_variable = {
+								SYL.construction_influence < 75
+							}
+						}
+						add_ideas = {
+							SYL_75ConstructionInfluence
+						}
+						remove_ideas = {
+							SYL_50ConstructionInfluence
+							SYL_90ConstructionInfluence
+						}
+					}
+					if = {
+						limit = { 
+							check_variable = {
+								SYL.construction_influence > 74
+							}
+							check_variable = {
+								SYL.construction_influence < 100
+							}
+						}
+						add_ideas = {
+							SYL_90ConstructionInfluence
+						}
+						remove_ideas = {
+							SYL_75ConstructionInfluence
+							SYL_100ConstructionInfluence
+						}
+					}
+					if = {
+						limit = { 
+							
+							check_variable = {
+								SYL.construction_influence = 100
+							}
+						}
+						add_ideas = {
+							SYL_100ConstructionInfluence
+							
+						}
+						remove_ideas = {
+							SYL_90ConstructionInfluence
+						}
+					}
+				}
+
+				
+
 			}
 			
 		}
@@ -151,6 +241,7 @@ on_actions = {
 		effect = {
 			if = {
 				limit = { original_tag = SYL
+				SYL_CORPORATE_INFLUENCE_ENABLED = yes
 			}
 
 			SYL = {

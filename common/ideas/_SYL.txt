@@ -9,7 +9,7 @@ ideas = {
 		
 	}
 	hidden_ideas = {
-		25EducationInfluence = {
+		SYL_25EducationInfluence = {
 			removal_cost = -1
 			modifier = {
 				recruitable_population_factor = -0.05
@@ -17,7 +17,7 @@ ideas = {
 				research_speed_factor = 0.03
 			}
 		}
-		50EducationInfluence = {
+		SYL_50EducationInfluence = {
 			removal_cost = -1
 			modifier = {
 				recruitable_population_factor = -0.10
@@ -25,7 +25,7 @@ ideas = {
 				research_speed_factor = 0.09
 			}
 		}
-		75EducationInfluence = {
+		SYL_75EducationInfluence = {
 			removal_cost = -1
 			modifier = {
 				recruitable_population_factor = -0.15
@@ -33,7 +33,7 @@ ideas = {
 				research_speed_factor = 0.12
 			}
 		}
-		90EducationInfluence = {
+		SYL_90EducationInfluence = {
 			removal_cost = -1
 			modifier = {
 				recruitable_population_factor = -0.20
@@ -41,12 +41,48 @@ ideas = {
 				research_speed_factor = 0.15
 			}
 		}
-		100EducationInfluence = {
+		SYL_100EducationInfluence = {
 			removal_cost = -1
 			modifier = {
 				recruitable_population_factor = -0.35
 				production_factory_efficiency_gain_factor = -0.15
 				research_speed_factor = 0.25
+			}
+		}
+
+		SYL_25ConstructionInfluence = {
+			removal_cost = -1
+			modifier = {
+				production_speed_buildings_factor = 0.05 
+				stability_factor = -0.03
+			}
+		}
+		SYL_50ConstructionInfluence = {
+			removal_cost = -1
+			modifier = {
+				production_speed_buildings_factor = 0.07 
+				stability_factor = -0.05
+			}
+		}
+		SYL_75ConstructionInfluence = {
+			removal_cost = -1
+			modifier = {
+				production_speed_buildings_factor = 0.09
+				stability_factor = -0.07
+			}
+		}
+		SYL_90ConstructionInfluence = {
+			removal_cost = -1
+			modifier = {
+				production_speed_buildings_factor = 0.12 
+				stability_factor = -0.09
+			}
+		}
+		SYL_100ConstructionInfluence = {
+			removal_cost = -1
+			modifier = {
+				production_speed_buildings_factor = 0.15 
+				stability_factor = -0.11
 			}
 		}
 	}

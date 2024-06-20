@@ -15,7 +15,6 @@ scripted_gui = {
                 }
                 SYL_108 = {
                     frame = 108.SYL_integration_level 
-
                 }
                 SYL_44 = {
                     frame = 44.SYL_integration_level

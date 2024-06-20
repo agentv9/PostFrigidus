@@ -12,6 +12,9 @@ syldavian_corporations = {
 	allowed = {
         tag = SYL
     }
+    visible = {
+        SYL_CORPORATE_INFLUENCE_ENABLED = yes
+    }
     visible_when_empty = yes
     scripted_gui = syldavian_corporations
 }
